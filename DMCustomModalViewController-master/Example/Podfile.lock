@@ -1,0 +1,14 @@
+PODS:
+  - DMCustomModalViewController (1.0.1)
+
+DEPENDENCIES:
+  - DMCustomModalViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DMCustomModalViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DMCustomModalViewController: b8ac8e604cb49d9e21f65d120a72f214d71abbc5
+
+COCOAPODS: 0.25.0

@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2448027716C6DBB300E44C9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2448027616C6DBB300E44C9B /* UIKit.framework */; };
+		2448027916C6DBB300E44C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2448027816C6DBB300E44C9B /* Foundation.framework */; };
+		2448027B16C6DBB300E44C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2448027A16C6DBB300E44C9B /* CoreGraphics.framework */; };
+		2448028116C6DBB300E44C9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2448027F16C6DBB300E44C9B /* InfoPlist.strings */; };
+		2448028316C6DBB300E44C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448028216C6DBB300E44C9B /* main.m */; };
+		2448028716C6DBB300E44C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448028616C6DBB300E44C9B /* AppDelegate.m */; };
+		2448028916C6DBB300E44C9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2448028816C6DBB300E44C9B /* Default.png */; };
+		2448028B16C6DBB300E44C9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2448028A16C6DBB300E44C9B /* Default@2x.png */; };
+		2448028D16C6DBB300E44C9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2448028C16C6DBB300E44C9B /* Default-568h@2x.png */; };
+		2448029016C6DBB300E44C9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2448028E16C6DBB300E44C9B /* MainStoryboard.storyboard */; };
+		2448029316C6DBB300E44C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448029216C6DBB300E44C9B /* ViewController.m */; };
+		244802A916C6DC8200E44C9B /* AJRNutritionLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */; };
+		244802AA16C6DC8200E44C9B /* AJRBackgroundDimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */; };
+		244802B516C6DE4000E44C9B /* AJRNutritionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */; };
+		244802B616C6DE4000E44C9B /* AJRNutritionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */; };
+		244802B816C6DEB900E44C9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244802B716C6DEB900E44C9B /* QuartzCore.framework */; };
+		244802BF16C6DFE900E44C9B /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 244802BD16C6DFE900E44C9B /* CloseButton.png */; };
+		244802C016C6DFE900E44C9B /* CloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 244802BE16C6DFE900E44C9B /* CloseButton@2x.png */; };
+		244802C316C6E02B00E44C9B /* AJRNutritionLabelCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2448027216C6DBB300E44C9B /* AJRNutritionControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJRNutritionControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2448027616C6DBB300E44C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2448027816C6DBB300E44C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2448027A16C6DBB300E44C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2448027E16C6DBB300E44C9B /* AJRNutritionControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AJRNutritionControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		2448028016C6DBB300E44C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2448028216C6DBB300E44C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2448028416C6DBB300E44C9B /* AJRNutritionControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJRNutritionControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2448028516C6DBB300E44C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2448028616C6DBB300E44C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2448028816C6DBB300E44C9B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2448028A16C6DBB300E44C9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2448028C16C6DBB300E44C9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2448028F16C6DBB300E44C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2448029116C6DBB300E44C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2448029216C6DBB300E44C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		244802A216C6DC8200E44C9B /* AJRNutritionLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionLabelView.h; sourceTree = "<group>"; };
+		244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionLabelView.m; sourceTree = "<group>"; };
+		244802A416C6DC8200E44C9B /* AJRBackgroundDimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRBackgroundDimmer.h; sourceTree = "<group>"; };
+		244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRBackgroundDimmer.m; sourceTree = "<group>"; };
+		244802B216C6DE4000E44C9B /* AJRNutritionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionViewController.h; sourceTree = "<group>"; };
+		244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionViewController.m; sourceTree = "<group>"; };
+		244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJRNutritionViewController.xib; sourceTree = "<group>"; };
+		244802B716C6DEB900E44C9B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		244802BD16C6DFE900E44C9B /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		244802BE16C6DFE900E44C9B /* CloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseButton@2x.png"; sourceTree = "<group>"; };
+		244802C116C6E02B00E44C9B /* AJRNutritionLabelCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionLabelCalculation.h; sourceTree = "<group>"; };
+		244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionLabelCalculation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2448026F16C6DBB300E44C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244802B816C6DEB900E44C9B /* QuartzCore.framework in Frameworks */,
+				2448027716C6DBB300E44C9B /* UIKit.framework in Frameworks */,
+				2448027916C6DBB300E44C9B /* Foundation.framework in Frameworks */,
+				2448027B16C6DBB300E44C9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2448026716C6DBB200E44C9B = {
+			isa = PBXGroup;
+			children = (
+				244802B716C6DEB900E44C9B /* QuartzCore.framework */,
+				2448027C16C6DBB300E44C9B /* AJRNutritionControllerDemo */,
+				2448027516C6DBB300E44C9B /* Frameworks */,
+				2448027316C6DBB300E44C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2448027316C6DBB300E44C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2448027216C6DBB300E44C9B /* AJRNutritionControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2448027516C6DBB300E44C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2448027616C6DBB300E44C9B /* UIKit.framework */,
+				2448027816C6DBB300E44C9B /* Foundation.framework */,
+				2448027A16C6DBB300E44C9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2448027C16C6DBB300E44C9B /* AJRNutritionControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2448028516C6DBB300E44C9B /* AppDelegate.h */,
+				2448028616C6DBB300E44C9B /* AppDelegate.m */,
+				2448028E16C6DBB300E44C9B /* MainStoryboard.storyboard */,
+				2448029116C6DBB300E44C9B /* ViewController.h */,
+				2448029216C6DBB300E44C9B /* ViewController.m */,
+				244802AB16C6DC8900E44C9B /* Nutrition View Files */,
+				2448027D16C6DBB300E44C9B /* Supporting Files */,
+			);
+			path = AJRNutritionControllerDemo;
+			sourceTree = "<group>";
+		};
+		2448027D16C6DBB300E44C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2448027E16C6DBB300E44C9B /* AJRNutritionControllerDemo-Info.plist */,
+				2448027F16C6DBB300E44C9B /* InfoPlist.strings */,
+				2448028216C6DBB300E44C9B /* main.m */,
+				2448028416C6DBB300E44C9B /* AJRNutritionControllerDemo-Prefix.pch */,
+				2448028816C6DBB300E44C9B /* Default.png */,
+				2448028A16C6DBB300E44C9B /* Default@2x.png */,
+				2448028C16C6DBB300E44C9B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244802AB16C6DC8900E44C9B /* Nutrition View Files */ = {
+			isa = PBXGroup;
+			children = (
+				244802B216C6DE4000E44C9B /* AJRNutritionViewController.h */,
+				244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */,
+				244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */,
+				244802C116C6E02B00E44C9B /* AJRNutritionLabelCalculation.h */,
+				244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */,
+				244802A216C6DC8200E44C9B /* AJRNutritionLabelView.h */,
+				244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */,
+				244802A416C6DC8200E44C9B /* AJRBackgroundDimmer.h */,
+				244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */,
+				244802BD16C6DFE900E44C9B /* CloseButton.png */,
+				244802BE16C6DFE900E44C9B /* CloseButton@2x.png */,
+			);
+			name = "Nutrition View Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2448027116C6DBB300E44C9B /* AJRNutritionControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2448029616C6DBB300E44C9B /* Build configuration list for PBXNativeTarget "AJRNutritionControllerDemo" */;
+			buildPhases = (
+				2448026E16C6DBB300E44C9B /* Sources */,
+				2448026F16C6DBB300E44C9B /* Frameworks */,
+				2448027016C6DBB300E44C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJRNutritionControllerDemo;
+			productName = AJRNutritionControllerDemo;
+			productReference = 2448027216C6DBB300E44C9B /* AJRNutritionControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2448026916C6DBB300E44C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "On Tap Media";
+			};
+			buildConfigurationList = 2448026C16C6DBB300E44C9B /* Build configuration list for PBXProject "AJRNutritionControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2448026716C6DBB200E44C9B;
+			productRefGroup = 2448027316C6DBB300E44C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2448027116C6DBB300E44C9B /* AJRNutritionControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2448027016C6DBB300E44C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448028116C6DBB300E44C9B /* InfoPlist.strings in Resources */,
+				2448028916C6DBB300E44C9B /* Default.png in Resources */,
+				2448028B16C6DBB300E44C9B /* Default@2x.png in Resources */,
+				2448028D16C6DBB300E44C9B /* Default-568h@2x.png in Resources */,
+				2448029016C6DBB300E44C9B /* MainStoryboard.storyboard in Resources */,
+				244802B616C6DE4000E44C9B /* AJRNutritionViewController.xib in Resources */,
+				244802BF16C6DFE900E44C9B /* CloseButton.png in Resources */,
+				244802C016C6DFE900E44C9B /* CloseButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2448026E16C6DBB300E44C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448028316C6DBB300E44C9B /* main.m in Sources */,
+				2448028716C6DBB300E44C9B /* AppDelegate.m in Sources */,
+				2448029316C6DBB300E44C9B /* ViewController.m in Sources */,
+				244802A916C6DC8200E44C9B /* AJRNutritionLabelView.m in Sources */,
+				244802AA16C6DC8200E44C9B /* AJRBackgroundDimmer.m in Sources */,
+				244802B516C6DE4000E44C9B /* AJRNutritionViewController.m in Sources */,
+				244802C316C6E02B00E44C9B /* AJRNutritionLabelCalculation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2448027F16C6DBB300E44C9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2448028016C6DBB300E44C9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2448028E16C6DBB300E44C9B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2448028F16C6DBB300E44C9B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2448029416C6DBB300E44C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2448029516C6DBB300E44C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2448029716C6DBB300E44C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJRNutritionControllerDemo/AJRNutritionControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "AJRNutritionControllerDemo/AJRNutritionControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2448029816C6DBB300E44C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJRNutritionControllerDemo/AJRNutritionControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "AJRNutritionControllerDemo/AJRNutritionControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2448026C16C6DBB300E44C9B /* Build configuration list for PBXProject "AJRNutritionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448029416C6DBB300E44C9B /* Debug */,
+				2448029516C6DBB300E44C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2448029616C6DBB300E44C9B /* Build configuration list for PBXNativeTarget "AJRNutritionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448029716C6DBB300E44C9B /* Debug */,
+				2448029816C6DBB300E44C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2448026916C6DBB300E44C9B /* Project object */;
+}

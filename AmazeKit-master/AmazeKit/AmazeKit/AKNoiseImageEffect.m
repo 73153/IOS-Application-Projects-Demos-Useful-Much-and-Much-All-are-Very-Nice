@@ -1,0 +1,133 @@
+//
+//  AKNoiseImageEffect.m
+//  AmazeKit
+//
+//  Created by Jeffrey Kelley on 6/11/12.
+//  Copyright (c) 2013 Detroit Labs. All rights reserved.
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+
+
+#import "AKNoiseImageEffect.h"
+
+#import "UIImage+AKPixelData.h"
+
+
+// KVO Constants
+static NSString * const kNoiseTypeKey = @"AKNoiseType";
+
+
+@implementation AKNoiseImageEffect
+
+@synthesize noiseType = _noiseType;
+
+- (id)initWithAlpha:(CGFloat)alpha
+		  blendMode:(CGBlendMode)blendMode
+		  noiseType:(AKNoiseType)noiseType
+{
+	self = [self initWithAlpha:alpha blendMode:blendMode];
+	
+	if (self) {
+		_noiseType = noiseType;
+	}
+	
+	return self;
+}
+
+- (UIImage *)renderedImageForSize:(CGSize)size
+						  atScale:(CGFloat)scale
+{
+	NSUInteger width = size.width * scale;
+	NSUInteger height = size.height * scale;
+	
+	CGColorSpaceRef noiseColorSpace = CGColorSpaceCreateDeviceRGB();
+	size_t numberOfComponents = 3;
+	
+	int bitsPerComponent = 8;
+	int bytesPerPixel = ((numberOfComponents + 1) * bitsPerComponent) / 8;
+	int bytesPerRow = bytesPerPixel * width;
+	
+	// Create the data buffer for the image.
+	uint8_t *imageData = calloc(width * height, bytesPerPixel);
+	
+	for (NSUInteger x = 0; x < width; x++) {
+		for (NSUInteger y = 0; y < height; y++) {
+			int offset = (bytesPerRow * y) + (bytesPerPixel * x);
+			
+			if ([self noiseType] == AKNoiseTypeBlackAndWhite) {
+				uint8_t white = arc4random_uniform(UINT8_MAX);
+				uint8_t alpha = arc4random_uniform(UINT8_MAX);
+				
+				imageData[offset]     = (white * alpha) / UINT8_MAX;
+				imageData[offset + 1] = (white * alpha) / UINT8_MAX;
+				imageData[offset + 2] = (white * alpha) / UINT8_MAX;
+				imageData[offset + 3] = alpha;
+			}
+			else if ([self noiseType] == AKNoiseTypeColor) {
+				uint8_t red   = arc4random_uniform(UINT8_MAX);
+				uint8_t green = arc4random_uniform(UINT8_MAX);
+				uint8_t blue  = arc4random_uniform(UINT8_MAX);
+				uint8_t alpha = arc4random_uniform(UINT8_MAX);
+				
+				imageData[offset]     = (red * alpha) / UINT8_MAX;
+				imageData[offset + 1] = (blue * alpha) / UINT8_MAX;
+				imageData[offset + 2] = (green * alpha) / UINT8_MAX;
+				imageData[offset + 3] = alpha;
+			}
+		}
+	}
+	
+	CGContextRef noiseContext = CGBitmapContextCreate((void *)imageData,
+													  width,
+													  height,
+													  bitsPerComponent,
+													  bytesPerRow,
+													  noiseColorSpace,
+													  kCGImageAlphaPremultipliedLast);
+	
+	CGImageRef renderedImageRef = CGBitmapContextCreateImage(noiseContext);
+	
+	UIImage *renderedImage = [[UIImage alloc] initWithCGImage:renderedImageRef
+														scale:scale
+												  orientation:UIImageOrientationUp];
+	
+	CGImageRelease(renderedImageRef);
+	CGContextRelease(noiseContext);
+	CGColorSpaceRelease(noiseColorSpace);
+	free(imageData);
+
+	return renderedImage;
+}
+
+- (NSDictionary *)representativeDictionary
+{
+	NSMutableDictionary *dictionary = [[super representativeDictionary] mutableCopy];
+	
+	[dictionary setObject:@([self noiseType]) forKey:kNoiseTypeKey];
+	
+	return [NSDictionary dictionaryWithDictionary:dictionary];
+}
+
+- (id)initWithRepresentativeDictionary:(NSDictionary *)representativeDictionary
+{
+	self = [super initWithRepresentativeDictionary:representativeDictionary];
+	
+	if (self) {
+		_noiseType = [[representativeDictionary objectForKey:kNoiseTypeKey] intValue];
+	}
+    
+	return self;
+}
+
+@end

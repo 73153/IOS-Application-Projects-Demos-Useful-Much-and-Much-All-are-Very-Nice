@@ -1,0 +1,1636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90A21ED0188146DE009EC3B5 /* alart-bg-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A21ECF188146DE009EC3B5 /* alart-bg-orange.png */; };
+		DE04B9E91897D735005324F0 /* WSScatterChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE04B9E81897D734005324F0 /* WSScatterChartView.m */; };
+		DE14CA47184854AC009D3642 /* PicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14CA46184854AC009D3642 /* PicturesViewController.m */; };
+		DE14CA49184854CD009D3642 /* PicturesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA48184854CD009D3642 /* PicturesViewController_iPhone.xib */; };
+		DE14CA4B1848551F009D3642 /* PicturesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA4A1848551F009D3642 /* PicturesViewController_iPad.xib */; };
+		DE14CA4E18485CAF009D3642 /* PicturesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14CA4D18485CAF009D3642 /* PicturesCell.m */; };
+		DE14CA5018485CC8009D3642 /* PicturesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA4F18485CC8009D3642 /* PicturesCell.xib */; };
+		DE14CA531848681E009D3642 /* BallonAngioplastyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14CA521848681E009D3642 /* BallonAngioplastyCell.m */; };
+		DE14CA551848683C009D3642 /* BallonAngioplastyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA541848683C009D3642 /* BallonAngioplastyCell.xib */; };
+		DE14CA58184869AD009D3642 /* AddBallonAngioPlastyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14CA57184869AD009D3642 /* AddBallonAngioPlastyViewController.m */; };
+		DE14CA5A18486A21009D3642 /* AddBallonAngioPlastyViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA5918486A21009D3642 /* AddBallonAngioPlastyViewController_iPhone.xib */; };
+		DE14CA5C18486A32009D3642 /* AddBallonAngioPlastyViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA5B18486A32009D3642 /* AddBallonAngioPlastyViewController_iPad.xib */; };
+		DE14CA5F18487714009D3642 /* AddBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14CA5E18487714009D3642 /* AddBloodPressureViewController.m */; };
+		DE14CA6118487750009D3642 /* AddBloodPressureViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14CA6018487750009D3642 /* AddBloodPressureViewController_iPhone.xib */; };
+		DE1A1B021848780C00A879AB /* AddBloodPressureViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B011848780C00A879AB /* AddBloodPressureViewController_iPad.xib */; };
+		DE1A1B0518488BE200A879AB /* BloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B0418488BE200A879AB /* BloodPressureViewController.m */; };
+		DE1A1B0818488BFE00A879AB /* BloodPressureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B0718488BFE00A879AB /* BloodPressureCell.m */; };
+		DE1A1B0A18488C1B00A879AB /* BloodPressureViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B0918488C1B00A879AB /* BloodPressureViewController_iPhone.xib */; };
+		DE1A1B0C18488C2F00A879AB /* BloodPressureViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B0B18488C2F00A879AB /* BloodPressureViewController_iPad.xib */; };
+		DE1A1B0E18488C4500A879AB /* BloodPressureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B0D18488C4500A879AB /* BloodPressureCell.xib */; };
+		DE1A1B111848960100A879AB /* AddLabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B101848960100A879AB /* AddLabViewController.m */; };
+		DE1A1B131848962300A879AB /* AddLabViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B121848962300A879AB /* AddLabViewController_iPhone.xib */; };
+		DE1A1B151848963900A879AB /* AddLabViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B141848963900A879AB /* AddLabViewController_iPad.xib */; };
+		DE1A1B1818489B8900A879AB /* LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B1718489B8900A879AB /* LabViewController.m */; };
+		DE1A1B1B18489BA700A879AB /* LabViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B1A18489BA700A879AB /* LabViewCell.m */; };
+		DE1A1B1D18489E8900A879AB /* LabViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B1C18489E8900A879AB /* LabViewController_iPhone.xib */; };
+		DE1A1B1F18489E9C00A879AB /* LabViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B1E18489E9C00A879AB /* LabViewController_iPad.xib */; };
+		DE1A1B2118489ECF00A879AB /* LabViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B2018489ECF00A879AB /* LabViewCell.xib */; };
+		DE1A1B241848B30400A879AB /* AddMedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B231848B30400A879AB /* AddMedicineViewController.m */; };
+		DE1A1B261848B33000A879AB /* AddMedicineViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B251848B33000A879AB /* AddMedicineViewController_iPhone.xib */; };
+		DE1A1B281848B34200A879AB /* AddMedicineViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B271848B34200A879AB /* AddMedicineViewController_iPad.xib */; };
+		DE1A1B2B1848B7E200A879AB /* MedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B2A1848B7E200A879AB /* MedicineViewController.m */; };
+		DE1A1B2E1848B80500A879AB /* MedicineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A1B2D1848B80500A879AB /* MedicineCell.m */; };
+		DE1A1B301848B82800A879AB /* MedicineViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B2F1848B82800A879AB /* MedicineViewController_iPhone.xib */; };
+		DE1A1B321848B83D00A879AB /* MedicineViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B311848B83D00A879AB /* MedicineViewController_iPad.xib */; };
+		DE1A1B341848B89300A879AB /* MedicineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1A1B331848B89300A879AB /* MedicineCell.xib */; };
+		DE251D58184C4999008C9561 /* PicturesCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE251D57184C4999008C9561 /* PicturesCell_iPad.xib */; };
+		DE251D5A184C49EB008C9561 /* BallonAngioplastyCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE251D59184C49EB008C9561 /* BallonAngioplastyCell_iPad.xib */; };
+		DE251D5C184C4AD0008C9561 /* BloodPressureCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE251D5B184C4AD0008C9561 /* BloodPressureCell_iPad.xib */; };
+		DE251D5E184C4B27008C9561 /* LabViewCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE251D5D184C4B27008C9561 /* LabViewCell_iPad.xib */; };
+		DE251D60184C4BC3008C9561 /* MedicineCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE251D5F184C4BC3008C9561 /* MedicineCell_iPad.xib */; };
+		DE261916186BF4C4001622F4 /* GFRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE261915186BF4C4001622F4 /* GFRViewController.m */; };
+		DE261918186BF4E9001622F4 /* GFRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE261917186BF4E9001622F4 /* GFRViewController_iPhone.xib */; };
+		DE26191A186BF53D001622F4 /* GFRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE261919186BF53D001622F4 /* GFRViewController_iPad.xib */; };
+		DE26191D186BFA49001622F4 /* GFRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE26191C186BFA49001622F4 /* GFRCell.m */; };
+		DE26191F186BFA84001622F4 /* GFRCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE26191E186BFA84001622F4 /* GFRCell_iPhone.xib */; };
+		DE261921186BFA9A001622F4 /* GFRCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE261920186BFA9A001622F4 /* GFRCell_iPad.xib */; };
+		DE2CEF6D18509B8000DFE2C2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF6B18509B8000DFE2C2 /* Default-Portrait.png */; };
+		DE2CEF7D18509EA400DFE2C2 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF6F18509EA400DFE2C2 /* Icon-29.png */; };
+		DE2CEF7E18509EA400DFE2C2 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7018509EA400DFE2C2 /* Icon-29@2x.png */; };
+		DE2CEF7F18509EA400DFE2C2 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7118509EA400DFE2C2 /* Icon-40.png */; };
+		DE2CEF8018509EA400DFE2C2 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7218509EA400DFE2C2 /* Icon-40@2x.png */; };
+		DE2CEF8118509EA400DFE2C2 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7318509EA400DFE2C2 /* Icon-50.png */; };
+		DE2CEF8218509EA400DFE2C2 /* Icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7418509EA400DFE2C2 /* Icon-50@2x.png */; };
+		DE2CEF8318509EA400DFE2C2 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7518509EA400DFE2C2 /* Icon-76.png */; };
+		DE2CEF8418509EA400DFE2C2 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7618509EA400DFE2C2 /* Icon-76@2x.png */; };
+		DE2CEF8518509EA400DFE2C2 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7718509EA400DFE2C2 /* Icon-80.png */; };
+		DE2CEF8618509EA400DFE2C2 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7818509EA400DFE2C2 /* Icon-120.png */; };
+		DE2CEF8718509EA400DFE2C2 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7918509EA400DFE2C2 /* Icon-iPad.png */; };
+		DE2CEF8818509EA400DFE2C2 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7A18509EA400DFE2C2 /* Icon-iPad@2x.png */; };
+		DE2CEF8918509EA400DFE2C2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7B18509EA400DFE2C2 /* Icon.png */; };
+		DE2CEF8A18509EA400DFE2C2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2CEF7C18509EA400DFE2C2 /* Icon@2x.png */; };
+		DE2EE92D186EAF1C00B1B0A6 /* alertBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2EE92C186EAF1C00B1B0A6 /* alertBackground.png */; };
+		DE42AE37189A479B00A6B6FC /* graph.htm in Resources */ = {isa = PBXBuildFile; fileRef = DE42AE33189A479B00A6B6FC /* graph.htm */; };
+		DE42AE3A189A53A800A6B6FC /* exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = DE42AE32189A479B00A6B6FC /* exporting.js */; };
+		DE42AE3B189A53A800A6B6FC /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = DE42AE34189A479B00A6B6FC /* highcharts.js */; };
+		DE42AE3C189A53A800A6B6FC /* jquery-1.10.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DE42AE35189A479B00A6B6FC /* jquery-1.10.2.min.js */; };
+		DE4E1BD91845C50F00D43681 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4E1BD81845C50F00D43681 /* libsqlite3.dylib */; };
+		DE4E1C3A1845CB8F00D43681 /* add_medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BDC1845CB8F00D43681 /* add_medicine.png */; };
+		DE4E1C3B1845CB8F00D43681 /* add_medicine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BDD1845CB8F00D43681 /* add_medicine@2x.png */; };
+		DE4E1C3C1845CB8F00D43681 /* alertmessagebox.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BDE1845CB8F00D43681 /* alertmessagebox.png */; };
+		DE4E1C3D1845CB8F00D43681 /* alertmessagebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BDF1845CB8F00D43681 /* alertmessagebox@2x.png */; };
+		DE4E1C3E1845CB8F00D43681 /* alertsavebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE01845CB8F00D43681 /* alertsavebtn.png */; };
+		DE4E1C3F1845CB8F00D43681 /* alertsavebtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE11845CB8F00D43681 /* alertsavebtn@2x.png */; };
+		DE4E1C401845CB8F00D43681 /* back-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE21845CB8F00D43681 /* back-btn.png */; };
+		DE4E1C411845CB8F00D43681 /* back-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE31845CB8F00D43681 /* back-btn@2x.png */; };
+		DE4E1C421845CB8F00D43681 /* baloon_angi.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE41845CB8F00D43681 /* baloon_angi.png */; };
+		DE4E1C431845CB8F00D43681 /* baloon_angi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE51845CB8F00D43681 /* baloon_angi@2x.png */; };
+		DE4E1C441845CB8F00D43681 /* changebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE61845CB8F00D43681 /* changebtn.png */; };
+		DE4E1C451845CB8F00D43681 /* changebtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BE71845CB8F00D43681 /* changebtn@2x.png */; };
+		DE4E1C491845CB8F00D43681 /* dialysis_reading.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BEB1845CB8F00D43681 /* dialysis_reading.png */; };
+		DE4E1C4A1845CB8F00D43681 /* dialysis_reading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BEC1845CB8F00D43681 /* dialysis_reading@2x.png */; };
+		DE4E1C4B1845CB8F00D43681 /* footer_baloon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BED1845CB8F00D43681 /* footer_baloon.png */; };
+		DE4E1C4C1845CB8F00D43681 /* footer_baloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BEE1845CB8F00D43681 /* footer_baloon@2x.png */; };
+		DE4E1C4D1845CB8F00D43681 /* footer_dialysis_reading.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BEF1845CB8F00D43681 /* footer_dialysis_reading.png */; };
+		DE4E1C4E1845CB8F00D43681 /* footer_dialysis_reading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF01845CB8F00D43681 /* footer_dialysis_reading@2x.png */; };
+		DE4E1C4F1845CB8F00D43681 /* footer_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF11845CB8F00D43681 /* footer_divider.png */; };
+		DE4E1C501845CB8F00D43681 /* footer_divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF21845CB8F00D43681 /* footer_divider@2x.png */; };
+		DE4E1C511845CB8F00D43681 /* footer_graph.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF31845CB8F00D43681 /* footer_graph.png */; };
+		DE4E1C521845CB8F00D43681 /* footer_graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF41845CB8F00D43681 /* footer_graph@2x.png */; };
+		DE4E1C531845CB8F00D43681 /* footer_info.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF51845CB8F00D43681 /* footer_info.png */; };
+		DE4E1C541845CB8F00D43681 /* footer_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF61845CB8F00D43681 /* footer_info@2x.png */; };
+		DE4E1C551845CB8F00D43681 /* gfrcalculatoricon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF71845CB8F00D43681 /* gfrcalculatoricon.png */; };
+		DE4E1C561845CB8F00D43681 /* gfrcalculatoricon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF81845CB8F00D43681 /* gfrcalculatoricon@2x.png */; };
+		DE4E1C571845CB8F00D43681 /* gobtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BF91845CB8F00D43681 /* gobtn.png */; };
+		DE4E1C581845CB8F00D43681 /* gobtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFA1845CB8F00D43681 /* gobtn@2x.png */; };
+		DE4E1C591845CB8F00D43681 /* goforappsbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFB1845CB8F00D43681 /* goforappsbtn.png */; };
+		DE4E1C5A1845CB8F00D43681 /* goforappsbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFC1845CB8F00D43681 /* goforappsbtn@2x.png */; };
+		DE4E1C5B1845CB8F00D43681 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFD1845CB8F00D43681 /* graph.png */; };
+		DE4E1C5C1845CB8F00D43681 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFE1845CB8F00D43681 /* graph@2x.png */; };
+		DE4E1C5D1845CB8F00D43681 /* graphbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1BFF1845CB8F00D43681 /* graphbg.png */; };
+		DE4E1C5E1845CB8F00D43681 /* graphbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C001845CB8F00D43681 /* graphbg@2x.png */; };
+		DE4E1C5F1845CB8F00D43681 /* informationdeviderline.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C011845CB8F00D43681 /* informationdeviderline.png */; };
+		DE4E1C601845CB8F00D43681 /* informationdeviderline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C021845CB8F00D43681 /* informationdeviderline@2x.png */; };
+		DE4E1C611845CB8F00D43681 /* informationtextbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C031845CB8F00D43681 /* informationtextbg.png */; };
+		DE4E1C621845CB8F00D43681 /* informationtextbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C041845CB8F00D43681 /* informationtextbg@2x.png */; };
+		DE4E1C631845CB8F00D43681 /* labicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C051845CB8F00D43681 /* labicon.png */; };
+		DE4E1C641845CB8F00D43681 /* labicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C061845CB8F00D43681 /* labicon@2x.png */; };
+		DE4E1C651845CB8F00D43681 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C071845CB8F00D43681 /* logo.png */; };
+		DE4E1C661845CB8F00D43681 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C081845CB8F00D43681 /* logo@2x.png */; };
+		DE4E1C671845CB8F00D43681 /* mainbg640960.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C091845CB8F00D43681 /* mainbg640960.png */; };
+		DE4E1C681845CB8F00D43681 /* mainbg640960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C0A1845CB8F00D43681 /* mainbg640960@2x.png */; };
+		DE4E1C691845CB8F00D43681 /* more_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C0B1845CB8F00D43681 /* more_icon.png */; };
+		DE4E1C6A1845CB8F00D43681 /* more_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C0C1845CB8F00D43681 /* more_icon@2x.png */; };
+		DE4E1C6B1845CB8F00D43681 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C0E1845CB8F00D43681 /* picture.png */; };
+		DE4E1C6C1845CB8F00D43681 /* picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C0F1845CB8F00D43681 /* picture@2x.png */; };
+		DE4E1C6D1845CB8F00D43681 /* pictureicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C101845CB8F00D43681 /* pictureicon.png */; };
+		DE4E1C6E1845CB8F00D43681 /* pictureicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C111845CB8F00D43681 /* pictureicon@2x.png */; };
+		DE4E1C6F1845CB8F00D43681 /* presonal_information-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C121845CB8F00D43681 /* presonal_information-icon.png */; };
+		DE4E1C701845CB8F00D43681 /* presonal_information-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C131845CB8F00D43681 /* presonal_information-icon@2x.png */; };
+		DE4E1C711845CB8F00D43681 /* save-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C141845CB8F00D43681 /* save-btn.png */; };
+		DE4E1C721845CB8F00D43681 /* save-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C151845CB8F00D43681 /* save-btn@2x.png */; };
+		DE4E1C731845CB8F00D43681 /* screen10devider.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C161845CB8F00D43681 /* screen10devider.png */; };
+		DE4E1C741845CB8F00D43681 /* screen10devider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C171845CB8F00D43681 /* screen10devider@2x.png */; };
+		DE4E1C751845CB8F00D43681 /* screen10leftbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C181845CB8F00D43681 /* screen10leftbg.png */; };
+		DE4E1C761845CB8F00D43681 /* screen10leftbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C191845CB8F00D43681 /* screen10leftbg@2x.png */; };
+		DE4E1C771845CB8F00D43681 /* screen2_input.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1A1845CB8F00D43681 /* screen2_input.png */; };
+		DE4E1C781845CB8F00D43681 /* screen2_input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1B1845CB8F00D43681 /* screen2_input@2x.png */; };
+		DE4E1C791845CB8F00D43681 /* screen2_phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1C1845CB8F00D43681 /* screen2_phone_icon.png */; };
+		DE4E1C7A1845CB8F00D43681 /* screen2_phone_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1D1845CB8F00D43681 /* screen2_phone_icon@2x.png */; };
+		DE4E1C7B1845CB8F00D43681 /* screen4textbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1E1845CB8F00D43681 /* screen4textbg.png */; };
+		DE4E1C7C1845CB8F00D43681 /* screen4textbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C1F1845CB8F00D43681 /* screen4textbg@2x.png */; };
+		DE4E1C7D1845CB8F00D43681 /* screen6listmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C201845CB8F00D43681 /* screen6listmenu.png */; };
+		DE4E1C7E1845CB8F00D43681 /* screen6listmenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C211845CB8F00D43681 /* screen6listmenu@2x.png */; };
+		DE4E1C7F1845CB8F00D43681 /* screen7plusbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C221845CB8F00D43681 /* screen7plusbtn.png */; };
+		DE4E1C801845CB8F00D43681 /* screen7plusbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C231845CB8F00D43681 /* screen7plusbtn@2x.png */; };
+		DE4E1C811845CB8F00D43681 /* screen7subtitle.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C241845CB8F00D43681 /* screen7subtitle.png */; };
+		DE4E1C821845CB8F00D43681 /* screen7subtitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C251845CB8F00D43681 /* screen7subtitle@2x.png */; };
+		DE4E1C831845CB8F00D43681 /* screen7textbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C261845CB8F00D43681 /* screen7textbg.png */; };
+		DE4E1C841845CB8F00D43681 /* screen7textbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C271845CB8F00D43681 /* screen7textbg@2x.png */; };
+		DE4E1C851845CB8F00D43681 /* screen8datebg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C281845CB8F00D43681 /* screen8datebg.png */; };
+		DE4E1C861845CB8F00D43681 /* screen8datebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C291845CB8F00D43681 /* screen8datebg@2x.png */; };
+		DE4E1C871845CB8F00D43681 /* screen8imagesize.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2A1845CB8F00D43681 /* screen8imagesize.png */; };
+		DE4E1C881845CB8F00D43681 /* screen8imagesize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2B1845CB8F00D43681 /* screen8imagesize@2x.png */; };
+		DE4E1C891845CB8F00D43681 /* screen8removebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2C1845CB8F00D43681 /* screen8removebtn.png */; };
+		DE4E1C8A1845CB8F00D43681 /* screen8removebtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2D1845CB8F00D43681 /* screen8removebtn@2x.png */; };
+		DE4E1C8B1845CB8F00D43681 /* screen9selectedtab.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2E1845CB8F00D43681 /* screen9selectedtab.png */; };
+		DE4E1C8C1845CB8F00D43681 /* screen9selectedtab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C2F1845CB8F00D43681 /* screen9selectedtab@2x.png */; };
+		DE4E1C8D1845CB8F00D43681 /* screen9selectedtabblue.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C301845CB8F00D43681 /* screen9selectedtabblue.png */; };
+		DE4E1C8E1845CB8F00D43681 /* screen9selectedtabblue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C311845CB8F00D43681 /* screen9selectedtabblue@2x.png */; };
+		DE4E1C8F1845CB8F00D43681 /* screen9subtitle.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C321845CB8F00D43681 /* screen9subtitle.png */; };
+		DE4E1C901845CB8F00D43681 /* screen9subtitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C331845CB8F00D43681 /* screen9subtitle@2x.png */; };
+		DE4E1C911845CB8F00D43681 /* screen9subtitleblue.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C341845CB8F00D43681 /* screen9subtitleblue.png */; };
+		DE4E1C921845CB8F00D43681 /* screen9subtitleblue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C351845CB8F00D43681 /* screen9subtitleblue@2x.png */; };
+		DE4E1C931845CB8F00D43681 /* splashscreenlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C361845CB8F00D43681 /* splashscreenlogo.png */; };
+		DE4E1C941845CB8F00D43681 /* splashscreenlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C371845CB8F00D43681 /* splashscreenlogo@2x.png */; };
+		DE4E1C951845CB8F00D43681 /* titlebg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C381845CB8F00D43681 /* titlebg.png */; };
+		DE4E1C961845CB8F00D43681 /* titlebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1C391845CB8F00D43681 /* titlebg@2x.png */; };
+		DE4E1C9D1845CD6800D43681 /* PersonalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1C9C1845CD6800D43681 /* PersonalInformationViewController.m */; };
+		DE4E1CA01845CD7B00D43681 /* DialysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1C9F1845CD7B00D43681 /* DialysisViewController.m */; };
+		DE4E1CA31845CD8C00D43681 /* BallonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CA21845CD8C00D43681 /* BallonViewController.m */; };
+		DE4E1CA61845CD9D00D43681 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CA51845CD9D00D43681 /* GraphViewController.m */; };
+		DE4E1CA91845CFCF00D43681 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CA81845CFCF00D43681 /* InformationViewController.m */; };
+		DE4E1CAB1845CFFF00D43681 /* InformationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CAA1845CFFF00D43681 /* InformationViewController_iPhone.xib */; };
+		DE4E1CAD1845D01C00D43681 /* InformationViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CAC1845D01C00D43681 /* InformationViewController_iPad.xib */; };
+		DE4E1CAF1845D82700D43681 /* PersonalInformationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CAE1845D82700D43681 /* PersonalInformationViewController_iPhone.xib */; };
+		DE4E1CB11845D84500D43681 /* PersonalInformationViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CB01845D84500D43681 /* PersonalInformationViewController_iPad.xib */; };
+		DE4E1CB31845D86400D43681 /* DialysisViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CB21845D86400D43681 /* DialysisViewController_iPhone.xib */; };
+		DE4E1CB51845D87D00D43681 /* DialysisViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CB41845D87D00D43681 /* DialysisViewController_iPad.xib */; };
+		DE4E1CB71845E68A00D43681 /* BallonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CB61845E68900D43681 /* BallonViewController_iPhone.xib */; };
+		DE4E1CB91845E6A400D43681 /* BallonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CB81845E6A400D43681 /* BallonViewController_iPad.xib */; };
+		DE4E1CBB1845E6E000D43681 /* GraphViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CBA1845E6E000D43681 /* GraphViewController_iPhone.xib */; };
+		DE4E1CBD1845E6F600D43681 /* GraphViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CBC1845E6F600D43681 /* GraphViewController_iPad.xib */; };
+		DE4E1CD418460C7E00D43681 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CD318460C7D00D43681 /* FirstViewController.m */; };
+		DE4E1CD618460C9700D43681 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CD518460C9700D43681 /* FirstViewController_iPhone.xib */; };
+		DE4E1CD818460CB400D43681 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CD718460CB400D43681 /* FirstViewController_iPad.xib */; };
+		DE4E1CDB18460E5100D43681 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CDA18460E5000D43681 /* InfoCell.m */; };
+		DE4E1CDD18460E5B00D43681 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CDC18460E5B00D43681 /* InfoCell.xib */; };
+		DE4E1CE01846113000D43681 /* EditPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CDF1846113000D43681 /* EditPersonalInfoViewController.m */; };
+		DE4E1CE21846115400D43681 /* EditPersonalInfoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CE11846115400D43681 /* EditPersonalInfoViewController_iPhone.xib */; };
+		DE4E1CE41846117200D43681 /* EditPersonalInfoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CE31846117100D43681 /* EditPersonalInfoViewController_iPad.xib */; };
+		DE4E1CE718461B3D00D43681 /* PersonalInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E1CE618461B3B00D43681 /* PersonalInformationCell.m */; };
+		DE4E1CE918461B6300D43681 /* PersonalInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4E1CE818461B6200D43681 /* PersonalInformationCell.xib */; };
+		DE4F2BE018472208001F83C4 /* personalInfoCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4F2BDF18472208001F83C4 /* personalInfoCell@2x.png */; };
+		DE4F2BE318473F76001F83C4 /* AddDialysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4F2BE218473F75001F83C4 /* AddDialysisViewController.m */; };
+		DE4F2BE518473F91001F83C4 /* AddDialysisViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F2BE418473F91001F83C4 /* AddDialysisViewController_iPhone.xib */; };
+		DE4F2BEA18475CB9001F83C4 /* DialysisReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4F2BE918475CB9001F83C4 /* DialysisReadingCell.m */; };
+		DE4F2BEC18475CD7001F83C4 /* DialysisReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F2BEB18475CD7001F83C4 /* DialysisReadingCell.xib */; };
+		DE4F2BEF18477739001F83C4 /* GFRInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4F2BEE18477739001F83C4 /* GFRInfoViewController.m */; };
+		DE4F2BF11847775B001F83C4 /* GFRInfoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F2BF01847775B001F83C4 /* GFRInfoViewController_iPhone.xib */; };
+		DE4F2BF31847777A001F83C4 /* GFRInfoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F2BF21847777A001F83C4 /* GFRInfoViewController_iPad.xib */; };
+		DE5A6661184A12DD00742BEA /* InfoCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5A6660184A12DC00742BEA /* InfoCell_iPad.xib */; };
+		DE5A6664184A151600742BEA /* PersonalInformationCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5A6663184A151600742BEA /* PersonalInformationCell_iPad.xib */; };
+		DE5A6666184A167C00742BEA /* DialysisReadingCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5A6665184A167C00742BEA /* DialysisReadingCell_iPad.xib */; };
+		DE6A337C1845B86B004277F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A337B1845B86B004277F6 /* UIKit.framework */; };
+		DE6A337E1845B86B004277F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A337D1845B86B004277F6 /* Foundation.framework */; };
+		DE6A33801845B86B004277F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A337F1845B86B004277F6 /* CoreGraphics.framework */; };
+		DE6A33861845B86B004277F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6A33841845B86B004277F6 /* InfoPlist.strings */; };
+		DE6A33881845B86B004277F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33871845B86B004277F6 /* main.m */; };
+		DE6A338E1845B86C004277F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A338D1845B86C004277F6 /* Default.png */; };
+		DE6A33901845B86C004277F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A338F1845B86C004277F6 /* Default@2x.png */; };
+		DE6A33921845B86C004277F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A33911845B86C004277F6 /* Default-568h@2x.png */; };
+		DE6A33B61845B905004277F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33A31845B905004277F6 /* AppDelegate.m */; };
+		DE6A33B71845B905004277F6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33A61845B905004277F6 /* FMDatabase.m */; };
+		DE6A33B91845B905004277F6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33AA1845B905004277F6 /* FMResultSet.m */; };
+		DE6A33BA1845B905004277F6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6A33AE1845B905004277F6 /* ViewController_iPad.xib */; };
+		DE6A33BB1845B905004277F6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6A33AF1845B905004277F6 /* ViewController_iPhone.xib */; };
+		DE6A33BC1845B905004277F6 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33B21845B905004277F6 /* Utility.m */; };
+		DE6A33BD1845B905004277F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33B51845B905004277F6 /* ViewController.m */; };
+		DE6A33C11845B935004277F6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A33C01845B935004277F6 /* DataManager.m */; };
+		DE6A33CC1845BE3A004277F6 /* Dialysis.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE6A33CB1845BE3A004277F6 /* Dialysis.sqlite */; };
+		DE78D303184C821D0023B100 /* txtField_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D301184C821D0023B100 /* txtField_iPad.png */; };
+		DE78D304184C821D0023B100 /* txtField_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D302184C821D0023B100 /* txtField_iPad@2x.png */; };
+		DE78D315184C84AA0023B100 /* tabGraph.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D305184C84AA0023B100 /* tabGraph.png */; };
+		DE78D316184C84AA0023B100 /* tabGraph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D306184C84AA0023B100 /* tabGraph@2x.png */; };
+		DE78D317184C84AA0023B100 /* tabGraphSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D307184C84AA0023B100 /* tabGraphSelected.png */; };
+		DE78D318184C84AA0023B100 /* tabGraphSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D308184C84AA0023B100 /* tabGraphSelected@2x.png */; };
+		DE78D319184C84AA0023B100 /* tabHome.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D309184C84AA0023B100 /* tabHome.png */; };
+		DE78D31A184C84AA0023B100 /* tabHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30A184C84AA0023B100 /* tabHome@2x.png */; };
+		DE78D31B184C84AA0023B100 /* tabHomeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30B184C84AA0023B100 /* tabHomeSelected.png */; };
+		DE78D31C184C84AA0023B100 /* tabHomeSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30C184C84AA0023B100 /* tabHomeSelected@2x.png */; };
+		DE78D31D184C84AA0023B100 /* tabInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30D184C84AA0023B100 /* tabInfo.png */; };
+		DE78D31E184C84AA0023B100 /* tabInfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30E184C84AA0023B100 /* tabInfo@2x.png */; };
+		DE78D31F184C84AA0023B100 /* tabInfoSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D30F184C84AA0023B100 /* tabInfoSelected.png */; };
+		DE78D320184C84AA0023B100 /* tabInfoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D310184C84AA0023B100 /* tabInfoSelected@2x.png */; };
+		DE78D321184C84AA0023B100 /* tabMedicine.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D311184C84AA0023B100 /* tabMedicine.png */; };
+		DE78D322184C84AA0023B100 /* tabMedicine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D312184C84AA0023B100 /* tabMedicine@2x.png */; };
+		DE78D323184C84AA0023B100 /* tabMedicineSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D313184C84AA0023B100 /* tabMedicineSelected.png */; };
+		DE78D324184C84AA0023B100 /* tabMedicineSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D314184C84AA0023B100 /* tabMedicineSelected@2x.png */; };
+		DE78D329184C86CF0023B100 /* bloodPressure.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D325184C86CF0023B100 /* bloodPressure.png */; };
+		DE78D32A184C86CF0023B100 /* bloodPressure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D326184C86CF0023B100 /* bloodPressure@2x.png */; };
+		DE78D32B184C86CF0023B100 /* gfrInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D327184C86CF0023B100 /* gfrInfo.png */; };
+		DE78D32C184C86CF0023B100 /* gfrInfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78D328184C86CF0023B100 /* gfrInfo@2x.png */; };
+		DE78D32F184C91270023B100 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D32E184C91270023B100 /* WSLineChartView.m */; };
+		DE78D349184C92490023B100 /* WSAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D332184C92490023B100 /* WSAreaLayer.m */; };
+		DE78D34A184C92490023B100 /* WSBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D334184C92490023B100 /* WSBarLayer.m */; };
+		DE78D34B184C92490023B100 /* WSColumnLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D336184C92490023B100 /* WSColumnLayer.m */; };
+		DE78D34C184C92490023B100 /* WSCoordinateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D338184C92490023B100 /* WSCoordinateLayer.m */; };
+		DE78D34D184C92490023B100 /* WSLegendLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D33A184C92490023B100 /* WSLegendLayer.m */; };
+		DE78D34E184C92490023B100 /* WSLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D33C184C92490023B100 /* WSLineLayer.m */; };
+		DE78D34F184C92490023B100 /* WSScatterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D33E184C92490023B100 /* WSScatterLayer.m */; };
+		DE78D350184C92490023B100 /* WSTopLeftCoordinateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D340184C92490023B100 /* WSTopLeftCoordinateLayer.m */; };
+		DE78D351184C92490023B100 /* WSBaseChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D344184C92490023B100 /* WSBaseChartView.m */; };
+		DE78D352184C92490023B100 /* WSChartObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D346184C92490023B100 /* WSChartObject.m */; };
+		DE78D353184C92490023B100 /* WSGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78D348184C92490023B100 /* WSGlobalCore.m */; };
+		DE78D355184C937D0023B100 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE78D354184C937D0023B100 /* QuartzCore.framework */; };
+		DE9D25781852F1AB007F185B /* GFRCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9D25771852F1AB007F185B /* GFRCalculatorViewController.m */; };
+		DE9D257A1852F1DA007F185B /* GFRCalculatorViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9D25791852F1DA007F185B /* GFRCalculatorViewController_iPhone.xib */; };
+		DE9D257C1852F1F5007F185B /* GFRCalculatorViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9D257B1852F1F5007F185B /* GFRCalculatorViewController_iPad.xib */; };
+		DE9D257F1852F64D007F185B /* redioSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9D257D1852F64D007F185B /* redioSelected.png */; };
+		DE9D25801852F64D007F185B /* redioUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9D257E1852F64D007F185B /* redioUnSelected.png */; };
+		DE9D258218530210007F185B /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9D258118530210007F185B /* Default-Portrait@2x.png */; };
+		DEA1F9B9184C62850072FDEC /* baloon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9A7184C62850072FDEC /* baloon_iPad.png */; };
+		DEA1F9BA184C62850072FDEC /* baloon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9A8184C62850072FDEC /* baloon_iPad@2x.png */; };
+		DEA1F9BB184C62850072FDEC /* bloodPressure_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9A9184C62850072FDEC /* bloodPressure_iPad.png */; };
+		DEA1F9BC184C62850072FDEC /* bloodPressure_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AA184C62850072FDEC /* bloodPressure_iPad@2x.png */; };
+		DEA1F9BD184C62850072FDEC /* calculator_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AB184C62850072FDEC /* calculator_iPad.png */; };
+		DEA1F9BE184C62850072FDEC /* calculator_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AC184C62850072FDEC /* calculator_iPad@2x.png */; };
+		DEA1F9BF184C62850072FDEC /* dialysis_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AD184C62850072FDEC /* dialysis_iPad.png */; };
+		DEA1F9C0184C62850072FDEC /* dialysis_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AE184C62850072FDEC /* dialysis_iPad@2x.png */; };
+		DEA1F9C1184C62850072FDEC /* graph_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9AF184C62850072FDEC /* graph_iPad.png */; };
+		DEA1F9C2184C62850072FDEC /* graph_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B0184C62850072FDEC /* graph_iPad@2x.png */; };
+		DEA1F9C3184C62850072FDEC /* lab_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B1184C62850072FDEC /* lab_iPad.png */; };
+		DEA1F9C4184C62850072FDEC /* lab_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B2184C62850072FDEC /* lab_iPad@2x.png */; };
+		DEA1F9C5184C62850072FDEC /* medicine_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B3184C62850072FDEC /* medicine_iPad.png */; };
+		DEA1F9C6184C62850072FDEC /* medicine_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B4184C62850072FDEC /* medicine_iPad@2x.png */; };
+		DEA1F9C7184C62850072FDEC /* picture_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B5184C62850072FDEC /* picture_iPad.png */; };
+		DEA1F9C8184C62850072FDEC /* picture_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B6184C62850072FDEC /* picture_iPad@2x.png */; };
+		DEA1F9C9184C62850072FDEC /* presonalInfo_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B7184C62850072FDEC /* presonalInfo_iPad.png */; };
+		DEA1F9CA184C62850072FDEC /* presonalInfo_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9B8184C62850072FDEC /* presonalInfo_iPad@2x.png */; };
+		DEA1F9CD184C63580072FDEC /* gfrInfo_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9CB184C63580072FDEC /* gfrInfo_iPad.png */; };
+		DEA1F9CE184C63580072FDEC /* gfrInfo_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9CC184C63580072FDEC /* gfrInfo_iPad@2x.png */; };
+		DEA1F9D1184C64000072FDEC /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9CF184C64000072FDEC /* cellBackground.png */; };
+		DEA1F9D2184C64000072FDEC /* cellBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9D0184C64000072FDEC /* cellBackground@2x.png */; };
+		DEA1F9D5184C64590072FDEC /* cellBackground_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9D3184C64590072FDEC /* cellBackground_iPad.png */; };
+		DEA1F9D6184C64590072FDEC /* cellBackgroung_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9D4184C64590072FDEC /* cellBackgroung_iPad@2x.png */; };
+		DEA1F9D9184C65F40072FDEC /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9D7184C65F40072FDEC /* arrow.png */; };
+		DEA1F9DA184C65F40072FDEC /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA1F9D8184C65F40072FDEC /* arrow@2x.png */; };
+		DEA3904E18B4BED6001A45B6 /* graph1.htm in Resources */ = {isa = PBXBuildFile; fileRef = DEA3904D18B4BED6001A45B6 /* graph1.htm */; };
+		DECA09AE1849E01D00DA9289 /* background_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A41849E01C00DA9289 /* background_iPad.png */; };
+		DECA09AF1849E01D00DA9289 /* background_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A51849E01C00DA9289 /* background_iPad@2x.png */; };
+		DECA09B01849E01D00DA9289 /* goButton_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A61849E01C00DA9289 /* goButton_ipad.png */; };
+		DECA09B11849E01D00DA9289 /* goButton_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A71849E01C00DA9289 /* goButton_iPad@2x.png */; };
+		DECA09B21849E01D00DA9289 /* line_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A81849E01C00DA9289 /* line_iPad.png */; };
+		DECA09B31849E01D00DA9289 /* line_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09A91849E01C00DA9289 /* line_ipad@2x.png */; };
+		DECA09B41849E01D00DA9289 /* navigation_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09AA1849E01C00DA9289 /* navigation_iPad.png */; };
+		DECA09B51849E01D00DA9289 /* navigation_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09AB1849E01C00DA9289 /* navigation_ipad@2x.png */; };
+		DECA09B61849E01D00DA9289 /* smartKidney_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09AC1849E01C00DA9289 /* smartKidney_ipad.png */; };
+		DECA09B71849E01D00DA9289 /* smartKidney_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECA09AD1849E01C00DA9289 /* smartKidney_ipad@2x.png */; };
+		DEF20206184A0A0B005AF552 /* AddDialysisViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF20205184A0A0B005AF552 /* AddDialysisViewController_iPad.xib */; };
+		FE9EF8B9187FF79F00634196 /* imageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EF8B7187FF79F00634196 /* imageViewController.m */; };
+		FE9EF8BA187FF79F00634196 /* imageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9EF8B8187FF79F00634196 /* imageViewController_iPhone.xib */; };
+		FE9FD30A18801D7F00783C93 /* imageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9FD30918801D7F00783C93 /* imageViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90A21ECF188146DE009EC3B5 /* alart-bg-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alart-bg-orange.png"; sourceTree = "<group>"; };
+		DE04B9E71897D734005324F0 /* WSScatterChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSScatterChartView.h; sourceTree = "<group>"; };
+		DE04B9E81897D734005324F0 /* WSScatterChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSScatterChartView.m; sourceTree = "<group>"; };
+		DE14CA45184854AC009D3642 /* PicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturesViewController.h; sourceTree = "<group>"; };
+		DE14CA46184854AC009D3642 /* PicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturesViewController.m; sourceTree = "<group>"; };
+		DE14CA48184854CD009D3642 /* PicturesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicturesViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE14CA4A1848551F009D3642 /* PicturesViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicturesViewController_iPad.xib; sourceTree = "<group>"; };
+		DE14CA4C18485CAF009D3642 /* PicturesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicturesCell.h; path = ../ViewController/PicturesCell.h; sourceTree = "<group>"; };
+		DE14CA4D18485CAF009D3642 /* PicturesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicturesCell.m; path = ../ViewController/PicturesCell.m; sourceTree = "<group>"; };
+		DE14CA4F18485CC8009D3642 /* PicturesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PicturesCell.xib; path = ../Resources/Nibs/PicturesCell.xib; sourceTree = "<group>"; };
+		DE14CA511848681E009D3642 /* BallonAngioplastyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallonAngioplastyCell.h; path = ../ViewController/BallonAngioplastyCell.h; sourceTree = "<group>"; };
+		DE14CA521848681E009D3642 /* BallonAngioplastyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BallonAngioplastyCell.m; path = ../ViewController/BallonAngioplastyCell.m; sourceTree = "<group>"; };
+		DE14CA541848683C009D3642 /* BallonAngioplastyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BallonAngioplastyCell.xib; path = ../Resources/Nibs/BallonAngioplastyCell.xib; sourceTree = "<group>"; };
+		DE14CA56184869AD009D3642 /* AddBallonAngioPlastyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBallonAngioPlastyViewController.h; sourceTree = "<group>"; };
+		DE14CA57184869AD009D3642 /* AddBallonAngioPlastyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBallonAngioPlastyViewController.m; sourceTree = "<group>"; };
+		DE14CA5918486A21009D3642 /* AddBallonAngioPlastyViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBallonAngioPlastyViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE14CA5B18486A32009D3642 /* AddBallonAngioPlastyViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBallonAngioPlastyViewController_iPad.xib; sourceTree = "<group>"; };
+		DE14CA5D18487714009D3642 /* AddBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBloodPressureViewController.h; sourceTree = "<group>"; };
+		DE14CA5E18487714009D3642 /* AddBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBloodPressureViewController.m; sourceTree = "<group>"; };
+		DE14CA6018487750009D3642 /* AddBloodPressureViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBloodPressureViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B011848780C00A879AB /* AddBloodPressureViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBloodPressureViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B0318488BE200A879AB /* BloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureViewController.h; sourceTree = "<group>"; };
+		DE1A1B0418488BE200A879AB /* BloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureViewController.m; sourceTree = "<group>"; };
+		DE1A1B0618488BFE00A879AB /* BloodPressureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodPressureCell.h; path = ../ViewController/BloodPressureCell.h; sourceTree = "<group>"; };
+		DE1A1B0718488BFE00A879AB /* BloodPressureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodPressureCell.m; path = ../ViewController/BloodPressureCell.m; sourceTree = "<group>"; };
+		DE1A1B0918488C1B00A879AB /* BloodPressureViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B0B18488C2F00A879AB /* BloodPressureViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B0D18488C4500A879AB /* BloodPressureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BloodPressureCell.xib; path = ../Resources/Nibs/BloodPressureCell.xib; sourceTree = "<group>"; };
+		DE1A1B0F1848960100A879AB /* AddLabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLabViewController.h; sourceTree = "<group>"; };
+		DE1A1B101848960100A879AB /* AddLabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLabViewController.m; sourceTree = "<group>"; };
+		DE1A1B121848962300A879AB /* AddLabViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLabViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B141848963900A879AB /* AddLabViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLabViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B1618489B8900A879AB /* LabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabViewController.h; sourceTree = "<group>"; };
+		DE1A1B1718489B8900A879AB /* LabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabViewController.m; sourceTree = "<group>"; };
+		DE1A1B1918489BA700A879AB /* LabViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabViewCell.h; path = ../ViewController/LabViewCell.h; sourceTree = "<group>"; };
+		DE1A1B1A18489BA700A879AB /* LabViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabViewCell.m; path = ../ViewController/LabViewCell.m; sourceTree = "<group>"; };
+		DE1A1B1C18489E8900A879AB /* LabViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B1E18489E9C00A879AB /* LabViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B2018489ECF00A879AB /* LabViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabViewCell.xib; path = ../Resources/Nibs/LabViewCell.xib; sourceTree = "<group>"; };
+		DE1A1B221848B30400A879AB /* AddMedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedicineViewController.h; sourceTree = "<group>"; };
+		DE1A1B231848B30400A879AB /* AddMedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedicineViewController.m; sourceTree = "<group>"; };
+		DE1A1B251848B33000A879AB /* AddMedicineViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMedicineViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B271848B34200A879AB /* AddMedicineViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMedicineViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B291848B7E200A879AB /* MedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineViewController.h; sourceTree = "<group>"; };
+		DE1A1B2A1848B7E200A879AB /* MedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineViewController.m; sourceTree = "<group>"; };
+		DE1A1B2C1848B80500A879AB /* MedicineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineCell.h; path = ../ViewController/MedicineCell.h; sourceTree = "<group>"; };
+		DE1A1B2D1848B80500A879AB /* MedicineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineCell.m; path = ../ViewController/MedicineCell.m; sourceTree = "<group>"; };
+		DE1A1B2F1848B82800A879AB /* MedicineViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE1A1B311848B83D00A879AB /* MedicineViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineViewController_iPad.xib; sourceTree = "<group>"; };
+		DE1A1B331848B89300A879AB /* MedicineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MedicineCell.xib; path = ../Resources/Nibs/MedicineCell.xib; sourceTree = "<group>"; };
+		DE251D57184C4999008C9561 /* PicturesCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicturesCell_iPad.xib; sourceTree = "<group>"; };
+		DE251D59184C49EB008C9561 /* BallonAngioplastyCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BallonAngioplastyCell_iPad.xib; sourceTree = "<group>"; };
+		DE251D5B184C4AD0008C9561 /* BloodPressureCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureCell_iPad.xib; sourceTree = "<group>"; };
+		DE251D5D184C4B27008C9561 /* LabViewCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabViewCell_iPad.xib; sourceTree = "<group>"; };
+		DE251D5F184C4BC3008C9561 /* MedicineCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineCell_iPad.xib; sourceTree = "<group>"; };
+		DE261914186BF4C4001622F4 /* GFRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRViewController.h; sourceTree = "<group>"; };
+		DE261915186BF4C4001622F4 /* GFRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRViewController.m; sourceTree = "<group>"; };
+		DE261917186BF4E9001622F4 /* GFRViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE261919186BF53D001622F4 /* GFRViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRViewController_iPad.xib; sourceTree = "<group>"; };
+		DE26191B186BFA49001622F4 /* GFRCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFRCell.h; path = ../ViewController/GFRCell.h; sourceTree = "<group>"; };
+		DE26191C186BFA49001622F4 /* GFRCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFRCell.m; path = ../ViewController/GFRCell.m; sourceTree = "<group>"; };
+		DE26191E186BFA84001622F4 /* GFRCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRCell_iPhone.xib; sourceTree = "<group>"; };
+		DE261920186BFA9A001622F4 /* GFRCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRCell_iPad.xib; sourceTree = "<group>"; };
+		DE2CEF6B18509B8000DFE2C2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		DE2CEF6F18509EA400DFE2C2 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		DE2CEF7018509EA400DFE2C2 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		DE2CEF7118509EA400DFE2C2 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		DE2CEF7218509EA400DFE2C2 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		DE2CEF7318509EA400DFE2C2 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		DE2CEF7418509EA400DFE2C2 /* Icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50@2x.png"; sourceTree = "<group>"; };
+		DE2CEF7518509EA400DFE2C2 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		DE2CEF7618509EA400DFE2C2 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		DE2CEF7718509EA400DFE2C2 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		DE2CEF7818509EA400DFE2C2 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		DE2CEF7918509EA400DFE2C2 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		DE2CEF7A18509EA400DFE2C2 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		DE2CEF7B18509EA400DFE2C2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DE2CEF7C18509EA400DFE2C2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DE2EE92C186EAF1C00B1B0A6 /* alertBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertBackground.png; sourceTree = "<group>"; };
+		DE42AE32189A479B00A6B6FC /* exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.js; sourceTree = "<group>"; };
+		DE42AE33189A479B00A6B6FC /* graph.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = graph.htm; sourceTree = "<group>"; };
+		DE42AE34189A479B00A6B6FC /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		DE42AE35189A479B00A6B6FC /* jquery-1.10.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.10.2.min.js"; sourceTree = "<group>"; };
+		DE4E1BD81845C50F00D43681 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DE4E1BDC1845CB8F00D43681 /* add_medicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_medicine.png; sourceTree = "<group>"; };
+		DE4E1BDD1845CB8F00D43681 /* add_medicine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_medicine@2x.png"; sourceTree = "<group>"; };
+		DE4E1BDE1845CB8F00D43681 /* alertmessagebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertmessagebox.png; sourceTree = "<group>"; };
+		DE4E1BDF1845CB8F00D43681 /* alertmessagebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertmessagebox@2x.png"; sourceTree = "<group>"; };
+		DE4E1BE01845CB8F00D43681 /* alertsavebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertsavebtn.png; sourceTree = "<group>"; };
+		DE4E1BE11845CB8F00D43681 /* alertsavebtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertsavebtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1BE21845CB8F00D43681 /* back-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-btn.png"; sourceTree = "<group>"; };
+		DE4E1BE31845CB8F00D43681 /* back-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-btn@2x.png"; sourceTree = "<group>"; };
+		DE4E1BE41845CB8F00D43681 /* baloon_angi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baloon_angi.png; sourceTree = "<group>"; };
+		DE4E1BE51845CB8F00D43681 /* baloon_angi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baloon_angi@2x.png"; sourceTree = "<group>"; };
+		DE4E1BE61845CB8F00D43681 /* changebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changebtn.png; sourceTree = "<group>"; };
+		DE4E1BE71845CB8F00D43681 /* changebtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "changebtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1BEB1845CB8F00D43681 /* dialysis_reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialysis_reading.png; sourceTree = "<group>"; };
+		DE4E1BEC1845CB8F00D43681 /* dialysis_reading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialysis_reading@2x.png"; sourceTree = "<group>"; };
+		DE4E1BED1845CB8F00D43681 /* footer_baloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer_baloon.png; sourceTree = "<group>"; };
+		DE4E1BEE1845CB8F00D43681 /* footer_baloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_baloon@2x.png"; sourceTree = "<group>"; };
+		DE4E1BEF1845CB8F00D43681 /* footer_dialysis_reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer_dialysis_reading.png; sourceTree = "<group>"; };
+		DE4E1BF01845CB8F00D43681 /* footer_dialysis_reading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_dialysis_reading@2x.png"; sourceTree = "<group>"; };
+		DE4E1BF11845CB8F00D43681 /* footer_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer_divider.png; sourceTree = "<group>"; };
+		DE4E1BF21845CB8F00D43681 /* footer_divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_divider@2x.png"; sourceTree = "<group>"; };
+		DE4E1BF31845CB8F00D43681 /* footer_graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer_graph.png; sourceTree = "<group>"; };
+		DE4E1BF41845CB8F00D43681 /* footer_graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_graph@2x.png"; sourceTree = "<group>"; };
+		DE4E1BF51845CB8F00D43681 /* footer_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer_info.png; sourceTree = "<group>"; };
+		DE4E1BF61845CB8F00D43681 /* footer_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer_info@2x.png"; sourceTree = "<group>"; };
+		DE4E1BF71845CB8F00D43681 /* gfrcalculatoricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gfrcalculatoricon.png; sourceTree = "<group>"; };
+		DE4E1BF81845CB8F00D43681 /* gfrcalculatoricon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gfrcalculatoricon@2x.png"; sourceTree = "<group>"; };
+		DE4E1BF91845CB8F00D43681 /* gobtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gobtn.png; sourceTree = "<group>"; };
+		DE4E1BFA1845CB8F00D43681 /* gobtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gobtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1BFB1845CB8F00D43681 /* goforappsbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goforappsbtn.png; sourceTree = "<group>"; };
+		DE4E1BFC1845CB8F00D43681 /* goforappsbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goforappsbtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1BFD1845CB8F00D43681 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		DE4E1BFE1845CB8F00D43681 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		DE4E1BFF1845CB8F00D43681 /* graphbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphbg.png; sourceTree = "<group>"; };
+		DE4E1C001845CB8F00D43681 /* graphbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graphbg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C011845CB8F00D43681 /* informationdeviderline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = informationdeviderline.png; sourceTree = "<group>"; };
+		DE4E1C021845CB8F00D43681 /* informationdeviderline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "informationdeviderline@2x.png"; sourceTree = "<group>"; };
+		DE4E1C031845CB8F00D43681 /* informationtextbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = informationtextbg.png; sourceTree = "<group>"; };
+		DE4E1C041845CB8F00D43681 /* informationtextbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "informationtextbg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C051845CB8F00D43681 /* labicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labicon.png; sourceTree = "<group>"; };
+		DE4E1C061845CB8F00D43681 /* labicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "labicon@2x.png"; sourceTree = "<group>"; };
+		DE4E1C071845CB8F00D43681 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DE4E1C081845CB8F00D43681 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		DE4E1C091845CB8F00D43681 /* mainbg640960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg640960.png; sourceTree = "<group>"; };
+		DE4E1C0A1845CB8F00D43681 /* mainbg640960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainbg640960@2x.png"; sourceTree = "<group>"; };
+		DE4E1C0B1845CB8F00D43681 /* more_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_icon.png; sourceTree = "<group>"; };
+		DE4E1C0C1845CB8F00D43681 /* more_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon@2x.png"; sourceTree = "<group>"; };
+		DE4E1C0E1845CB8F00D43681 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		DE4E1C0F1845CB8F00D43681 /* picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture@2x.png"; sourceTree = "<group>"; };
+		DE4E1C101845CB8F00D43681 /* pictureicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pictureicon.png; sourceTree = "<group>"; };
+		DE4E1C111845CB8F00D43681 /* pictureicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pictureicon@2x.png"; sourceTree = "<group>"; };
+		DE4E1C121845CB8F00D43681 /* presonal_information-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presonal_information-icon.png"; sourceTree = "<group>"; };
+		DE4E1C131845CB8F00D43681 /* presonal_information-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presonal_information-icon@2x.png"; sourceTree = "<group>"; };
+		DE4E1C141845CB8F00D43681 /* save-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-btn.png"; sourceTree = "<group>"; };
+		DE4E1C151845CB8F00D43681 /* save-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-btn@2x.png"; sourceTree = "<group>"; };
+		DE4E1C161845CB8F00D43681 /* screen10devider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen10devider.png; sourceTree = "<group>"; };
+		DE4E1C171845CB8F00D43681 /* screen10devider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen10devider@2x.png"; sourceTree = "<group>"; };
+		DE4E1C181845CB8F00D43681 /* screen10leftbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen10leftbg.png; sourceTree = "<group>"; };
+		DE4E1C191845CB8F00D43681 /* screen10leftbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen10leftbg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C1A1845CB8F00D43681 /* screen2_input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2_input.png; sourceTree = "<group>"; };
+		DE4E1C1B1845CB8F00D43681 /* screen2_input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen2_input@2x.png"; sourceTree = "<group>"; };
+		DE4E1C1C1845CB8F00D43681 /* screen2_phone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2_phone_icon.png; sourceTree = "<group>"; };
+		DE4E1C1D1845CB8F00D43681 /* screen2_phone_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen2_phone_icon@2x.png"; sourceTree = "<group>"; };
+		DE4E1C1E1845CB8F00D43681 /* screen4textbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen4textbg.png; sourceTree = "<group>"; };
+		DE4E1C1F1845CB8F00D43681 /* screen4textbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen4textbg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C201845CB8F00D43681 /* screen6listmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen6listmenu.png; sourceTree = "<group>"; };
+		DE4E1C211845CB8F00D43681 /* screen6listmenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen6listmenu@2x.png"; sourceTree = "<group>"; };
+		DE4E1C221845CB8F00D43681 /* screen7plusbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen7plusbtn.png; sourceTree = "<group>"; };
+		DE4E1C231845CB8F00D43681 /* screen7plusbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen7plusbtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1C241845CB8F00D43681 /* screen7subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen7subtitle.png; sourceTree = "<group>"; };
+		DE4E1C251845CB8F00D43681 /* screen7subtitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen7subtitle@2x.png"; sourceTree = "<group>"; };
+		DE4E1C261845CB8F00D43681 /* screen7textbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen7textbg.png; sourceTree = "<group>"; };
+		DE4E1C271845CB8F00D43681 /* screen7textbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen7textbg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C281845CB8F00D43681 /* screen8datebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen8datebg.png; sourceTree = "<group>"; };
+		DE4E1C291845CB8F00D43681 /* screen8datebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen8datebg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C2A1845CB8F00D43681 /* screen8imagesize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen8imagesize.png; sourceTree = "<group>"; };
+		DE4E1C2B1845CB8F00D43681 /* screen8imagesize@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen8imagesize@2x.png"; sourceTree = "<group>"; };
+		DE4E1C2C1845CB8F00D43681 /* screen8removebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen8removebtn.png; sourceTree = "<group>"; };
+		DE4E1C2D1845CB8F00D43681 /* screen8removebtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen8removebtn@2x.png"; sourceTree = "<group>"; };
+		DE4E1C2E1845CB8F00D43681 /* screen9selectedtab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen9selectedtab.png; sourceTree = "<group>"; };
+		DE4E1C2F1845CB8F00D43681 /* screen9selectedtab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen9selectedtab@2x.png"; sourceTree = "<group>"; };
+		DE4E1C301845CB8F00D43681 /* screen9selectedtabblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen9selectedtabblue.png; sourceTree = "<group>"; };
+		DE4E1C311845CB8F00D43681 /* screen9selectedtabblue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen9selectedtabblue@2x.png"; sourceTree = "<group>"; };
+		DE4E1C321845CB8F00D43681 /* screen9subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen9subtitle.png; sourceTree = "<group>"; };
+		DE4E1C331845CB8F00D43681 /* screen9subtitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen9subtitle@2x.png"; sourceTree = "<group>"; };
+		DE4E1C341845CB8F00D43681 /* screen9subtitleblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen9subtitleblue.png; sourceTree = "<group>"; };
+		DE4E1C351845CB8F00D43681 /* screen9subtitleblue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen9subtitleblue@2x.png"; sourceTree = "<group>"; };
+		DE4E1C361845CB8F00D43681 /* splashscreenlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreenlogo.png; sourceTree = "<group>"; };
+		DE4E1C371845CB8F00D43681 /* splashscreenlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashscreenlogo@2x.png"; sourceTree = "<group>"; };
+		DE4E1C381845CB8F00D43681 /* titlebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebg.png; sourceTree = "<group>"; };
+		DE4E1C391845CB8F00D43681 /* titlebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titlebg@2x.png"; sourceTree = "<group>"; };
+		DE4E1C9B1845CD6800D43681 /* PersonalInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationViewController.h; sourceTree = "<group>"; };
+		DE4E1C9C1845CD6800D43681 /* PersonalInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationViewController.m; sourceTree = "<group>"; };
+		DE4E1C9E1845CD7B00D43681 /* DialysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialysisViewController.h; sourceTree = "<group>"; };
+		DE4E1C9F1845CD7B00D43681 /* DialysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialysisViewController.m; sourceTree = "<group>"; };
+		DE4E1CA11845CD8C00D43681 /* BallonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallonViewController.h; sourceTree = "<group>"; };
+		DE4E1CA21845CD8C00D43681 /* BallonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallonViewController.m; sourceTree = "<group>"; };
+		DE4E1CA41845CD9D00D43681 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		DE4E1CA51845CD9D00D43681 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		DE4E1CA71845CFCF00D43681 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		DE4E1CA81845CFCF00D43681 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		DE4E1CAA1845CFFF00D43681 /* InformationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CAC1845D01C00D43681 /* InformationViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CAE1845D82700D43681 /* PersonalInformationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformationViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CB01845D84500D43681 /* PersonalInformationViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformationViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CB21845D86400D43681 /* DialysisViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialysisViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CB41845D87D00D43681 /* DialysisViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialysisViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CB61845E68900D43681 /* BallonViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BallonViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CB81845E6A400D43681 /* BallonViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BallonViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CBA1845E6E000D43681 /* GraphViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CBC1845E6F600D43681 /* GraphViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CD218460C7D00D43681 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DE4E1CD318460C7D00D43681 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DE4E1CD518460C9700D43681 /* FirstViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CD718460CB400D43681 /* FirstViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CD918460E5000D43681 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = ../ViewController/InfoCell.h; sourceTree = "<group>"; };
+		DE4E1CDA18460E5000D43681 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = ../ViewController/InfoCell.m; sourceTree = "<group>"; };
+		DE4E1CDC18460E5B00D43681 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = ../Resources/Nibs/InfoCell.xib; sourceTree = "<group>"; };
+		DE4E1CDE1846113000D43681 /* EditPersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPersonalInfoViewController.h; sourceTree = "<group>"; };
+		DE4E1CDF1846113000D43681 /* EditPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPersonalInfoViewController.m; sourceTree = "<group>"; };
+		DE4E1CE11846115400D43681 /* EditPersonalInfoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPersonalInfoViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4E1CE31846117100D43681 /* EditPersonalInfoViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPersonalInfoViewController_iPad.xib; sourceTree = "<group>"; };
+		DE4E1CE518461B3B00D43681 /* PersonalInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalInformationCell.h; path = ../ViewController/PersonalInformationCell.h; sourceTree = "<group>"; };
+		DE4E1CE618461B3B00D43681 /* PersonalInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalInformationCell.m; path = ../ViewController/PersonalInformationCell.m; sourceTree = "<group>"; };
+		DE4E1CE818461B6200D43681 /* PersonalInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalInformationCell.xib; path = ../Resources/Nibs/PersonalInformationCell.xib; sourceTree = "<group>"; };
+		DE4F2BDF18472208001F83C4 /* personalInfoCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personalInfoCell@2x.png"; sourceTree = "<group>"; };
+		DE4F2BE118473F75001F83C4 /* AddDialysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDialysisViewController.h; sourceTree = "<group>"; };
+		DE4F2BE218473F75001F83C4 /* AddDialysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDialysisViewController.m; sourceTree = "<group>"; };
+		DE4F2BE418473F91001F83C4 /* AddDialysisViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDialysisViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4F2BE818475CB9001F83C4 /* DialysisReadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialysisReadingCell.h; path = ../ViewController/DialysisReadingCell.h; sourceTree = "<group>"; };
+		DE4F2BE918475CB9001F83C4 /* DialysisReadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialysisReadingCell.m; path = ../ViewController/DialysisReadingCell.m; sourceTree = "<group>"; };
+		DE4F2BEB18475CD7001F83C4 /* DialysisReadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DialysisReadingCell.xib; path = ../Resources/Nibs/DialysisReadingCell.xib; sourceTree = "<group>"; };
+		DE4F2BED18477739001F83C4 /* GFRInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRInfoViewController.h; sourceTree = "<group>"; };
+		DE4F2BEE18477739001F83C4 /* GFRInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRInfoViewController.m; sourceTree = "<group>"; };
+		DE4F2BF01847775B001F83C4 /* GFRInfoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRInfoViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE4F2BF21847777A001F83C4 /* GFRInfoViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRInfoViewController_iPad.xib; sourceTree = "<group>"; };
+		DE5A6660184A12DC00742BEA /* InfoCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell_iPad.xib; path = ../Resources/Nibs/InfoCell_iPad.xib; sourceTree = "<group>"; };
+		DE5A6663184A151600742BEA /* PersonalInformationCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformationCell_iPad.xib; sourceTree = "<group>"; };
+		DE5A6665184A167C00742BEA /* DialysisReadingCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialysisReadingCell_iPad.xib; sourceTree = "<group>"; };
+		DE6A33771845B86B004277F6 /* Dialysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dialysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6A337B1845B86B004277F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE6A337D1845B86B004277F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE6A337F1845B86B004277F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE6A33831845B86B004277F6 /* Dialysis_New-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dialysis_New-Info.plist"; sourceTree = "<group>"; };
+		DE6A33851845B86B004277F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6A33871845B86B004277F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6A33891845B86B004277F6 /* Dialysis_New-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dialysis_New-Prefix.pch"; sourceTree = "<group>"; };
+		DE6A338D1845B86C004277F6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE6A338F1845B86C004277F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE6A33911845B86C004277F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE6A33A21845B905004277F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE6A33A31845B905004277F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE6A33A51845B905004277F6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DE6A33A61845B905004277F6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DE6A33A91845B905004277F6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DE6A33AA1845B905004277F6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DE6A33AE1845B905004277F6 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		DE6A33AF1845B905004277F6 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE6A33B11845B905004277F6 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		DE6A33B21845B905004277F6 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		DE6A33B41845B905004277F6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE6A33B51845B905004277F6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE6A33BE1845B917004277F6 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		DE6A33BF1845B935004277F6 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		DE6A33C01845B935004277F6 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		DE6A33CB1845BE3A004277F6 /* Dialysis.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dialysis.sqlite; sourceTree = "<group>"; };
+		DE78D301184C821D0023B100 /* txtField_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txtField_iPad.png; sourceTree = "<group>"; };
+		DE78D302184C821D0023B100 /* txtField_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "txtField_iPad@2x.png"; sourceTree = "<group>"; };
+		DE78D305184C84AA0023B100 /* tabGraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabGraph.png; sourceTree = "<group>"; };
+		DE78D306184C84AA0023B100 /* tabGraph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabGraph@2x.png"; sourceTree = "<group>"; };
+		DE78D307184C84AA0023B100 /* tabGraphSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabGraphSelected.png; sourceTree = "<group>"; };
+		DE78D308184C84AA0023B100 /* tabGraphSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabGraphSelected@2x.png"; sourceTree = "<group>"; };
+		DE78D309184C84AA0023B100 /* tabHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabHome.png; sourceTree = "<group>"; };
+		DE78D30A184C84AA0023B100 /* tabHome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabHome@2x.png"; sourceTree = "<group>"; };
+		DE78D30B184C84AA0023B100 /* tabHomeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabHomeSelected.png; sourceTree = "<group>"; };
+		DE78D30C184C84AA0023B100 /* tabHomeSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabHomeSelected@2x.png"; sourceTree = "<group>"; };
+		DE78D30D184C84AA0023B100 /* tabInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabInfo.png; sourceTree = "<group>"; };
+		DE78D30E184C84AA0023B100 /* tabInfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabInfo@2x.png"; sourceTree = "<group>"; };
+		DE78D30F184C84AA0023B100 /* tabInfoSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabInfoSelected.png; sourceTree = "<group>"; };
+		DE78D310184C84AA0023B100 /* tabInfoSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabInfoSelected@2x.png"; sourceTree = "<group>"; };
+		DE78D311184C84AA0023B100 /* tabMedicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabMedicine.png; sourceTree = "<group>"; };
+		DE78D312184C84AA0023B100 /* tabMedicine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabMedicine@2x.png"; sourceTree = "<group>"; };
+		DE78D313184C84AA0023B100 /* tabMedicineSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabMedicineSelected.png; sourceTree = "<group>"; };
+		DE78D314184C84AA0023B100 /* tabMedicineSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabMedicineSelected@2x.png"; sourceTree = "<group>"; };
+		DE78D325184C86CF0023B100 /* bloodPressure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloodPressure.png; sourceTree = "<group>"; };
+		DE78D326184C86CF0023B100 /* bloodPressure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bloodPressure@2x.png"; sourceTree = "<group>"; };
+		DE78D327184C86CF0023B100 /* gfrInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gfrInfo.png; sourceTree = "<group>"; };
+		DE78D328184C86CF0023B100 /* gfrInfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gfrInfo@2x.png"; sourceTree = "<group>"; };
+		DE78D32D184C91270023B100 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		DE78D32E184C91270023B100 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		DE78D331184C92490023B100 /* WSAreaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAreaLayer.h; sourceTree = "<group>"; };
+		DE78D332184C92490023B100 /* WSAreaLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAreaLayer.m; sourceTree = "<group>"; };
+		DE78D333184C92490023B100 /* WSBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBarLayer.h; sourceTree = "<group>"; };
+		DE78D334184C92490023B100 /* WSBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBarLayer.m; sourceTree = "<group>"; };
+		DE78D335184C92490023B100 /* WSColumnLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColumnLayer.h; sourceTree = "<group>"; };
+		DE78D336184C92490023B100 /* WSColumnLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColumnLayer.m; sourceTree = "<group>"; };
+		DE78D337184C92490023B100 /* WSCoordinateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinateLayer.h; sourceTree = "<group>"; };
+		DE78D338184C92490023B100 /* WSCoordinateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCoordinateLayer.m; sourceTree = "<group>"; };
+		DE78D339184C92490023B100 /* WSLegendLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLegendLayer.h; sourceTree = "<group>"; };
+		DE78D33A184C92490023B100 /* WSLegendLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLegendLayer.m; sourceTree = "<group>"; };
+		DE78D33B184C92490023B100 /* WSLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineLayer.h; sourceTree = "<group>"; };
+		DE78D33C184C92490023B100 /* WSLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineLayer.m; sourceTree = "<group>"; };
+		DE78D33D184C92490023B100 /* WSScatterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSScatterLayer.h; sourceTree = "<group>"; };
+		DE78D33E184C92490023B100 /* WSScatterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSScatterLayer.m; sourceTree = "<group>"; };
+		DE78D33F184C92490023B100 /* WSTopLeftCoordinateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTopLeftCoordinateLayer.h; sourceTree = "<group>"; };
+		DE78D340184C92490023B100 /* WSTopLeftCoordinateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTopLeftCoordinateLayer.m; sourceTree = "<group>"; };
+		DE78D342184C92490023B100 /* WSBaseChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseChartDelegate.h; sourceTree = "<group>"; };
+		DE78D343184C92490023B100 /* WSBaseChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseChartView.h; sourceTree = "<group>"; };
+		DE78D344184C92490023B100 /* WSBaseChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseChartView.m; sourceTree = "<group>"; };
+		DE78D345184C92490023B100 /* WSChartObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChartObject.h; sourceTree = "<group>"; };
+		DE78D346184C92490023B100 /* WSChartObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChartObject.m; sourceTree = "<group>"; };
+		DE78D347184C92490023B100 /* WSGlobalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGlobalCore.h; sourceTree = "<group>"; };
+		DE78D348184C92490023B100 /* WSGlobalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGlobalCore.m; sourceTree = "<group>"; };
+		DE78D354184C937D0023B100 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE9D25761852F1AB007F185B /* GFRCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRCalculatorViewController.h; sourceTree = "<group>"; };
+		DE9D25771852F1AB007F185B /* GFRCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRCalculatorViewController.m; sourceTree = "<group>"; };
+		DE9D25791852F1DA007F185B /* GFRCalculatorViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRCalculatorViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE9D257B1852F1F5007F185B /* GFRCalculatorViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFRCalculatorViewController_iPad.xib; sourceTree = "<group>"; };
+		DE9D257D1852F64D007F185B /* redioSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redioSelected.png; sourceTree = "<group>"; };
+		DE9D257E1852F64D007F185B /* redioUnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redioUnSelected.png; sourceTree = "<group>"; };
+		DE9D258118530210007F185B /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		DEA1F9A7184C62850072FDEC /* baloon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baloon_iPad.png; sourceTree = "<group>"; };
+		DEA1F9A8184C62850072FDEC /* baloon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baloon_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9A9184C62850072FDEC /* bloodPressure_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloodPressure_iPad.png; sourceTree = "<group>"; };
+		DEA1F9AA184C62850072FDEC /* bloodPressure_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bloodPressure_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9AB184C62850072FDEC /* calculator_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator_iPad.png; sourceTree = "<group>"; };
+		DEA1F9AC184C62850072FDEC /* calculator_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9AD184C62850072FDEC /* dialysis_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialysis_iPad.png; sourceTree = "<group>"; };
+		DEA1F9AE184C62850072FDEC /* dialysis_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialysis_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9AF184C62850072FDEC /* graph_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_iPad.png; sourceTree = "<group>"; };
+		DEA1F9B0184C62850072FDEC /* graph_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9B1184C62850072FDEC /* lab_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lab_iPad.png; sourceTree = "<group>"; };
+		DEA1F9B2184C62850072FDEC /* lab_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lab_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9B3184C62850072FDEC /* medicine_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medicine_iPad.png; sourceTree = "<group>"; };
+		DEA1F9B4184C62850072FDEC /* medicine_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medicine_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9B5184C62850072FDEC /* picture_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_iPad.png; sourceTree = "<group>"; };
+		DEA1F9B6184C62850072FDEC /* picture_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9B7184C62850072FDEC /* presonalInfo_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presonalInfo_iPad.png; sourceTree = "<group>"; };
+		DEA1F9B8184C62850072FDEC /* presonalInfo_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presonalInfo_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9CB184C63580072FDEC /* gfrInfo_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gfrInfo_iPad.png; sourceTree = "<group>"; };
+		DEA1F9CC184C63580072FDEC /* gfrInfo_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gfrInfo_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9CF184C64000072FDEC /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground.png; sourceTree = "<group>"; };
+		DEA1F9D0184C64000072FDEC /* cellBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellBackground@2x.png"; sourceTree = "<group>"; };
+		DEA1F9D3184C64590072FDEC /* cellBackground_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground_iPad.png; sourceTree = "<group>"; };
+		DEA1F9D4184C64590072FDEC /* cellBackgroung_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellBackgroung_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA1F9D7184C65F40072FDEC /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		DEA1F9D8184C65F40072FDEC /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		DEA3904D18B4BED6001A45B6 /* graph1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = graph1.htm; sourceTree = "<group>"; };
+		DECA09A41849E01C00DA9289 /* background_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_iPad.png; sourceTree = "<group>"; };
+		DECA09A51849E01C00DA9289 /* background_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_iPad@2x.png"; sourceTree = "<group>"; };
+		DECA09A61849E01C00DA9289 /* goButton_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goButton_ipad.png; sourceTree = "<group>"; };
+		DECA09A71849E01C00DA9289 /* goButton_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goButton_iPad@2x.png"; sourceTree = "<group>"; };
+		DECA09A81849E01C00DA9289 /* line_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_iPad.png; sourceTree = "<group>"; };
+		DECA09A91849E01C00DA9289 /* line_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_ipad@2x.png"; sourceTree = "<group>"; };
+		DECA09AA1849E01C00DA9289 /* navigation_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_iPad.png; sourceTree = "<group>"; };
+		DECA09AB1849E01C00DA9289 /* navigation_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_ipad@2x.png"; sourceTree = "<group>"; };
+		DECA09AC1849E01C00DA9289 /* smartKidney_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartKidney_ipad.png; sourceTree = "<group>"; };
+		DECA09AD1849E01C00DA9289 /* smartKidney_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartKidney_ipad@2x.png"; sourceTree = "<group>"; };
+		DEF20205184A0A0B005AF552 /* AddDialysisViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDialysisViewController_iPad.xib; sourceTree = "<group>"; };
+		FE9EF8B6187FF79F00634196 /* imageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageViewController.h; sourceTree = "<group>"; };
+		FE9EF8B7187FF79F00634196 /* imageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageViewController.m; sourceTree = "<group>"; };
+		FE9EF8B8187FF79F00634196 /* imageViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = imageViewController_iPhone.xib; path = ../../ViewController/imageViewController_iPhone.xib; sourceTree = "<group>"; };
+		FE9FD30918801D7F00783C93 /* imageViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = imageViewController_iPad.xib; path = ../../ViewController/imageViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6A33741845B86B004277F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE78D355184C937D0023B100 /* QuartzCore.framework in Frameworks */,
+				DE4E1BD91845C50F00D43681 /* libsqlite3.dylib in Frameworks */,
+				DE6A337C1845B86B004277F6 /* UIKit.framework in Frameworks */,
+				DE6A337E1845B86B004277F6 /* Foundation.framework in Frameworks */,
+				DE6A33801845B86B004277F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE42AE31189A479A00A6B6FC /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				DEA3904D18B4BED6001A45B6 /* graph1.htm */,
+				DE42AE32189A479B00A6B6FC /* exporting.js */,
+				DE42AE33189A479B00A6B6FC /* graph.htm */,
+				DE42AE34189A479B00A6B6FC /* highcharts.js */,
+				DE42AE35189A479B00A6B6FC /* jquery-1.10.2.min.js */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		DE4E1BDA1845CB8F00D43681 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DE78D305184C84AA0023B100 /* tabGraph.png */,
+				DE78D306184C84AA0023B100 /* tabGraph@2x.png */,
+				DE78D307184C84AA0023B100 /* tabGraphSelected.png */,
+				DE78D308184C84AA0023B100 /* tabGraphSelected@2x.png */,
+				DE78D309184C84AA0023B100 /* tabHome.png */,
+				DE78D30A184C84AA0023B100 /* tabHome@2x.png */,
+				DE78D30B184C84AA0023B100 /* tabHomeSelected.png */,
+				DE78D30C184C84AA0023B100 /* tabHomeSelected@2x.png */,
+				DE78D30D184C84AA0023B100 /* tabInfo.png */,
+				DE78D30E184C84AA0023B100 /* tabInfo@2x.png */,
+				DE78D30F184C84AA0023B100 /* tabInfoSelected.png */,
+				DE78D310184C84AA0023B100 /* tabInfoSelected@2x.png */,
+				DE78D311184C84AA0023B100 /* tabMedicine.png */,
+				DE78D312184C84AA0023B100 /* tabMedicine@2x.png */,
+				DE78D313184C84AA0023B100 /* tabMedicineSelected.png */,
+				DE78D314184C84AA0023B100 /* tabMedicineSelected@2x.png */,
+				DE78D301184C821D0023B100 /* txtField_iPad.png */,
+				DE78D302184C821D0023B100 /* txtField_iPad@2x.png */,
+				DEA1F9D7184C65F40072FDEC /* arrow.png */,
+				DEA1F9D8184C65F40072FDEC /* arrow@2x.png */,
+				DEA1F9D3184C64590072FDEC /* cellBackground_iPad.png */,
+				DEA1F9D4184C64590072FDEC /* cellBackgroung_iPad@2x.png */,
+				DEA1F9CB184C63580072FDEC /* gfrInfo_iPad.png */,
+				DEA1F9CC184C63580072FDEC /* gfrInfo_iPad@2x.png */,
+				DEA1F9A7184C62850072FDEC /* baloon_iPad.png */,
+				DEA1F9A8184C62850072FDEC /* baloon_iPad@2x.png */,
+				DEA1F9A9184C62850072FDEC /* bloodPressure_iPad.png */,
+				DEA1F9AA184C62850072FDEC /* bloodPressure_iPad@2x.png */,
+				DEA1F9AB184C62850072FDEC /* calculator_iPad.png */,
+				DEA1F9AC184C62850072FDEC /* calculator_iPad@2x.png */,
+				DEA1F9AD184C62850072FDEC /* dialysis_iPad.png */,
+				DEA1F9AE184C62850072FDEC /* dialysis_iPad@2x.png */,
+				DEA1F9AF184C62850072FDEC /* graph_iPad.png */,
+				DEA1F9B0184C62850072FDEC /* graph_iPad@2x.png */,
+				DEA1F9B1184C62850072FDEC /* lab_iPad.png */,
+				DEA1F9B2184C62850072FDEC /* lab_iPad@2x.png */,
+				DEA1F9B3184C62850072FDEC /* medicine_iPad.png */,
+				DEA1F9B4184C62850072FDEC /* medicine_iPad@2x.png */,
+				DEA1F9B5184C62850072FDEC /* picture_iPad.png */,
+				DEA1F9B6184C62850072FDEC /* picture_iPad@2x.png */,
+				DEA1F9B7184C62850072FDEC /* presonalInfo_iPad.png */,
+				DEA1F9B8184C62850072FDEC /* presonalInfo_iPad@2x.png */,
+				DECA09A41849E01C00DA9289 /* background_iPad.png */,
+				DECA09A51849E01C00DA9289 /* background_iPad@2x.png */,
+				DECA09A61849E01C00DA9289 /* goButton_ipad.png */,
+				DECA09A71849E01C00DA9289 /* goButton_iPad@2x.png */,
+				DECA09A81849E01C00DA9289 /* line_iPad.png */,
+				DECA09A91849E01C00DA9289 /* line_ipad@2x.png */,
+				DECA09AA1849E01C00DA9289 /* navigation_iPad.png */,
+				DECA09AB1849E01C00DA9289 /* navigation_ipad@2x.png */,
+				DECA09AC1849E01C00DA9289 /* smartKidney_ipad.png */,
+				DECA09AD1849E01C00DA9289 /* smartKidney_ipad@2x.png */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		DE4E1BDB1845CB8F00D43681 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EE92C186EAF1C00B1B0A6 /* alertBackground.png */,
+				90A21ECF188146DE009EC3B5 /* alart-bg-orange.png */,
+				DE9D257D1852F64D007F185B /* redioSelected.png */,
+				DE9D257E1852F64D007F185B /* redioUnSelected.png */,
+				DE78D325184C86CF0023B100 /* bloodPressure.png */,
+				DE78D326184C86CF0023B100 /* bloodPressure@2x.png */,
+				DE78D327184C86CF0023B100 /* gfrInfo.png */,
+				DE78D328184C86CF0023B100 /* gfrInfo@2x.png */,
+				DEA1F9CF184C64000072FDEC /* cellBackground.png */,
+				DEA1F9D0184C64000072FDEC /* cellBackground@2x.png */,
+				DE4F2BDF18472208001F83C4 /* personalInfoCell@2x.png */,
+				DE4E1BDC1845CB8F00D43681 /* add_medicine.png */,
+				DE4E1BDD1845CB8F00D43681 /* add_medicine@2x.png */,
+				DE4E1BDE1845CB8F00D43681 /* alertmessagebox.png */,
+				DE4E1BDF1845CB8F00D43681 /* alertmessagebox@2x.png */,
+				DE4E1BE01845CB8F00D43681 /* alertsavebtn.png */,
+				DE4E1BE11845CB8F00D43681 /* alertsavebtn@2x.png */,
+				DE4E1BE21845CB8F00D43681 /* back-btn.png */,
+				DE4E1BE31845CB8F00D43681 /* back-btn@2x.png */,
+				DE4E1BE41845CB8F00D43681 /* baloon_angi.png */,
+				DE4E1BE51845CB8F00D43681 /* baloon_angi@2x.png */,
+				DE4E1BE61845CB8F00D43681 /* changebtn.png */,
+				DE4E1BE71845CB8F00D43681 /* changebtn@2x.png */,
+				DE4E1BEB1845CB8F00D43681 /* dialysis_reading.png */,
+				DE4E1BEC1845CB8F00D43681 /* dialysis_reading@2x.png */,
+				DE4E1BED1845CB8F00D43681 /* footer_baloon.png */,
+				DE4E1BEE1845CB8F00D43681 /* footer_baloon@2x.png */,
+				DE4E1BEF1845CB8F00D43681 /* footer_dialysis_reading.png */,
+				DE4E1BF01845CB8F00D43681 /* footer_dialysis_reading@2x.png */,
+				DE4E1BF11845CB8F00D43681 /* footer_divider.png */,
+				DE4E1BF21845CB8F00D43681 /* footer_divider@2x.png */,
+				DE4E1BF31845CB8F00D43681 /* footer_graph.png */,
+				DE4E1BF41845CB8F00D43681 /* footer_graph@2x.png */,
+				DE4E1BF51845CB8F00D43681 /* footer_info.png */,
+				DE4E1BF61845CB8F00D43681 /* footer_info@2x.png */,
+				DE4E1BF71845CB8F00D43681 /* gfrcalculatoricon.png */,
+				DE4E1BF81845CB8F00D43681 /* gfrcalculatoricon@2x.png */,
+				DE4E1BF91845CB8F00D43681 /* gobtn.png */,
+				DE4E1BFA1845CB8F00D43681 /* gobtn@2x.png */,
+				DE4E1BFB1845CB8F00D43681 /* goforappsbtn.png */,
+				DE4E1BFC1845CB8F00D43681 /* goforappsbtn@2x.png */,
+				DE4E1BFD1845CB8F00D43681 /* graph.png */,
+				DE4E1BFE1845CB8F00D43681 /* graph@2x.png */,
+				DE4E1BFF1845CB8F00D43681 /* graphbg.png */,
+				DE4E1C001845CB8F00D43681 /* graphbg@2x.png */,
+				DE4E1C011845CB8F00D43681 /* informationdeviderline.png */,
+				DE4E1C021845CB8F00D43681 /* informationdeviderline@2x.png */,
+				DE4E1C031845CB8F00D43681 /* informationtextbg.png */,
+				DE4E1C041845CB8F00D43681 /* informationtextbg@2x.png */,
+				DE4E1C051845CB8F00D43681 /* labicon.png */,
+				DE4E1C061845CB8F00D43681 /* labicon@2x.png */,
+				DE4E1C071845CB8F00D43681 /* logo.png */,
+				DE4E1C081845CB8F00D43681 /* logo@2x.png */,
+				DE4E1C091845CB8F00D43681 /* mainbg640960.png */,
+				DE4E1C0A1845CB8F00D43681 /* mainbg640960@2x.png */,
+				DE4E1C0B1845CB8F00D43681 /* more_icon.png */,
+				DE4E1C0C1845CB8F00D43681 /* more_icon@2x.png */,
+				DE4E1C0E1845CB8F00D43681 /* picture.png */,
+				DE4E1C0F1845CB8F00D43681 /* picture@2x.png */,
+				DE4E1C101845CB8F00D43681 /* pictureicon.png */,
+				DE4E1C111845CB8F00D43681 /* pictureicon@2x.png */,
+				DE4E1C121845CB8F00D43681 /* presonal_information-icon.png */,
+				DE4E1C131845CB8F00D43681 /* presonal_information-icon@2x.png */,
+				DE4E1C141845CB8F00D43681 /* save-btn.png */,
+				DE4E1C151845CB8F00D43681 /* save-btn@2x.png */,
+				DE4E1C161845CB8F00D43681 /* screen10devider.png */,
+				DE4E1C171845CB8F00D43681 /* screen10devider@2x.png */,
+				DE4E1C181845CB8F00D43681 /* screen10leftbg.png */,
+				DE4E1C191845CB8F00D43681 /* screen10leftbg@2x.png */,
+				DE4E1C1A1845CB8F00D43681 /* screen2_input.png */,
+				DE4E1C1B1845CB8F00D43681 /* screen2_input@2x.png */,
+				DE4E1C1C1845CB8F00D43681 /* screen2_phone_icon.png */,
+				DE4E1C1D1845CB8F00D43681 /* screen2_phone_icon@2x.png */,
+				DE4E1C1E1845CB8F00D43681 /* screen4textbg.png */,
+				DE4E1C1F1845CB8F00D43681 /* screen4textbg@2x.png */,
+				DE4E1C201845CB8F00D43681 /* screen6listmenu.png */,
+				DE4E1C211845CB8F00D43681 /* screen6listmenu@2x.png */,
+				DE4E1C221845CB8F00D43681 /* screen7plusbtn.png */,
+				DE4E1C231845CB8F00D43681 /* screen7plusbtn@2x.png */,
+				DE4E1C241845CB8F00D43681 /* screen7subtitle.png */,
+				DE4E1C251845CB8F00D43681 /* screen7subtitle@2x.png */,
+				DE4E1C261845CB8F00D43681 /* screen7textbg.png */,
+				DE4E1C271845CB8F00D43681 /* screen7textbg@2x.png */,
+				DE4E1C281845CB8F00D43681 /* screen8datebg.png */,
+				DE4E1C291845CB8F00D43681 /* screen8datebg@2x.png */,
+				DE4E1C2A1845CB8F00D43681 /* screen8imagesize.png */,
+				DE4E1C2B1845CB8F00D43681 /* screen8imagesize@2x.png */,
+				DE4E1C2C1845CB8F00D43681 /* screen8removebtn.png */,
+				DE4E1C2D1845CB8F00D43681 /* screen8removebtn@2x.png */,
+				DE4E1C2E1845CB8F00D43681 /* screen9selectedtab.png */,
+				DE4E1C2F1845CB8F00D43681 /* screen9selectedtab@2x.png */,
+				DE4E1C301845CB8F00D43681 /* screen9selectedtabblue.png */,
+				DE4E1C311845CB8F00D43681 /* screen9selectedtabblue@2x.png */,
+				DE4E1C321845CB8F00D43681 /* screen9subtitle.png */,
+				DE4E1C331845CB8F00D43681 /* screen9subtitle@2x.png */,
+				DE4E1C341845CB8F00D43681 /* screen9subtitleblue.png */,
+				DE4E1C351845CB8F00D43681 /* screen9subtitleblue@2x.png */,
+				DE4E1C361845CB8F00D43681 /* splashscreenlogo.png */,
+				DE4E1C371845CB8F00D43681 /* splashscreenlogo@2x.png */,
+				DE4E1C381845CB8F00D43681 /* titlebg.png */,
+				DE4E1C391845CB8F00D43681 /* titlebg@2x.png */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		DE5A6662184A13D700742BEA /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE4E1CD918460E5000D43681 /* InfoCell.h */,
+				DE4E1CDA18460E5000D43681 /* InfoCell.m */,
+				DE4E1CDC18460E5B00D43681 /* InfoCell.xib */,
+				DE5A6660184A12DC00742BEA /* InfoCell_iPad.xib */,
+				DE4E1CE518461B3B00D43681 /* PersonalInformationCell.h */,
+				DE4E1CE618461B3B00D43681 /* PersonalInformationCell.m */,
+				DE4E1CE818461B6200D43681 /* PersonalInformationCell.xib */,
+				DE5A6663184A151600742BEA /* PersonalInformationCell_iPad.xib */,
+				DE4F2BE818475CB9001F83C4 /* DialysisReadingCell.h */,
+				DE4F2BE918475CB9001F83C4 /* DialysisReadingCell.m */,
+				DE4F2BEB18475CD7001F83C4 /* DialysisReadingCell.xib */,
+				DE5A6665184A167C00742BEA /* DialysisReadingCell_iPad.xib */,
+				DE14CA4C18485CAF009D3642 /* PicturesCell.h */,
+				DE14CA4D18485CAF009D3642 /* PicturesCell.m */,
+				DE14CA4F18485CC8009D3642 /* PicturesCell.xib */,
+				DE251D57184C4999008C9561 /* PicturesCell_iPad.xib */,
+				DE14CA511848681E009D3642 /* BallonAngioplastyCell.h */,
+				DE14CA521848681E009D3642 /* BallonAngioplastyCell.m */,
+				DE14CA541848683C009D3642 /* BallonAngioplastyCell.xib */,
+				DE251D59184C49EB008C9561 /* BallonAngioplastyCell_iPad.xib */,
+				DE1A1B0618488BFE00A879AB /* BloodPressureCell.h */,
+				DE1A1B0718488BFE00A879AB /* BloodPressureCell.m */,
+				DE1A1B0D18488C4500A879AB /* BloodPressureCell.xib */,
+				DE251D5B184C4AD0008C9561 /* BloodPressureCell_iPad.xib */,
+				DE1A1B1918489BA700A879AB /* LabViewCell.h */,
+				DE1A1B1A18489BA700A879AB /* LabViewCell.m */,
+				DE1A1B2018489ECF00A879AB /* LabViewCell.xib */,
+				DE251D5D184C4B27008C9561 /* LabViewCell_iPad.xib */,
+				DE1A1B2C1848B80500A879AB /* MedicineCell.h */,
+				DE1A1B2D1848B80500A879AB /* MedicineCell.m */,
+				DE1A1B331848B89300A879AB /* MedicineCell.xib */,
+				DE251D5F184C4BC3008C9561 /* MedicineCell_iPad.xib */,
+				DE26191B186BFA49001622F4 /* GFRCell.h */,
+				DE26191C186BFA49001622F4 /* GFRCell.m */,
+				DE26191E186BFA84001622F4 /* GFRCell_iPhone.xib */,
+				DE261920186BFA9A001622F4 /* GFRCell_iPad.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		DE6A336C1845B86B004277F6 = {
+			isa = PBXGroup;
+			children = (
+				DE4E1BD81845C50F00D43681 /* libsqlite3.dylib */,
+				DE6A33811845B86B004277F6 /* Dialysis_New */,
+				DE6A337A1845B86B004277F6 /* Frameworks */,
+				DE6A33781845B86B004277F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6A33781845B86B004277F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33771845B86B004277F6 /* Dialysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6A337A1845B86B004277F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE78D354184C937D0023B100 /* QuartzCore.framework */,
+				DE6A337B1845B86B004277F6 /* UIKit.framework */,
+				DE6A337D1845B86B004277F6 /* Foundation.framework */,
+				DE6A337F1845B86B004277F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6A33811845B86B004277F6 /* Dialysis_New */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A6662184A13D700742BEA /* CustomCell */,
+				DE6A33A11845B905004277F6 /* AppSecific */,
+				DE6A33A41845B905004277F6 /* FMDB */,
+				DE6A33AB1845B905004277F6 /* Resources */,
+				DE6A33B01845B905004277F6 /* Utility */,
+				DE6A33B31845B905004277F6 /* ViewController */,
+				DE6A33821845B86B004277F6 /* Supporting Files */,
+			);
+			path = Dialysis_New;
+			sourceTree = "<group>";
+		};
+		DE6A33821845B86B004277F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9D258118530210007F185B /* Default-Portrait@2x.png */,
+				DE2CEF6F18509EA400DFE2C2 /* Icon-29.png */,
+				DE2CEF7018509EA400DFE2C2 /* Icon-29@2x.png */,
+				DE2CEF7118509EA400DFE2C2 /* Icon-40.png */,
+				DE2CEF7218509EA400DFE2C2 /* Icon-40@2x.png */,
+				DE2CEF7318509EA400DFE2C2 /* Icon-50.png */,
+				DE2CEF7418509EA400DFE2C2 /* Icon-50@2x.png */,
+				DE2CEF7518509EA400DFE2C2 /* Icon-76.png */,
+				DE2CEF7618509EA400DFE2C2 /* Icon-76@2x.png */,
+				DE2CEF7718509EA400DFE2C2 /* Icon-80.png */,
+				DE2CEF7818509EA400DFE2C2 /* Icon-120.png */,
+				DE2CEF7918509EA400DFE2C2 /* Icon-iPad.png */,
+				DE2CEF7A18509EA400DFE2C2 /* Icon-iPad@2x.png */,
+				DE2CEF7B18509EA400DFE2C2 /* Icon.png */,
+				DE2CEF7C18509EA400DFE2C2 /* Icon@2x.png */,
+				DE2CEF6B18509B8000DFE2C2 /* Default-Portrait.png */,
+				DE6A33831845B86B004277F6 /* Dialysis_New-Info.plist */,
+				DE6A33841845B86B004277F6 /* InfoPlist.strings */,
+				DE6A33871845B86B004277F6 /* main.m */,
+				DE6A33891845B86B004277F6 /* Dialysis_New-Prefix.pch */,
+				DE6A338D1845B86C004277F6 /* Default.png */,
+				DE6A338F1845B86C004277F6 /* Default@2x.png */,
+				DE6A33911845B86C004277F6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE6A33A11845B905004277F6 /* AppSecific */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33A21845B905004277F6 /* AppDelegate.h */,
+				DE6A33A31845B905004277F6 /* AppDelegate.m */,
+				DE6A33BE1845B917004277F6 /* AppConstant.h */,
+			);
+			path = AppSecific;
+			sourceTree = "<group>";
+		};
+		DE6A33A41845B905004277F6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33A51845B905004277F6 /* FMDatabase.h */,
+				DE6A33A61845B905004277F6 /* FMDatabase.m */,
+				DE6A33A91845B905004277F6 /* FMResultSet.h */,
+				DE6A33AA1845B905004277F6 /* FMResultSet.m */,
+				DE6A33BF1845B935004277F6 /* DataManager.h */,
+				DE6A33C01845B935004277F6 /* DataManager.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		DE6A33AB1845B905004277F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE42AE31189A479A00A6B6FC /* Html */,
+				DE6A33CA1845BE3A004277F6 /* DB */,
+				DE6A33AC1845B905004277F6 /* Images */,
+				DE6A33AD1845B905004277F6 /* Nibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE6A33AC1845B905004277F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DE4E1BDA1845CB8F00D43681 /* iPad */,
+				DE4E1BDB1845CB8F00D43681 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DE6A33AD1845B905004277F6 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33AE1845B905004277F6 /* ViewController_iPad.xib */,
+				DE6A33AF1845B905004277F6 /* ViewController_iPhone.xib */,
+				DE4E1CAA1845CFFF00D43681 /* InformationViewController_iPhone.xib */,
+				DE4E1CAC1845D01C00D43681 /* InformationViewController_iPad.xib */,
+				DE4E1CAE1845D82700D43681 /* PersonalInformationViewController_iPhone.xib */,
+				DE4E1CB01845D84500D43681 /* PersonalInformationViewController_iPad.xib */,
+				DE4E1CB21845D86400D43681 /* DialysisViewController_iPhone.xib */,
+				DE4E1CB41845D87D00D43681 /* DialysisViewController_iPad.xib */,
+				DE4E1CB61845E68900D43681 /* BallonViewController_iPhone.xib */,
+				DE4E1CB81845E6A400D43681 /* BallonViewController_iPad.xib */,
+				DE4E1CBA1845E6E000D43681 /* GraphViewController_iPhone.xib */,
+				DE4E1CBC1845E6F600D43681 /* GraphViewController_iPad.xib */,
+				DE4E1CD518460C9700D43681 /* FirstViewController_iPhone.xib */,
+				DE4E1CD718460CB400D43681 /* FirstViewController_iPad.xib */,
+				DE4E1CE11846115400D43681 /* EditPersonalInfoViewController_iPhone.xib */,
+				DE4E1CE31846117100D43681 /* EditPersonalInfoViewController_iPad.xib */,
+				DE4F2BE418473F91001F83C4 /* AddDialysisViewController_iPhone.xib */,
+				DEF20205184A0A0B005AF552 /* AddDialysisViewController_iPad.xib */,
+				DE4F2BF01847775B001F83C4 /* GFRInfoViewController_iPhone.xib */,
+				DE4F2BF21847777A001F83C4 /* GFRInfoViewController_iPad.xib */,
+				DE14CA48184854CD009D3642 /* PicturesViewController_iPhone.xib */,
+				DE14CA4A1848551F009D3642 /* PicturesViewController_iPad.xib */,
+				FE9EF8B8187FF79F00634196 /* imageViewController_iPhone.xib */,
+				FE9FD30918801D7F00783C93 /* imageViewController_iPad.xib */,
+				DE14CA5918486A21009D3642 /* AddBallonAngioPlastyViewController_iPhone.xib */,
+				DE14CA5B18486A32009D3642 /* AddBallonAngioPlastyViewController_iPad.xib */,
+				DE14CA6018487750009D3642 /* AddBloodPressureViewController_iPhone.xib */,
+				DE1A1B011848780C00A879AB /* AddBloodPressureViewController_iPad.xib */,
+				DE1A1B0918488C1B00A879AB /* BloodPressureViewController_iPhone.xib */,
+				DE1A1B0B18488C2F00A879AB /* BloodPressureViewController_iPad.xib */,
+				DE1A1B121848962300A879AB /* AddLabViewController_iPhone.xib */,
+				DE1A1B141848963900A879AB /* AddLabViewController_iPad.xib */,
+				DE1A1B1C18489E8900A879AB /* LabViewController_iPhone.xib */,
+				DE1A1B1E18489E9C00A879AB /* LabViewController_iPad.xib */,
+				DE1A1B251848B33000A879AB /* AddMedicineViewController_iPhone.xib */,
+				DE1A1B271848B34200A879AB /* AddMedicineViewController_iPad.xib */,
+				DE1A1B2F1848B82800A879AB /* MedicineViewController_iPhone.xib */,
+				DE1A1B311848B83D00A879AB /* MedicineViewController_iPad.xib */,
+				DE9D25791852F1DA007F185B /* GFRCalculatorViewController_iPhone.xib */,
+				DE9D257B1852F1F5007F185B /* GFRCalculatorViewController_iPad.xib */,
+				DE261917186BF4E9001622F4 /* GFRViewController_iPhone.xib */,
+				DE261919186BF53D001622F4 /* GFRViewController_iPad.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		DE6A33B01845B905004277F6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DE04B9E71897D734005324F0 /* WSScatterChartView.h */,
+				DE04B9E81897D734005324F0 /* WSScatterChartView.m */,
+				DE78D330184C92490023B100 /* Chart Layers */,
+				DE78D341184C92490023B100 /* Global */,
+				DE78D32D184C91270023B100 /* WSLineChartView.h */,
+				DE78D32E184C91270023B100 /* WSLineChartView.m */,
+				DE6A33B11845B905004277F6 /* Utility.h */,
+				DE6A33B21845B905004277F6 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DE6A33B31845B905004277F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33B41845B905004277F6 /* ViewController.h */,
+				DE6A33B51845B905004277F6 /* ViewController.m */,
+				DE4E1C9B1845CD6800D43681 /* PersonalInformationViewController.h */,
+				DE4E1C9C1845CD6800D43681 /* PersonalInformationViewController.m */,
+				DE4E1C9E1845CD7B00D43681 /* DialysisViewController.h */,
+				DE4E1C9F1845CD7B00D43681 /* DialysisViewController.m */,
+				DE4E1CA11845CD8C00D43681 /* BallonViewController.h */,
+				DE4E1CA21845CD8C00D43681 /* BallonViewController.m */,
+				DE4E1CA41845CD9D00D43681 /* GraphViewController.h */,
+				DE4E1CA51845CD9D00D43681 /* GraphViewController.m */,
+				DE4E1CA71845CFCF00D43681 /* InformationViewController.h */,
+				DE4E1CA81845CFCF00D43681 /* InformationViewController.m */,
+				DE4E1CD218460C7D00D43681 /* FirstViewController.h */,
+				DE4E1CD318460C7D00D43681 /* FirstViewController.m */,
+				DE4E1CDE1846113000D43681 /* EditPersonalInfoViewController.h */,
+				DE4E1CDF1846113000D43681 /* EditPersonalInfoViewController.m */,
+				DE4F2BE118473F75001F83C4 /* AddDialysisViewController.h */,
+				DE4F2BE218473F75001F83C4 /* AddDialysisViewController.m */,
+				DE4F2BED18477739001F83C4 /* GFRInfoViewController.h */,
+				DE4F2BEE18477739001F83C4 /* GFRInfoViewController.m */,
+				DE14CA45184854AC009D3642 /* PicturesViewController.h */,
+				DE14CA46184854AC009D3642 /* PicturesViewController.m */,
+				FE9EF8B6187FF79F00634196 /* imageViewController.h */,
+				FE9EF8B7187FF79F00634196 /* imageViewController.m */,
+				DE14CA56184869AD009D3642 /* AddBallonAngioPlastyViewController.h */,
+				DE14CA57184869AD009D3642 /* AddBallonAngioPlastyViewController.m */,
+				DE14CA5D18487714009D3642 /* AddBloodPressureViewController.h */,
+				DE14CA5E18487714009D3642 /* AddBloodPressureViewController.m */,
+				DE1A1B0318488BE200A879AB /* BloodPressureViewController.h */,
+				DE1A1B0418488BE200A879AB /* BloodPressureViewController.m */,
+				DE1A1B0F1848960100A879AB /* AddLabViewController.h */,
+				DE1A1B101848960100A879AB /* AddLabViewController.m */,
+				DE1A1B1618489B8900A879AB /* LabViewController.h */,
+				DE1A1B1718489B8900A879AB /* LabViewController.m */,
+				DE1A1B221848B30400A879AB /* AddMedicineViewController.h */,
+				DE1A1B231848B30400A879AB /* AddMedicineViewController.m */,
+				DE1A1B291848B7E200A879AB /* MedicineViewController.h */,
+				DE1A1B2A1848B7E200A879AB /* MedicineViewController.m */,
+				DE9D25761852F1AB007F185B /* GFRCalculatorViewController.h */,
+				DE9D25771852F1AB007F185B /* GFRCalculatorViewController.m */,
+				DE261914186BF4C4001622F4 /* GFRViewController.h */,
+				DE261915186BF4C4001622F4 /* GFRViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE6A33CA1845BE3A004277F6 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A33CB1845BE3A004277F6 /* Dialysis.sqlite */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		DE78D330184C92490023B100 /* Chart Layers */ = {
+			isa = PBXGroup;
+			children = (
+				DE78D331184C92490023B100 /* WSAreaLayer.h */,
+				DE78D332184C92490023B100 /* WSAreaLayer.m */,
+				DE78D333184C92490023B100 /* WSBarLayer.h */,
+				DE78D334184C92490023B100 /* WSBarLayer.m */,
+				DE78D335184C92490023B100 /* WSColumnLayer.h */,
+				DE78D336184C92490023B100 /* WSColumnLayer.m */,
+				DE78D337184C92490023B100 /* WSCoordinateLayer.h */,
+				DE78D338184C92490023B100 /* WSCoordinateLayer.m */,
+				DE78D339184C92490023B100 /* WSLegendLayer.h */,
+				DE78D33A184C92490023B100 /* WSLegendLayer.m */,
+				DE78D33B184C92490023B100 /* WSLineLayer.h */,
+				DE78D33C184C92490023B100 /* WSLineLayer.m */,
+				DE78D33D184C92490023B100 /* WSScatterLayer.h */,
+				DE78D33E184C92490023B100 /* WSScatterLayer.m */,
+				DE78D33F184C92490023B100 /* WSTopLeftCoordinateLayer.h */,
+				DE78D340184C92490023B100 /* WSTopLeftCoordinateLayer.m */,
+			);
+			path = "Chart Layers";
+			sourceTree = "<group>";
+		};
+		DE78D341184C92490023B100 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				DE78D342184C92490023B100 /* WSBaseChartDelegate.h */,
+				DE78D343184C92490023B100 /* WSBaseChartView.h */,
+				DE78D344184C92490023B100 /* WSBaseChartView.m */,
+				DE78D345184C92490023B100 /* WSChartObject.h */,
+				DE78D346184C92490023B100 /* WSChartObject.m */,
+				DE78D347184C92490023B100 /* WSGlobalCore.h */,
+				DE78D348184C92490023B100 /* WSGlobalCore.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6A33761845B86B004277F6 /* Dialysis_New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6A339E1845B86C004277F6 /* Build configuration list for PBXNativeTarget "Dialysis_New" */;
+			buildPhases = (
+				DE6A33731845B86B004277F6 /* Sources */,
+				DE6A33741845B86B004277F6 /* Frameworks */,
+				DE6A33751845B86B004277F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dialysis_New;
+			productName = Dialysis_New;
+			productReference = DE6A33771845B86B004277F6 /* Dialysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6A336E1845B86B004277F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "N-Tech";
+			};
+			buildConfigurationList = DE6A33711845B86B004277F6 /* Build configuration list for PBXProject "Dialysis_New" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6A336C1845B86B004277F6;
+			productRefGroup = DE6A33781845B86B004277F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6A33761845B86B004277F6 /* Dialysis_New */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6A33751845B86B004277F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE42AE3A189A53A800A6B6FC /* exporting.js in Resources */,
+				DE42AE3B189A53A800A6B6FC /* highcharts.js in Resources */,
+				DE42AE3C189A53A800A6B6FC /* jquery-1.10.2.min.js in Resources */,
+				DE6A33861845B86B004277F6 /* InfoPlist.strings in Resources */,
+				DE6A338E1845B86C004277F6 /* Default.png in Resources */,
+				DE78D31F184C84AA0023B100 /* tabInfoSelected.png in Resources */,
+				DE6A33901845B86C004277F6 /* Default@2x.png in Resources */,
+				DE6A33921845B86C004277F6 /* Default-568h@2x.png in Resources */,
+				DE78D315184C84AA0023B100 /* tabGraph.png in Resources */,
+				DE14CA5C18486A32009D3642 /* AddBallonAngioPlastyViewController_iPad.xib in Resources */,
+				DE2CEF7D18509EA400DFE2C2 /* Icon-29.png in Resources */,
+				DE4F2BEC18475CD7001F83C4 /* DialysisReadingCell.xib in Resources */,
+				DEA1F9C1184C62850072FDEC /* graph_iPad.png in Resources */,
+				DE6A33BA1845B905004277F6 /* ViewController_iPad.xib in Resources */,
+				DE6A33BB1845B905004277F6 /* ViewController_iPhone.xib in Resources */,
+				DEF20206184A0A0B005AF552 /* AddDialysisViewController_iPad.xib in Resources */,
+				DE78D31B184C84AA0023B100 /* tabHomeSelected.png in Resources */,
+				DE78D32C184C86CF0023B100 /* gfrInfo@2x.png in Resources */,
+				DE6A33CC1845BE3A004277F6 /* Dialysis.sqlite in Resources */,
+				DECA09B41849E01D00DA9289 /* navigation_iPad.png in Resources */,
+				DE2CEF8118509EA400DFE2C2 /* Icon-50.png in Resources */,
+				DEA1F9C2184C62850072FDEC /* graph_iPad@2x.png in Resources */,
+				DE4E1C3A1845CB8F00D43681 /* add_medicine.png in Resources */,
+				DEA1F9BE184C62850072FDEC /* calculator_iPad@2x.png in Resources */,
+				DE4E1C3B1845CB8F00D43681 /* add_medicine@2x.png in Resources */,
+				DE4E1C3C1845CB8F00D43681 /* alertmessagebox.png in Resources */,
+				DE4E1C3D1845CB8F00D43681 /* alertmessagebox@2x.png in Resources */,
+				DE78D329184C86CF0023B100 /* bloodPressure.png in Resources */,
+				DEA1F9C0184C62850072FDEC /* dialysis_iPad@2x.png in Resources */,
+				DE78D319184C84AA0023B100 /* tabHome.png in Resources */,
+				DE4F2BF31847777A001F83C4 /* GFRInfoViewController_iPad.xib in Resources */,
+				DE4E1C3E1845CB8F00D43681 /* alertsavebtn.png in Resources */,
+				DE2CEF7E18509EA400DFE2C2 /* Icon-29@2x.png in Resources */,
+				DE78D31A184C84AA0023B100 /* tabHome@2x.png in Resources */,
+				DE4E1C3F1845CB8F00D43681 /* alertsavebtn@2x.png in Resources */,
+				DEA1F9CA184C62850072FDEC /* presonalInfo_iPad@2x.png in Resources */,
+				DE1A1B1F18489E9C00A879AB /* LabViewController_iPad.xib in Resources */,
+				DE4E1C401845CB8F00D43681 /* back-btn.png in Resources */,
+				DE4E1C411845CB8F00D43681 /* back-btn@2x.png in Resources */,
+				DE4E1C421845CB8F00D43681 /* baloon_angi.png in Resources */,
+				DE4E1C431845CB8F00D43681 /* baloon_angi@2x.png in Resources */,
+				DEA1F9D2184C64000072FDEC /* cellBackground@2x.png in Resources */,
+				DE4E1C441845CB8F00D43681 /* changebtn.png in Resources */,
+				DEA1F9C7184C62850072FDEC /* picture_iPad.png in Resources */,
+				DE4E1C451845CB8F00D43681 /* changebtn@2x.png in Resources */,
+				DE4E1C491845CB8F00D43681 /* dialysis_reading.png in Resources */,
+				DE4E1C4A1845CB8F00D43681 /* dialysis_reading@2x.png in Resources */,
+				DE4E1C4B1845CB8F00D43681 /* footer_baloon.png in Resources */,
+				DE1A1B1D18489E8900A879AB /* LabViewController_iPhone.xib in Resources */,
+				DE4E1C4C1845CB8F00D43681 /* footer_baloon@2x.png in Resources */,
+				DE2CEF8318509EA400DFE2C2 /* Icon-76.png in Resources */,
+				DE2CEF8718509EA400DFE2C2 /* Icon-iPad.png in Resources */,
+				DE2CEF8618509EA400DFE2C2 /* Icon-120.png in Resources */,
+				DE4E1C4D1845CB8F00D43681 /* footer_dialysis_reading.png in Resources */,
+				DE4E1C4E1845CB8F00D43681 /* footer_dialysis_reading@2x.png in Resources */,
+				DE14CA49184854CD009D3642 /* PicturesViewController_iPhone.xib in Resources */,
+				DE78D320184C84AA0023B100 /* tabInfoSelected@2x.png in Resources */,
+				DE4E1C4F1845CB8F00D43681 /* footer_divider.png in Resources */,
+				DE4E1C501845CB8F00D43681 /* footer_divider@2x.png in Resources */,
+				DE4E1C511845CB8F00D43681 /* footer_graph.png in Resources */,
+				DE4E1C521845CB8F00D43681 /* footer_graph@2x.png in Resources */,
+				DE261918186BF4E9001622F4 /* GFRViewController_iPhone.xib in Resources */,
+				DECA09B31849E01D00DA9289 /* line_ipad@2x.png in Resources */,
+				DE4E1C531845CB8F00D43681 /* footer_info.png in Resources */,
+				DE4E1C541845CB8F00D43681 /* footer_info@2x.png in Resources */,
+				DE4E1C551845CB8F00D43681 /* gfrcalculatoricon.png in Resources */,
+				DE4E1C561845CB8F00D43681 /* gfrcalculatoricon@2x.png in Resources */,
+				DE4E1C571845CB8F00D43681 /* gobtn.png in Resources */,
+				DE4E1C581845CB8F00D43681 /* gobtn@2x.png in Resources */,
+				DE4E1C591845CB8F00D43681 /* goforappsbtn.png in Resources */,
+				DEA1F9D9184C65F40072FDEC /* arrow.png in Resources */,
+				DE4E1C5A1845CB8F00D43681 /* goforappsbtn@2x.png in Resources */,
+				DEA1F9D1184C64000072FDEC /* cellBackground.png in Resources */,
+				DE4E1C5B1845CB8F00D43681 /* graph.png in Resources */,
+				DE4E1C5C1845CB8F00D43681 /* graph@2x.png in Resources */,
+				DE4E1C5D1845CB8F00D43681 /* graphbg.png in Resources */,
+				DE78D304184C821D0023B100 /* txtField_iPad@2x.png in Resources */,
+				DE78D322184C84AA0023B100 /* tabMedicine@2x.png in Resources */,
+				DE4E1C5E1845CB8F00D43681 /* graphbg@2x.png in Resources */,
+				DE4E1C5F1845CB8F00D43681 /* informationdeviderline.png in Resources */,
+				DE4E1C601845CB8F00D43681 /* informationdeviderline@2x.png in Resources */,
+				DE4E1C611845CB8F00D43681 /* informationtextbg.png in Resources */,
+				DE4E1C621845CB8F00D43681 /* informationtextbg@2x.png in Resources */,
+				DE4E1C631845CB8F00D43681 /* labicon.png in Resources */,
+				DE4E1C641845CB8F00D43681 /* labicon@2x.png in Resources */,
+				DE4E1C651845CB8F00D43681 /* logo.png in Resources */,
+				DE1A1B021848780C00A879AB /* AddBloodPressureViewController_iPad.xib in Resources */,
+				DE4E1C661845CB8F00D43681 /* logo@2x.png in Resources */,
+				DE4E1C671845CB8F00D43681 /* mainbg640960.png in Resources */,
+				DE2CEF8918509EA400DFE2C2 /* Icon.png in Resources */,
+				DE78D323184C84AA0023B100 /* tabMedicineSelected.png in Resources */,
+				DE2CEF6D18509B8000DFE2C2 /* Default-Portrait.png in Resources */,
+				DEA3904E18B4BED6001A45B6 /* graph1.htm in Resources */,
+				DE4E1C681845CB8F00D43681 /* mainbg640960@2x.png in Resources */,
+				DE4E1C691845CB8F00D43681 /* more_icon.png in Resources */,
+				DE4E1C6A1845CB8F00D43681 /* more_icon@2x.png in Resources */,
+				DE4E1C6B1845CB8F00D43681 /* picture.png in Resources */,
+				DE4E1C6C1845CB8F00D43681 /* picture@2x.png in Resources */,
+				DE4E1C6D1845CB8F00D43681 /* pictureicon.png in Resources */,
+				DE4E1C6E1845CB8F00D43681 /* pictureicon@2x.png in Resources */,
+				DE4E1C6F1845CB8F00D43681 /* presonal_information-icon.png in Resources */,
+				DE4E1C701845CB8F00D43681 /* presonal_information-icon@2x.png in Resources */,
+				DE1A1B321848B83D00A879AB /* MedicineViewController_iPad.xib in Resources */,
+				DE2CEF8018509EA400DFE2C2 /* Icon-40@2x.png in Resources */,
+				DECA09B71849E01D00DA9289 /* smartKidney_ipad@2x.png in Resources */,
+				DE4E1C711845CB8F00D43681 /* save-btn.png in Resources */,
+				DE2CEF8518509EA400DFE2C2 /* Icon-80.png in Resources */,
+				DE1A1B0E18488C4500A879AB /* BloodPressureCell.xib in Resources */,
+				DE251D5E184C4B27008C9561 /* LabViewCell_iPad.xib in Resources */,
+				DECA09B51849E01D00DA9289 /* navigation_ipad@2x.png in Resources */,
+				DEA1F9C9184C62850072FDEC /* presonalInfo_iPad.png in Resources */,
+				DE4E1C721845CB8F00D43681 /* save-btn@2x.png in Resources */,
+				DE1A1B0C18488C2F00A879AB /* BloodPressureViewController_iPad.xib in Resources */,
+				DECA09B01849E01D00DA9289 /* goButton_ipad.png in Resources */,
+				DE78D31C184C84AA0023B100 /* tabHomeSelected@2x.png in Resources */,
+				DEA1F9BD184C62850072FDEC /* calculator_iPad.png in Resources */,
+				DE1A1B281848B34200A879AB /* AddMedicineViewController_iPad.xib in Resources */,
+				DE1A1B2118489ECF00A879AB /* LabViewCell.xib in Resources */,
+				DE78D32B184C86CF0023B100 /* gfrInfo.png in Resources */,
+				DE5A6666184A167C00742BEA /* DialysisReadingCell_iPad.xib in Resources */,
+				DE4E1C731845CB8F00D43681 /* screen10devider.png in Resources */,
+				DE4E1C741845CB8F00D43681 /* screen10devider@2x.png in Resources */,
+				DE4E1C751845CB8F00D43681 /* screen10leftbg.png in Resources */,
+				DE4E1C761845CB8F00D43681 /* screen10leftbg@2x.png in Resources */,
+				DE4E1C771845CB8F00D43681 /* screen2_input.png in Resources */,
+				DE4E1C781845CB8F00D43681 /* screen2_input@2x.png in Resources */,
+				DE4E1C791845CB8F00D43681 /* screen2_phone_icon.png in Resources */,
+				DE2CEF8418509EA400DFE2C2 /* Icon-76@2x.png in Resources */,
+				DE1A1B261848B33000A879AB /* AddMedicineViewController_iPhone.xib in Resources */,
+				DE14CA5A18486A21009D3642 /* AddBallonAngioPlastyViewController_iPhone.xib in Resources */,
+				DEA1F9D5184C64590072FDEC /* cellBackground_iPad.png in Resources */,
+				DE4E1C7A1845CB8F00D43681 /* screen2_phone_icon@2x.png in Resources */,
+				DE4E1C7B1845CB8F00D43681 /* screen4textbg.png in Resources */,
+				DE4E1C7C1845CB8F00D43681 /* screen4textbg@2x.png in Resources */,
+				DE4E1C7D1845CB8F00D43681 /* screen6listmenu.png in Resources */,
+				DE4E1C7E1845CB8F00D43681 /* screen6listmenu@2x.png in Resources */,
+				DE4E1C7F1845CB8F00D43681 /* screen7plusbtn.png in Resources */,
+				DE4E1C801845CB8F00D43681 /* screen7plusbtn@2x.png in Resources */,
+				DEA1F9C4184C62850072FDEC /* lab_iPad@2x.png in Resources */,
+				DE4E1C811845CB8F00D43681 /* screen7subtitle.png in Resources */,
+				DE1A1B0A18488C1B00A879AB /* BloodPressureViewController_iPhone.xib in Resources */,
+				DE4F2BE018472208001F83C4 /* personalInfoCell@2x.png in Resources */,
+				DE4E1C821845CB8F00D43681 /* screen7subtitle@2x.png in Resources */,
+				DE251D60184C4BC3008C9561 /* MedicineCell_iPad.xib in Resources */,
+				DE4E1C831845CB8F00D43681 /* screen7textbg.png in Resources */,
+				DECA09B11849E01D00DA9289 /* goButton_iPad@2x.png in Resources */,
+				DE4E1C841845CB8F00D43681 /* screen7textbg@2x.png in Resources */,
+				DE4F2BE518473F91001F83C4 /* AddDialysisViewController_iPhone.xib in Resources */,
+				DE4E1C851845CB8F00D43681 /* screen8datebg.png in Resources */,
+				DE4E1C861845CB8F00D43681 /* screen8datebg@2x.png in Resources */,
+				DEA1F9C5184C62850072FDEC /* medicine_iPad.png in Resources */,
+				DE251D5A184C49EB008C9561 /* BallonAngioplastyCell_iPad.xib in Resources */,
+				DE4E1C871845CB8F00D43681 /* screen8imagesize.png in Resources */,
+				DECA09B21849E01D00DA9289 /* line_iPad.png in Resources */,
+				DE4E1C881845CB8F00D43681 /* screen8imagesize@2x.png in Resources */,
+				DE78D303184C821D0023B100 /* txtField_iPad.png in Resources */,
+				DE42AE37189A479B00A6B6FC /* graph.htm in Resources */,
+				DE251D58184C4999008C9561 /* PicturesCell_iPad.xib in Resources */,
+				DE4E1C891845CB8F00D43681 /* screen8removebtn.png in Resources */,
+				DE4E1C8A1845CB8F00D43681 /* screen8removebtn@2x.png in Resources */,
+				DE9D257C1852F1F5007F185B /* GFRCalculatorViewController_iPad.xib in Resources */,
+				DE1A1B341848B89300A879AB /* MedicineCell.xib in Resources */,
+				DE4E1C8B1845CB8F00D43681 /* screen9selectedtab.png in Resources */,
+				DE4E1C8C1845CB8F00D43681 /* screen9selectedtab@2x.png in Resources */,
+				DE4E1C8D1845CB8F00D43681 /* screen9selectedtabblue.png in Resources */,
+				DE26191F186BFA84001622F4 /* GFRCell_iPhone.xib in Resources */,
+				DE5A6661184A12DD00742BEA /* InfoCell_iPad.xib in Resources */,
+				FE9EF8BA187FF79F00634196 /* imageViewController_iPhone.xib in Resources */,
+				DE9D258218530210007F185B /* Default-Portrait@2x.png in Resources */,
+				DE251D5C184C4AD0008C9561 /* BloodPressureCell_iPad.xib in Resources */,
+				DE5A6664184A151600742BEA /* PersonalInformationCell_iPad.xib in Resources */,
+				DE4E1C8E1845CB8F00D43681 /* screen9selectedtabblue@2x.png in Resources */,
+				DE4E1C8F1845CB8F00D43681 /* screen9subtitle.png in Resources */,
+				DE1A1B131848962300A879AB /* AddLabViewController_iPhone.xib in Resources */,
+				DEA1F9C8184C62850072FDEC /* picture_iPad@2x.png in Resources */,
+				DE4E1C901845CB8F00D43681 /* screen9subtitle@2x.png in Resources */,
+				DE4E1C911845CB8F00D43681 /* screen9subtitleblue.png in Resources */,
+				DEA1F9C6184C62850072FDEC /* medicine_iPad@2x.png in Resources */,
+				DE4E1C921845CB8F00D43681 /* screen9subtitleblue@2x.png in Resources */,
+				DE261921186BFA9A001622F4 /* GFRCell_iPad.xib in Resources */,
+				DE4E1C931845CB8F00D43681 /* splashscreenlogo.png in Resources */,
+				DE14CA6118487750009D3642 /* AddBloodPressureViewController_iPhone.xib in Resources */,
+				DE78D318184C84AA0023B100 /* tabGraphSelected@2x.png in Resources */,
+				DE4E1C941845CB8F00D43681 /* splashscreenlogo@2x.png in Resources */,
+				DE78D317184C84AA0023B100 /* tabGraphSelected.png in Resources */,
+				DE9D25801852F64D007F185B /* redioUnSelected.png in Resources */,
+				DE78D321184C84AA0023B100 /* tabMedicine.png in Resources */,
+				DEA1F9BC184C62850072FDEC /* bloodPressure_iPad@2x.png in Resources */,
+				DE2CEF7F18509EA400DFE2C2 /* Icon-40.png in Resources */,
+				DE9D257A1852F1DA007F185B /* GFRCalculatorViewController_iPhone.xib in Resources */,
+				DE4E1C951845CB8F00D43681 /* titlebg.png in Resources */,
+				DE4E1C961845CB8F00D43681 /* titlebg@2x.png in Resources */,
+				DE4E1CAB1845CFFF00D43681 /* InformationViewController_iPhone.xib in Resources */,
+				DEA1F9CE184C63580072FDEC /* gfrInfo_iPad@2x.png in Resources */,
+				DE26191A186BF53D001622F4 /* GFRViewController_iPad.xib in Resources */,
+				DE2CEF8A18509EA400DFE2C2 /* Icon@2x.png in Resources */,
+				DE9D257F1852F64D007F185B /* redioSelected.png in Resources */,
+				DE4E1CAD1845D01C00D43681 /* InformationViewController_iPad.xib in Resources */,
+				DE78D324184C84AA0023B100 /* tabMedicineSelected@2x.png in Resources */,
+				DE4E1CAF1845D82700D43681 /* PersonalInformationViewController_iPhone.xib in Resources */,
+				DEA1F9D6184C64590072FDEC /* cellBackgroung_iPad@2x.png in Resources */,
+				DEA1F9BB184C62850072FDEC /* bloodPressure_iPad.png in Resources */,
+				DE78D32A184C86CF0023B100 /* bloodPressure@2x.png in Resources */,
+				DE4E1CB11845D84500D43681 /* PersonalInformationViewController_iPad.xib in Resources */,
+				DEA1F9BA184C62850072FDEC /* baloon_iPad@2x.png in Resources */,
+				DE4E1CB31845D86400D43681 /* DialysisViewController_iPhone.xib in Resources */,
+				DECA09AF1849E01D00DA9289 /* background_iPad@2x.png in Resources */,
+				DE4E1CB51845D87D00D43681 /* DialysisViewController_iPad.xib in Resources */,
+				DE1A1B151848963900A879AB /* AddLabViewController_iPad.xib in Resources */,
+				DE4E1CB71845E68A00D43681 /* BallonViewController_iPhone.xib in Resources */,
+				DE4E1CB91845E6A400D43681 /* BallonViewController_iPad.xib in Resources */,
+				FE9FD30A18801D7F00783C93 /* imageViewController_iPad.xib in Resources */,
+				DE1A1B301848B82800A879AB /* MedicineViewController_iPhone.xib in Resources */,
+				DE2CEF8218509EA400DFE2C2 /* Icon-50@2x.png in Resources */,
+				DEA1F9DA184C65F40072FDEC /* arrow@2x.png in Resources */,
+				DECA09AE1849E01D00DA9289 /* background_iPad.png in Resources */,
+				90A21ED0188146DE009EC3B5 /* alart-bg-orange.png in Resources */,
+				DEA1F9B9184C62850072FDEC /* baloon_iPad.png in Resources */,
+				DE4E1CBB1845E6E000D43681 /* GraphViewController_iPhone.xib in Resources */,
+				DE14CA4B1848551F009D3642 /* PicturesViewController_iPad.xib in Resources */,
+				DE14CA5018485CC8009D3642 /* PicturesCell.xib in Resources */,
+				DE4F2BF11847775B001F83C4 /* GFRInfoViewController_iPhone.xib in Resources */,
+				DE2EE92D186EAF1C00B1B0A6 /* alertBackground.png in Resources */,
+				DECA09B61849E01D00DA9289 /* smartKidney_ipad.png in Resources */,
+				DE2CEF8818509EA400DFE2C2 /* Icon-iPad@2x.png in Resources */,
+				DE4E1CBD1845E6F600D43681 /* GraphViewController_iPad.xib in Resources */,
+				DE4E1CD618460C9700D43681 /* FirstViewController_iPhone.xib in Resources */,
+				DE78D31D184C84AA0023B100 /* tabInfo.png in Resources */,
+				DE4E1CD818460CB400D43681 /* FirstViewController_iPad.xib in Resources */,
+				DE78D31E184C84AA0023B100 /* tabInfo@2x.png in Resources */,
+				DE4E1CDD18460E5B00D43681 /* InfoCell.xib in Resources */,
+				DEA1F9BF184C62850072FDEC /* dialysis_iPad.png in Resources */,
+				DE4E1CE21846115400D43681 /* EditPersonalInfoViewController_iPhone.xib in Resources */,
+				DEA1F9CD184C63580072FDEC /* gfrInfo_iPad.png in Resources */,
+				DE14CA551848683C009D3642 /* BallonAngioplastyCell.xib in Resources */,
+				DE4E1CE41846117200D43681 /* EditPersonalInfoViewController_iPad.xib in Resources */,
+				DE4E1CE918461B6300D43681 /* PersonalInformationCell.xib in Resources */,
+				DE78D316184C84AA0023B100 /* tabGraph@2x.png in Resources */,
+				DEA1F9C3184C62850072FDEC /* lab_iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6A33731845B86B004277F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A1B1818489B8900A879AB /* LabViewController.m in Sources */,
+				DE6A33881845B86B004277F6 /* main.m in Sources */,
+				DE1A1B0818488BFE00A879AB /* BloodPressureCell.m in Sources */,
+				DE6A33B61845B905004277F6 /* AppDelegate.m in Sources */,
+				DE1A1B241848B30400A879AB /* AddMedicineViewController.m in Sources */,
+				DE6A33B71845B905004277F6 /* FMDatabase.m in Sources */,
+				DE6A33B91845B905004277F6 /* FMResultSet.m in Sources */,
+				DE1A1B2E1848B80500A879AB /* MedicineCell.m in Sources */,
+				DE6A33BC1845B905004277F6 /* Utility.m in Sources */,
+				DE6A33BD1845B905004277F6 /* ViewController.m in Sources */,
+				DE6A33C11845B935004277F6 /* DataManager.m in Sources */,
+				DE4F2BEF18477739001F83C4 /* GFRInfoViewController.m in Sources */,
+				DE1A1B0518488BE200A879AB /* BloodPressureViewController.m in Sources */,
+				DE14CA5F18487714009D3642 /* AddBloodPressureViewController.m in Sources */,
+				DE14CA4E18485CAF009D3642 /* PicturesCell.m in Sources */,
+				DE4E1C9D1845CD6800D43681 /* PersonalInformationViewController.m in Sources */,
+				DE78D34F184C92490023B100 /* WSScatterLayer.m in Sources */,
+				DE78D34D184C92490023B100 /* WSLegendLayer.m in Sources */,
+				FE9EF8B9187FF79F00634196 /* imageViewController.m in Sources */,
+				DE78D352184C92490023B100 /* WSChartObject.m in Sources */,
+				DE26191D186BFA49001622F4 /* GFRCell.m in Sources */,
+				DE4E1CA01845CD7B00D43681 /* DialysisViewController.m in Sources */,
+				DE4E1CA31845CD8C00D43681 /* BallonViewController.m in Sources */,
+				DE1A1B2B1848B7E200A879AB /* MedicineViewController.m in Sources */,
+				DE78D350184C92490023B100 /* WSTopLeftCoordinateLayer.m in Sources */,
+				DE78D34A184C92490023B100 /* WSBarLayer.m in Sources */,
+				DE4F2BE318473F76001F83C4 /* AddDialysisViewController.m in Sources */,
+				DE4E1CA61845CD9D00D43681 /* GraphViewController.m in Sources */,
+				DE78D34E184C92490023B100 /* WSLineLayer.m in Sources */,
+				DE4E1CA91845CFCF00D43681 /* InformationViewController.m in Sources */,
+				DE4E1CD418460C7E00D43681 /* FirstViewController.m in Sources */,
+				DE4F2BEA18475CB9001F83C4 /* DialysisReadingCell.m in Sources */,
+				DE9D25781852F1AB007F185B /* GFRCalculatorViewController.m in Sources */,
+				DE78D349184C92490023B100 /* WSAreaLayer.m in Sources */,
+				DE14CA531848681E009D3642 /* BallonAngioplastyCell.m in Sources */,
+				DE1A1B1B18489BA700A879AB /* LabViewCell.m in Sources */,
+				DE78D351184C92490023B100 /* WSBaseChartView.m in Sources */,
+				DE1A1B111848960100A879AB /* AddLabViewController.m in Sources */,
+				DE261916186BF4C4001622F4 /* GFRViewController.m in Sources */,
+				DE78D34C184C92490023B100 /* WSCoordinateLayer.m in Sources */,
+				DE78D32F184C91270023B100 /* WSLineChartView.m in Sources */,
+				DE78D353184C92490023B100 /* WSGlobalCore.m in Sources */,
+				DE4E1CDB18460E5100D43681 /* InfoCell.m in Sources */,
+				DE78D34B184C92490023B100 /* WSColumnLayer.m in Sources */,
+				DE04B9E91897D735005324F0 /* WSScatterChartView.m in Sources */,
+				DE14CA47184854AC009D3642 /* PicturesViewController.m in Sources */,
+				DE4E1CE01846113000D43681 /* EditPersonalInfoViewController.m in Sources */,
+				DE14CA58184869AD009D3642 /* AddBallonAngioPlastyViewController.m in Sources */,
+				DE4E1CE718461B3D00D43681 /* PersonalInformationCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE6A33841845B86B004277F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6A33851845B86B004277F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6A339C1845B86C004277F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE6A339D1845B86C004277F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6A339F1845B86C004277F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lowman (Q7Q539N984)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialysis_New/Dialysis_New-Prefix.pch";
+				INFOPLIST_FILE = "Dialysis_New/Dialysis_New-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Dialysis;
+				PROVISIONING_PROFILE = "2A2EB632-805A-42EC-8CA0-8966A5EFD63E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE6A33A01845B86C004277F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lowman (Q7Q539N984)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialysis_New/Dialysis_New-Prefix.pch";
+				INFOPLIST_FILE = "Dialysis_New/Dialysis_New-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Dialysis;
+				PROVISIONING_PROFILE = "2A2EB632-805A-42EC-8CA0-8966A5EFD63E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6A33711845B86B004277F6 /* Build configuration list for PBXProject "Dialysis_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6A339C1845B86C004277F6 /* Debug */,
+				DE6A339D1845B86C004277F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6A339E1845B86C004277F6 /* Build configuration list for PBXNativeTarget "Dialysis_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6A339F1845B86C004277F6 /* Debug */,
+				DE6A33A01845B86C004277F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6A336E1845B86B004277F6 /* Project object */;
+}

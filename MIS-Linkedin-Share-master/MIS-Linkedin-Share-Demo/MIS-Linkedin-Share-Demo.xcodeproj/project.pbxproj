@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB990F4E1614D19A00381381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB990F4D1614D19A00381381 /* UIKit.framework */; };
+		EB990F501614D19A00381381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB990F4F1614D19A00381381 /* Foundation.framework */; };
+		EB990F521614D19A00381381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB990F511614D19A00381381 /* CoreGraphics.framework */; };
+		EB990F581614D19A00381381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB990F561614D19A00381381 /* InfoPlist.strings */; };
+		EB990F5A1614D19A00381381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F591614D19A00381381 /* main.m */; };
+		EB990F5E1614D19A00381381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F5D1614D19A00381381 /* AppDelegate.m */; };
+		EB990F601614D19A00381381 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB990F5F1614D19A00381381 /* Default.png */; };
+		EB990F621614D19A00381381 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB990F611614D19A00381381 /* Default@2x.png */; };
+		EB990F641614D19A00381381 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB990F631614D19A00381381 /* Default-568h@2x.png */; };
+		EB990F671614D19A00381381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F661614D19A00381381 /* ViewController.m */; };
+		EB990F6A1614D19A00381381 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB990F681614D19A00381381 /* ViewController.xib */; };
+		EB990FA81614D1C200381381 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F731614D1C200381381 /* NSMutableURLRequest+Parameters.m */; };
+		EB990FA91614D1C200381381 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F751614D1C200381381 /* NSString+URLEncoding.m */; };
+		EB990FAA1614D1C200381381 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F771614D1C200381381 /* NSURL+Base.m */; };
+		EB990FAB1614D1C200381381 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = EB990F7A1614D1C200381381 /* Base64Transcoder.c */; };
+		EB990FAC1614D1C200381381 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = EB990F7C1614D1C200381381 /* hmac.c */; };
+		EB990FAD1614D1C200381381 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = EB990F7E1614D1C200381381 /* sha1.c */; };
+		EB990FAE1614D1C200381381 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F821614D1C200381381 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FAF1614D1C200381381 /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F861614D1C200381381 /* OAAttachment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB01614D1C200381381 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F881614D1C200381381 /* OACall.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB11614D1C200381381 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F8A1614D1C200381381 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB21614D1C200381381 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F8C1614D1C200381381 /* OADataFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB31614D1C200381381 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F8E1614D1C200381381 /* OAHMAC_SHA1SignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB41614D1C200381381 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F901614D1C200381381 /* OAMutableURLRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB51614D1C200381381 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F921614D1C200381381 /* OAPlaintextSignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB61614D1C200381381 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F941614D1C200381381 /* OAProblem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB71614D1C200381381 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F961614D1C200381381 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB81614D1C200381381 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F981614D1C200381381 /* OAServiceTicket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FB91614D1C200381381 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F9B1614D1C200381381 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FBA1614D1C200381381 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990F9D1614D1C200381381 /* OATokenManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FBB1614D1C200381381 /* OAuthLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990FA01614D1C200381381 /* OAuthLoginView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB990FBC1614D1C200381381 /* OAuthLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB990FA11614D1C200381381 /* OAuthLoginView.xib */; };
+		EB990FBF1614D1C200381381 /* MISLinkedinShare.m in Sources */ = {isa = PBXBuildFile; fileRef = EB990FA71614D1C200381381 /* MISLinkedinShare.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB990F491614D19A00381381 /* MIS-Linkedin-Share-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIS-Linkedin-Share-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB990F4D1614D19A00381381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB990F4F1614D19A00381381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB990F511614D19A00381381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB990F551614D19A00381381 /* MIS-Linkedin-Share-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIS-Linkedin-Share-Demo-Info.plist"; sourceTree = "<group>"; };
+		EB990F571614D19A00381381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB990F591614D19A00381381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB990F5B1614D19A00381381 /* MIS-Linkedin-Share-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIS-Linkedin-Share-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		EB990F5C1614D19A00381381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB990F5D1614D19A00381381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB990F5F1614D19A00381381 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB990F611614D19A00381381 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EB990F631614D19A00381381 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB990F651614D19A00381381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB990F661614D19A00381381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB990F691614D19A00381381 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EB990F721614D1C200381381 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		EB990F731614D1C200381381 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		EB990F741614D1C200381381 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		EB990F751614D1C200381381 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		EB990F761614D1C200381381 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		EB990F771614D1C200381381 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		EB990F7A1614D1C200381381 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		EB990F7B1614D1C200381381 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		EB990F7C1614D1C200381381 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		EB990F7D1614D1C200381381 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		EB990F7E1614D1C200381381 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		EB990F7F1614D1C200381381 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		EB990F811614D1C200381381 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		EB990F821614D1C200381381 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		EB990F841614D1C200381381 /* OAAtachmentF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAtachmentF.h; sourceTree = "<group>"; };
+		EB990F851614D1C200381381 /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
+		EB990F861614D1C200381381 /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
+		EB990F871614D1C200381381 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		EB990F881614D1C200381381 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		EB990F891614D1C200381381 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		EB990F8A1614D1C200381381 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		EB990F8B1614D1C200381381 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		EB990F8C1614D1C200381381 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		EB990F8D1614D1C200381381 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		EB990F8E1614D1C200381381 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		EB990F8F1614D1C200381381 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		EB990F901614D1C200381381 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		EB990F911614D1C200381381 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		EB990F921614D1C200381381 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		EB990F931614D1C200381381 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		EB990F941614D1C200381381 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		EB990F951614D1C200381381 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		EB990F961614D1C200381381 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		EB990F971614D1C200381381 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		EB990F981614D1C200381381 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		EB990F991614D1C200381381 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		EB990F9A1614D1C200381381 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		EB990F9B1614D1C200381381 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		EB990F9C1614D1C200381381 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		EB990F9D1614D1C200381381 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		EB990F9E1614D1C200381381 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		EB990F9F1614D1C200381381 /* OAuthLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLoginView.h; sourceTree = "<group>"; };
+		EB990FA01614D1C200381381 /* OAuthLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginView.m; sourceTree = "<group>"; };
+		EB990FA11614D1C200381381 /* OAuthLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OAuthLoginView.xib; sourceTree = "<group>"; };
+		EB990FA61614D1C200381381 /* MISLinkedinShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISLinkedinShare.h; sourceTree = "<group>"; };
+		EB990FA71614D1C200381381 /* MISLinkedinShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISLinkedinShare.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB990F461614D19A00381381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB990F4E1614D19A00381381 /* UIKit.framework in Frameworks */,
+				EB990F501614D19A00381381 /* Foundation.framework in Frameworks */,
+				EB990F521614D19A00381381 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB990F3E1614D19A00381381 = {
+			isa = PBXGroup;
+			children = (
+				EB990F531614D19A00381381 /* MIS-Linkedin-Share-Demo */,
+				EB990F4C1614D19A00381381 /* Frameworks */,
+				EB990F4A1614D19A00381381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB990F4A1614D19A00381381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F491614D19A00381381 /* MIS-Linkedin-Share-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB990F4C1614D19A00381381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F4D1614D19A00381381 /* UIKit.framework */,
+				EB990F4F1614D19A00381381 /* Foundation.framework */,
+				EB990F511614D19A00381381 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB990F531614D19A00381381 /* MIS-Linkedin-Share-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F701614D1C200381381 /* MIS-Linkedin-Share */,
+				EB990F5C1614D19A00381381 /* AppDelegate.h */,
+				EB990F5D1614D19A00381381 /* AppDelegate.m */,
+				EB990F651614D19A00381381 /* ViewController.h */,
+				EB990F661614D19A00381381 /* ViewController.m */,
+				EB990F681614D19A00381381 /* ViewController.xib */,
+				EB990F541614D19A00381381 /* Supporting Files */,
+			);
+			path = "MIS-Linkedin-Share-Demo";
+			sourceTree = "<group>";
+		};
+		EB990F541614D19A00381381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F551614D19A00381381 /* MIS-Linkedin-Share-Demo-Info.plist */,
+				EB990F561614D19A00381381 /* InfoPlist.strings */,
+				EB990F591614D19A00381381 /* main.m */,
+				EB990F5B1614D19A00381381 /* MIS-Linkedin-Share-Demo-Prefix.pch */,
+				EB990F5F1614D19A00381381 /* Default.png */,
+				EB990F611614D19A00381381 /* Default@2x.png */,
+				EB990F631614D19A00381381 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB990F701614D1C200381381 /* MIS-Linkedin-Share */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F711614D1C200381381 /* Categories */,
+				EB990F781614D1C200381381 /* Frameworks */,
+				EB990FA61614D1C200381381 /* MISLinkedinShare.h */,
+				EB990FA71614D1C200381381 /* MISLinkedinShare.m */,
+			);
+			name = "MIS-Linkedin-Share";
+			path = "../../MIS-Linkedin-Share";
+			sourceTree = "<group>";
+		};
+		EB990F711614D1C200381381 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F721614D1C200381381 /* NSMutableURLRequest+Parameters.h */,
+				EB990F731614D1C200381381 /* NSMutableURLRequest+Parameters.m */,
+				EB990F741614D1C200381381 /* NSString+URLEncoding.h */,
+				EB990F751614D1C200381381 /* NSString+URLEncoding.m */,
+				EB990F761614D1C200381381 /* NSURL+Base.h */,
+				EB990F771614D1C200381381 /* NSURL+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EB990F781614D1C200381381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F791614D1C200381381 /* Crytpo */,
+				EB990F801614D1C200381381 /* JSONKit */,
+				EB990F831614D1C200381381 /* OAuth */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB990F791614D1C200381381 /* Crytpo */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F7A1614D1C200381381 /* Base64Transcoder.c */,
+				EB990F7B1614D1C200381381 /* Base64Transcoder.h */,
+				EB990F7C1614D1C200381381 /* hmac.c */,
+				EB990F7D1614D1C200381381 /* hmac.h */,
+				EB990F7E1614D1C200381381 /* sha1.c */,
+				EB990F7F1614D1C200381381 /* sha1.h */,
+			);
+			path = Crytpo;
+			sourceTree = "<group>";
+		};
+		EB990F801614D1C200381381 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F811614D1C200381381 /* JSONKit.h */,
+				EB990F821614D1C200381381 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		EB990F831614D1C200381381 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				EB990F841614D1C200381381 /* OAAtachmentF.h */,
+				EB990F851614D1C200381381 /* OAAttachment.h */,
+				EB990F861614D1C200381381 /* OAAttachment.m */,
+				EB990F871614D1C200381381 /* OACall.h */,
+				EB990F881614D1C200381381 /* OACall.m */,
+				EB990F891614D1C200381381 /* OAConsumer.h */,
+				EB990F8A1614D1C200381381 /* OAConsumer.m */,
+				EB990F8B1614D1C200381381 /* OADataFetcher.h */,
+				EB990F8C1614D1C200381381 /* OADataFetcher.m */,
+				EB990F8D1614D1C200381381 /* OAHMAC_SHA1SignatureProvider.h */,
+				EB990F8E1614D1C200381381 /* OAHMAC_SHA1SignatureProvider.m */,
+				EB990F8F1614D1C200381381 /* OAMutableURLRequest.h */,
+				EB990F901614D1C200381381 /* OAMutableURLRequest.m */,
+				EB990F911614D1C200381381 /* OAPlaintextSignatureProvider.h */,
+				EB990F921614D1C200381381 /* OAPlaintextSignatureProvider.m */,
+				EB990F931614D1C200381381 /* OAProblem.h */,
+				EB990F941614D1C200381381 /* OAProblem.m */,
+				EB990F951614D1C200381381 /* OARequestParameter.h */,
+				EB990F961614D1C200381381 /* OARequestParameter.m */,
+				EB990F971614D1C200381381 /* OAServiceTicket.h */,
+				EB990F981614D1C200381381 /* OAServiceTicket.m */,
+				EB990F991614D1C200381381 /* OASignatureProviding.h */,
+				EB990F9A1614D1C200381381 /* OAToken.h */,
+				EB990F9B1614D1C200381381 /* OAToken.m */,
+				EB990F9C1614D1C200381381 /* OATokenManager.h */,
+				EB990F9D1614D1C200381381 /* OATokenManager.m */,
+				EB990F9E1614D1C200381381 /* OAuthConsumer.h */,
+				EB990F9F1614D1C200381381 /* OAuthLoginView.h */,
+				EB990FA01614D1C200381381 /* OAuthLoginView.m */,
+				EB990FA11614D1C200381381 /* OAuthLoginView.xib */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB990F481614D19A00381381 /* MIS-Linkedin-Share-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB990F6D1614D19A00381381 /* Build configuration list for PBXNativeTarget "MIS-Linkedin-Share-Demo" */;
+			buildPhases = (
+				EB990F451614D19A00381381 /* Sources */,
+				EB990F461614D19A00381381 /* Frameworks */,
+				EB990F471614D19A00381381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MIS-Linkedin-Share-Demo";
+			productName = "MIS-Linkedin-Share-Demo";
+			productReference = EB990F491614D19A00381381 /* MIS-Linkedin-Share-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB990F401614D19A00381381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pedro Milanez";
+			};
+			buildConfigurationList = EB990F431614D19A00381381 /* Build configuration list for PBXProject "MIS-Linkedin-Share-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB990F3E1614D19A00381381;
+			productRefGroup = EB990F4A1614D19A00381381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB990F481614D19A00381381 /* MIS-Linkedin-Share-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB990F471614D19A00381381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB990F581614D19A00381381 /* InfoPlist.strings in Resources */,
+				EB990F601614D19A00381381 /* Default.png in Resources */,
+				EB990F621614D19A00381381 /* Default@2x.png in Resources */,
+				EB990F641614D19A00381381 /* Default-568h@2x.png in Resources */,
+				EB990F6A1614D19A00381381 /* ViewController.xib in Resources */,
+				EB990FBC1614D1C200381381 /* OAuthLoginView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB990F451614D19A00381381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB990F5A1614D19A00381381 /* main.m in Sources */,
+				EB990F5E1614D19A00381381 /* AppDelegate.m in Sources */,
+				EB990F671614D19A00381381 /* ViewController.m in Sources */,
+				EB990FA81614D1C200381381 /* NSMutableURLRequest+Parameters.m in Sources */,
+				EB990FA91614D1C200381381 /* NSString+URLEncoding.m in Sources */,
+				EB990FAA1614D1C200381381 /* NSURL+Base.m in Sources */,
+				EB990FAB1614D1C200381381 /* Base64Transcoder.c in Sources */,
+				EB990FAC1614D1C200381381 /* hmac.c in Sources */,
+				EB990FAD1614D1C200381381 /* sha1.c in Sources */,
+				EB990FAE1614D1C200381381 /* JSONKit.m in Sources */,
+				EB990FAF1614D1C200381381 /* OAAttachment.m in Sources */,
+				EB990FB01614D1C200381381 /* OACall.m in Sources */,
+				EB990FB11614D1C200381381 /* OAConsumer.m in Sources */,
+				EB990FB21614D1C200381381 /* OADataFetcher.m in Sources */,
+				EB990FB31614D1C200381381 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				EB990FB41614D1C200381381 /* OAMutableURLRequest.m in Sources */,
+				EB990FB51614D1C200381381 /* OAPlaintextSignatureProvider.m in Sources */,
+				EB990FB61614D1C200381381 /* OAProblem.m in Sources */,
+				EB990FB71614D1C200381381 /* OARequestParameter.m in Sources */,
+				EB990FB81614D1C200381381 /* OAServiceTicket.m in Sources */,
+				EB990FB91614D1C200381381 /* OAToken.m in Sources */,
+				EB990FBA1614D1C200381381 /* OATokenManager.m in Sources */,
+				EB990FBB1614D1C200381381 /* OAuthLoginView.m in Sources */,
+				EB990FBF1614D1C200381381 /* MISLinkedinShare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB990F561614D19A00381381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB990F571614D19A00381381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB990F681614D19A00381381 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB990F691614D19A00381381 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB990F6B1614D19A00381381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB990F6C1614D19A00381381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB990F6E1614D19A00381381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIS-Linkedin-Share-Demo/MIS-Linkedin-Share-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MIS-Linkedin-Share-Demo/MIS-Linkedin-Share-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB990F6F1614D19A00381381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIS-Linkedin-Share-Demo/MIS-Linkedin-Share-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MIS-Linkedin-Share-Demo/MIS-Linkedin-Share-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB990F431614D19A00381381 /* Build configuration list for PBXProject "MIS-Linkedin-Share-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB990F6B1614D19A00381381 /* Debug */,
+				EB990F6C1614D19A00381381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB990F6D1614D19A00381381 /* Build configuration list for PBXNativeTarget "MIS-Linkedin-Share-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB990F6E1614D19A00381381 /* Debug */,
+				EB990F6F1614D19A00381381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB990F401614D19A00381381 /* Project object */;
+}

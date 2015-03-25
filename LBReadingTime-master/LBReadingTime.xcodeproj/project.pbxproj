@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFB7AEB16EF8AD10098CB60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFB7AEA16EF8AD10098CB60 /* UIKit.framework */; };
+		9FFB7AED16EF8AD10098CB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFB7AEC16EF8AD10098CB60 /* Foundation.framework */; };
+		9FFB7AEF16EF8AD10098CB60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFB7AEE16EF8AD10098CB60 /* CoreGraphics.framework */; };
+		9FFB7AF516EF8AD10098CB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7AF316EF8AD10098CB60 /* InfoPlist.strings */; };
+		9FFB7AF716EF8AD10098CB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB7AF616EF8AD10098CB60 /* main.m */; };
+		9FFB7AFB16EF8AD10098CB60 /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB7AFA16EF8AD10098CB60 /* LBAppDelegate.m */; };
+		9FFB7AFD16EF8AD10098CB60 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7AFC16EF8AD10098CB60 /* Default.png */; };
+		9FFB7AFF16EF8AD10098CB60 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7AFE16EF8AD10098CB60 /* Default@2x.png */; };
+		9FFB7B0116EF8AD10098CB60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7B0016EF8AD10098CB60 /* Default-568h@2x.png */; };
+		9FFB7B0416EF8AD10098CB60 /* LBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB7B0316EF8AD10098CB60 /* LBViewController.m */; };
+		9FFB7B0716EF8AD10098CB60 /* LBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7B0516EF8AD10098CB60 /* LBViewController.xib */; };
+		9FFB7B1216EF8B170098CB60 /* LBReadingTimeScrollPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB7B0F16EF8B170098CB60 /* LBReadingTimeScrollPanel.m */; };
+		9FFB7B1316EF8B170098CB60 /* UITextView+ReadingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB7B1116EF8B170098CB60 /* UITextView+ReadingTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FFB7AE716EF8AD10098CB60 /* LBReadingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBReadingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFB7AEA16EF8AD10098CB60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FFB7AEC16EF8AD10098CB60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FFB7AEE16EF8AD10098CB60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FFB7AF216EF8AD10098CB60 /* LBReadingTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBReadingTime-Info.plist"; sourceTree = "<group>"; };
+		9FFB7AF416EF8AD10098CB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FFB7AF616EF8AD10098CB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FFB7AF816EF8AD10098CB60 /* LBReadingTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBReadingTime-Prefix.pch"; sourceTree = "<group>"; };
+		9FFB7AF916EF8AD10098CB60 /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		9FFB7AFA16EF8AD10098CB60 /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		9FFB7AFC16EF8AD10098CB60 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9FFB7AFE16EF8AD10098CB60 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9FFB7B0016EF8AD10098CB60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9FFB7B0216EF8AD10098CB60 /* LBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBViewController.h; sourceTree = "<group>"; };
+		9FFB7B0316EF8AD10098CB60 /* LBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBViewController.m; sourceTree = "<group>"; };
+		9FFB7B0616EF8AD10098CB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBViewController.xib; sourceTree = "<group>"; };
+		9FFB7B0E16EF8B170098CB60 /* LBReadingTimeScrollPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBReadingTimeScrollPanel.h; sourceTree = "<group>"; };
+		9FFB7B0F16EF8B170098CB60 /* LBReadingTimeScrollPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBReadingTimeScrollPanel.m; sourceTree = "<group>"; };
+		9FFB7B1016EF8B170098CB60 /* UITextView+ReadingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ReadingTime.h"; sourceTree = "<group>"; };
+		9FFB7B1116EF8B170098CB60 /* UITextView+ReadingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ReadingTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFB7AE416EF8AD10098CB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB7AEB16EF8AD10098CB60 /* UIKit.framework in Frameworks */,
+				9FFB7AED16EF8AD10098CB60 /* Foundation.framework in Frameworks */,
+				9FFB7AEF16EF8AD10098CB60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFB7ADE16EF8AD10098CB60 = {
+			isa = PBXGroup;
+			children = (
+				9FFB7AF016EF8AD10098CB60 /* LBReadingTime */,
+				9FFB7AE916EF8AD10098CB60 /* Frameworks */,
+				9FFB7AE816EF8AD10098CB60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFB7AE816EF8AD10098CB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB7AE716EF8AD10098CB60 /* LBReadingTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFB7AE916EF8AD10098CB60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB7AEA16EF8AD10098CB60 /* UIKit.framework */,
+				9FFB7AEC16EF8AD10098CB60 /* Foundation.framework */,
+				9FFB7AEE16EF8AD10098CB60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FFB7AF016EF8AD10098CB60 /* LBReadingTime */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB7B0D16EF8B170098CB60 /* ReadingTime */,
+				9FFB7AF916EF8AD10098CB60 /* LBAppDelegate.h */,
+				9FFB7AFA16EF8AD10098CB60 /* LBAppDelegate.m */,
+				9FFB7B0216EF8AD10098CB60 /* LBViewController.h */,
+				9FFB7B0316EF8AD10098CB60 /* LBViewController.m */,
+				9FFB7B0516EF8AD10098CB60 /* LBViewController.xib */,
+				9FFB7AF116EF8AD10098CB60 /* Supporting Files */,
+			);
+			path = LBReadingTime;
+			sourceTree = "<group>";
+		};
+		9FFB7AF116EF8AD10098CB60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB7AF216EF8AD10098CB60 /* LBReadingTime-Info.plist */,
+				9FFB7AF316EF8AD10098CB60 /* InfoPlist.strings */,
+				9FFB7AF616EF8AD10098CB60 /* main.m */,
+				9FFB7AF816EF8AD10098CB60 /* LBReadingTime-Prefix.pch */,
+				9FFB7AFC16EF8AD10098CB60 /* Default.png */,
+				9FFB7AFE16EF8AD10098CB60 /* Default@2x.png */,
+				9FFB7B0016EF8AD10098CB60 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFB7B0D16EF8B170098CB60 /* ReadingTime */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB7B0E16EF8B170098CB60 /* LBReadingTimeScrollPanel.h */,
+				9FFB7B0F16EF8B170098CB60 /* LBReadingTimeScrollPanel.m */,
+				9FFB7B1016EF8B170098CB60 /* UITextView+ReadingTime.h */,
+				9FFB7B1116EF8B170098CB60 /* UITextView+ReadingTime.m */,
+			);
+			path = ReadingTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFB7AE616EF8AD10098CB60 /* LBReadingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFB7B0A16EF8AD10098CB60 /* Build configuration list for PBXNativeTarget "LBReadingTime" */;
+			buildPhases = (
+				9FFB7AE316EF8AD10098CB60 /* Sources */,
+				9FFB7AE416EF8AD10098CB60 /* Frameworks */,
+				9FFB7AE516EF8AD10098CB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBReadingTime;
+			productName = LBReadingTime;
+			productReference = 9FFB7AE716EF8AD10098CB60 /* LBReadingTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFB7ADF16EF8AD10098CB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Luca Bernardi";
+			};
+			buildConfigurationList = 9FFB7AE216EF8AD10098CB60 /* Build configuration list for PBXProject "LBReadingTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FFB7ADE16EF8AD10098CB60;
+			productRefGroup = 9FFB7AE816EF8AD10098CB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFB7AE616EF8AD10098CB60 /* LBReadingTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFB7AE516EF8AD10098CB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB7AF516EF8AD10098CB60 /* InfoPlist.strings in Resources */,
+				9FFB7AFD16EF8AD10098CB60 /* Default.png in Resources */,
+				9FFB7AFF16EF8AD10098CB60 /* Default@2x.png in Resources */,
+				9FFB7B0116EF8AD10098CB60 /* Default-568h@2x.png in Resources */,
+				9FFB7B0716EF8AD10098CB60 /* LBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFB7AE316EF8AD10098CB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB7AF716EF8AD10098CB60 /* main.m in Sources */,
+				9FFB7AFB16EF8AD10098CB60 /* LBAppDelegate.m in Sources */,
+				9FFB7B0416EF8AD10098CB60 /* LBViewController.m in Sources */,
+				9FFB7B1216EF8B170098CB60 /* LBReadingTimeScrollPanel.m in Sources */,
+				9FFB7B1316EF8B170098CB60 /* UITextView+ReadingTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FFB7AF316EF8AD10098CB60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFB7AF416EF8AD10098CB60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FFB7B0516EF8AD10098CB60 /* LBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFB7B0616EF8AD10098CB60 /* en */,
+			);
+			name = LBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFB7B0816EF8AD10098CB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FFB7B0916EF8AD10098CB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFB7B0B16EF8AD10098CB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBReadingTime/LBReadingTime-Prefix.pch";
+				INFOPLIST_FILE = "LBReadingTime/LBReadingTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FFB7B0C16EF8AD10098CB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBReadingTime/LBReadingTime-Prefix.pch";
+				INFOPLIST_FILE = "LBReadingTime/LBReadingTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFB7AE216EF8AD10098CB60 /* Build configuration list for PBXProject "LBReadingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB7B0816EF8AD10098CB60 /* Debug */,
+				9FFB7B0916EF8AD10098CB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFB7B0A16EF8AD10098CB60 /* Build configuration list for PBXNativeTarget "LBReadingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB7B0B16EF8AD10098CB60 /* Debug */,
+				9FFB7B0C16EF8AD10098CB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFB7ADF16EF8AD10098CB60 /* Project object */;
+}

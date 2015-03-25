@@ -1,0 +1,7 @@
+This is an example app that performs an asynch request to a json feed with:
+
+NSURLConnection & TouchJSON ( http://code.google.com/p/touchcode/wiki/TouchJSON )
+
+This is not meant for production in any way. I just wanted to save anyone interested 
+some time.
+

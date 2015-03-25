@@ -1,0 +1,19 @@
+A nice iOS control providing a rotating wheel of buttons, configurable for left or right handed use.
+
+The heart of the wheel is the JCArcButtonWheelView class. Copy and paste JCArcButtonWheelView.h and JCArcButtonWheelView.m 
+into your own project. This class does not use arc right now.
+
+The example project shows how to configure for left or right handed use. Can also change on the fly using setLeftHanded method.
+
+Use the ViewController class as an example of how to integrate the wheel into your own projects.
+
+The wheel is set to continue rotation based on the speed of the user's swipe. I recommend experimenting with the constants in
+the JCArcButtonWheelView touchesMoved: method. You can adjust the speed by altering the following line:
+
+double approxVel=2*MAX(x2-x1, y2-y1);
+
+It is set to give what I felt is a reasonable spin with little visual jitter. You can also adjust the how fast the rotation slows
+after the user stops by adjusting the constants in the JCArcButtonWheelView spinWheel. Make the multiplier in the following line 
+smaller to stop the rotation sooner.
+
+self.touchVel*=0.9;

@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'NBUKitDemo' target in the 'NBUKitDemo' project
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+//    // Check for new API calls
+//    #define __IPHONE_OS_VERSION_SOFT_MAX_REQUIRED __IPHONE_5_0
+//    #import <NBUCore/NBUAvailavility.h>
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <NBULog/NBULog.h>
+    #import <NBUKit/NBUKit.h>
+
+#endif
+

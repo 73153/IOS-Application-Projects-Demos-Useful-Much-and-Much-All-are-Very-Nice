@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8352CD7916E878C4008C9BC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8352CD7816E878C4008C9BC6 /* QuartzCore.framework */; };
+		8352CD7B16E885D6008C9BC6 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8352CD7A16E885D6008C9BC6 /* text.txt */; };
+		83CCB5BF16D96D3200547161 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCB5BE16D96D3200547161 /* UIKit.framework */; };
+		83CCB5C116D96D3200547161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCB5C016D96D3200547161 /* Foundation.framework */; };
+		83CCB5C316D96D3200547161 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCB5C216D96D3200547161 /* CoreGraphics.framework */; };
+		83F92A3916D96DBC00FAC0E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F92A3216D96DBC00FAC0E4 /* Default-568h@2x.png */; };
+		83F92A3A16D96DBC00FAC0E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F92A3316D96DBC00FAC0E4 /* Default.png */; };
+		83F92A3B16D96DBC00FAC0E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F92A3416D96DBC00FAC0E4 /* Default@2x.png */; };
+		83F92A3C16D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F92A3616D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.m */; };
+		83F92A3D16D96DBC00FAC0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F92A3816D96DBC00FAC0E4 /* main.m */; };
+		83F92A4116D96E0C00FAC0E4 /* KGNotePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F92A4016D96E0C00FAC0E4 /* KGNotePad.m */; };
+		83F9E8EF16DC96F100DF4286 /* KGNotePadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F9E8ED16DC96F100DF4286 /* KGNotePadExampleViewController.m */; };
+		83F9E8F016DC96F100DF4286 /* KGNotePadExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F9E8EE16DC96F100DF4286 /* KGNotePadExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8352CD7816E878C4008C9BC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8352CD7A16E885D6008C9BC6 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
+		83CCB5BB16D96D3200547161 /* KGNotePadExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGNotePadExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CCB5BE16D96D3200547161 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83CCB5C016D96D3200547161 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83CCB5C216D96D3200547161 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83F92A3216D96DBC00FAC0E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83F92A3316D96DBC00FAC0E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83F92A3416D96DBC00FAC0E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83F92A3516D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNotePadExampleAppDelegate.h; sourceTree = "<group>"; };
+		83F92A3616D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNotePadExampleAppDelegate.m; sourceTree = "<group>"; };
+		83F92A3716D96DBC00FAC0E4 /* KGNotePadExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KGNotePadExample-Prefix.pch"; sourceTree = "<group>"; };
+		83F92A3816D96DBC00FAC0E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F92A3F16D96E0C00FAC0E4 /* KGNotePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGNotePad.h; path = ../KGNotePad.h; sourceTree = "<group>"; };
+		83F92A4016D96E0C00FAC0E4 /* KGNotePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGNotePad.m; path = ../KGNotePad.m; sourceTree = "<group>"; };
+		83F9E8EC16DC96F100DF4286 /* KGNotePadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNotePadExampleViewController.h; sourceTree = "<group>"; };
+		83F9E8ED16DC96F100DF4286 /* KGNotePadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNotePadExampleViewController.m; sourceTree = "<group>"; };
+		83F9E8EE16DC96F100DF4286 /* KGNotePadExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGNotePadExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CCB5B816D96D3200547161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8352CD7916E878C4008C9BC6 /* QuartzCore.framework in Frameworks */,
+				83CCB5BF16D96D3200547161 /* UIKit.framework in Frameworks */,
+				83CCB5C116D96D3200547161 /* Foundation.framework in Frameworks */,
+				83CCB5C316D96D3200547161 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CCB5B216D96D3200547161 = {
+			isa = PBXGroup;
+			children = (
+				83F92A3F16D96E0C00FAC0E4 /* KGNotePad.h */,
+				83F92A4016D96E0C00FAC0E4 /* KGNotePad.m */,
+				83F92A3E16D96DC100FAC0E4 /* Example */,
+				83CCB5BD16D96D3200547161 /* Frameworks */,
+				83CCB5BC16D96D3200547161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83CCB5BC16D96D3200547161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CCB5BB16D96D3200547161 /* KGNotePadExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CCB5BD16D96D3200547161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8352CD7816E878C4008C9BC6 /* QuartzCore.framework */,
+				83CCB5BE16D96D3200547161 /* UIKit.framework */,
+				83CCB5C016D96D3200547161 /* Foundation.framework */,
+				83CCB5C216D96D3200547161 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F92A3E16D96DC100FAC0E4 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				83F92A3216D96DBC00FAC0E4 /* Default-568h@2x.png */,
+				83F92A3316D96DBC00FAC0E4 /* Default.png */,
+				83F92A3416D96DBC00FAC0E4 /* Default@2x.png */,
+				83F92A3516D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.h */,
+				83F92A3616D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.m */,
+				83F9E8EC16DC96F100DF4286 /* KGNotePadExampleViewController.h */,
+				83F9E8ED16DC96F100DF4286 /* KGNotePadExampleViewController.m */,
+				83F9E8EE16DC96F100DF4286 /* KGNotePadExampleViewController.xib */,
+				83F92A3716D96DBC00FAC0E4 /* KGNotePadExample-Prefix.pch */,
+				83F92A3816D96DBC00FAC0E4 /* main.m */,
+				8352CD7A16E885D6008C9BC6 /* text.txt */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CCB5BA16D96D3200547161 /* KGNotePadExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CCB5D816D96D3300547161 /* Build configuration list for PBXNativeTarget "KGNotePadExample" */;
+			buildPhases = (
+				83CCB5B716D96D3200547161 /* Sources */,
+				83CCB5B816D96D3200547161 /* Frameworks */,
+				83CCB5B916D96D3200547161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KGNotePadExample;
+			productName = KGNotePad;
+			productReference = 83CCB5BB16D96D3200547161 /* KGNotePadExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CCB5B316D96D3200547161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Keegan";
+			};
+			buildConfigurationList = 83CCB5B616D96D3200547161 /* Build configuration list for PBXProject "KGNotePadExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83CCB5B216D96D3200547161;
+			productRefGroup = 83CCB5BC16D96D3200547161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CCB5BA16D96D3200547161 /* KGNotePadExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CCB5B916D96D3200547161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F92A3916D96DBC00FAC0E4 /* Default-568h@2x.png in Resources */,
+				83F92A3A16D96DBC00FAC0E4 /* Default.png in Resources */,
+				83F92A3B16D96DBC00FAC0E4 /* Default@2x.png in Resources */,
+				83F9E8F016DC96F100DF4286 /* KGNotePadExampleViewController.xib in Resources */,
+				8352CD7B16E885D6008C9BC6 /* text.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CCB5B716D96D3200547161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F92A3C16D96DBC00FAC0E4 /* KGNotePadExampleAppDelegate.m in Sources */,
+				83F92A3D16D96DBC00FAC0E4 /* main.m in Sources */,
+				83F92A4116D96E0C00FAC0E4 /* KGNotePad.m in Sources */,
+				83F9E8EF16DC96F100DF4286 /* KGNotePadExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83CCB5D616D96D3300547161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CCB5D716D96D3300547161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83CCB5D916D96D3300547161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KGNotePadExample-Prefix.pch";
+				INFOPLIST_FILE = "KGNotePadExample-Info.plist";
+				PRODUCT_NAME = KGNotePadExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83CCB5DA16D96D3300547161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KGNotePadExample-Prefix.pch";
+				INFOPLIST_FILE = "KGNotePadExample-Info.plist";
+				PRODUCT_NAME = KGNotePadExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CCB5B616D96D3200547161 /* Build configuration list for PBXProject "KGNotePadExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CCB5D616D96D3300547161 /* Debug */,
+				83CCB5D716D96D3300547161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CCB5D816D96D3300547161 /* Build configuration list for PBXNativeTarget "KGNotePadExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CCB5D916D96D3300547161 /* Debug */,
+				83CCB5DA16D96D3300547161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CCB5B316D96D3200547161 /* Project object */;
+}

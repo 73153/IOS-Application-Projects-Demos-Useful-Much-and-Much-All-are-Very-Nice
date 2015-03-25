@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A5BE381681B8B8007D4DC3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A5BE371681B8B8007D4DC3 /* QuartzCore.framework */; };
+		48A5BE4316820C98007D4DC3 /* captura.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BE4216820C98007D4DC3 /* captura.png */; };
+		48ACF733168074D400664E22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ACF732168074D400664E22 /* UIKit.framework */; };
+		48ACF735168074D400664E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ACF734168074D400664E22 /* Foundation.framework */; };
+		48ACF737168074D400664E22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ACF736168074D400664E22 /* CoreGraphics.framework */; };
+		48ACF73D168074D400664E22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48ACF73B168074D400664E22 /* InfoPlist.strings */; };
+		48ACF73F168074D400664E22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF73E168074D400664E22 /* main.m */; };
+		48ACF743168074D400664E22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF742168074D400664E22 /* AppDelegate.m */; };
+		48ACF74C168074D500664E22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF74B168074D500664E22 /* ViewController.m */; };
+		48ACF74F168074D500664E22 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48ACF74D168074D500664E22 /* ViewController.xib */; };
+		48ACF758168074EB00664E22 /* LAAnimatedGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF757168074EB00664E22 /* LAAnimatedGrid.m */; };
+		48ACF75F168078BC00664E22 /* LAAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF75E168078BC00664E22 /* LAAnimatedView.m */; };
+		48ACF7B51680B7DB00664E22 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7A31680B7DB00664E22 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7B61680B7DB00664E22 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7A51680B7DB00664E22 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7B71680B7DB00664E22 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7A71680B7DB00664E22 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7B81680B7DB00664E22 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7A91680B7DB00664E22 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7B91680B7DB00664E22 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7AB1680B7DB00664E22 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7BA1680B7DB00664E22 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7AE1680B7DB00664E22 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7BB1680B7DB00664E22 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7B01680B7DB00664E22 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7BC1680B7DB00664E22 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7B21680B7DB00664E22 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7BD1680B7DB00664E22 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ACF7B41680B7DB00664E22 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48ACF7C31680D96400664E22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ACF7C21680D96300664E22 /* SystemConfiguration.framework */; };
+		48ACF7C51680D96E00664E22 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ACF7C41680D96E00664E22 /* MobileCoreServices.framework */; };
+		48ACF7C71680DA2D00664E22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48ACF7C61680DA2D00664E22 /* README.md */; };
+		48BD05531683344500239285 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48BD05521683344500239285 /* images.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A5BE371681B8B8007D4DC3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		48A5BE4216820C98007D4DC3 /* captura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captura.png; sourceTree = "<group>"; };
+		48ACF72E168074D400664E22 /* LAAnimatedGridExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAAnimatedGridExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48ACF732168074D400664E22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48ACF734168074D400664E22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48ACF736168074D400664E22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48ACF73A168074D400664E22 /* LAAnimatedGridExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAAnimatedGridExample-Info.plist"; sourceTree = "<group>"; };
+		48ACF73C168074D400664E22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48ACF73E168074D400664E22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48ACF740168074D400664E22 /* LAAnimatedGridExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAAnimatedGridExample-Prefix.pch"; sourceTree = "<group>"; };
+		48ACF741168074D400664E22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48ACF742168074D400664E22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48ACF74A168074D500664E22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48ACF74B168074D500664E22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48ACF74E168074D500664E22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		48ACF756168074EB00664E22 /* LAAnimatedGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LAAnimatedGrid.h; path = LAAnimatedGrid/LAAnimatedGrid.h; sourceTree = "<group>"; };
+		48ACF757168074EB00664E22 /* LAAnimatedGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LAAnimatedGrid.m; path = LAAnimatedGrid/LAAnimatedGrid.m; sourceTree = "<group>"; };
+		48ACF75D168078BC00664E22 /* LAAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LAAnimatedView.h; path = LAAnimatedGrid/LAAnimatedView.h; sourceTree = "<group>"; };
+		48ACF75E168078BC00664E22 /* LAAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LAAnimatedView.m; path = LAAnimatedGrid/LAAnimatedView.m; sourceTree = "<group>"; };
+		48ACF7A21680B7DB00664E22 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		48ACF7A31680B7DB00664E22 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		48ACF7A41680B7DB00664E22 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		48ACF7A51680B7DB00664E22 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		48ACF7A61680B7DB00664E22 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		48ACF7A71680B7DB00664E22 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		48ACF7A81680B7DB00664E22 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		48ACF7A91680B7DB00664E22 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		48ACF7AA1680B7DB00664E22 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		48ACF7AB1680B7DB00664E22 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		48ACF7AC1680B7DB00664E22 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		48ACF7AD1680B7DB00664E22 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		48ACF7AE1680B7DB00664E22 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		48ACF7AF1680B7DB00664E22 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		48ACF7B01680B7DB00664E22 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		48ACF7B11680B7DB00664E22 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		48ACF7B21680B7DB00664E22 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		48ACF7B31680B7DB00664E22 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		48ACF7B41680B7DB00664E22 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		48ACF7C21680D96300664E22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		48ACF7C41680D96E00664E22 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		48ACF7C61680DA2D00664E22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		48BD05521683344500239285 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48ACF72B168074D400664E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A5BE381681B8B8007D4DC3 /* QuartzCore.framework in Frameworks */,
+				48ACF7C51680D96E00664E22 /* MobileCoreServices.framework in Frameworks */,
+				48ACF7C31680D96400664E22 /* SystemConfiguration.framework in Frameworks */,
+				48ACF733168074D400664E22 /* UIKit.framework in Frameworks */,
+				48ACF735168074D400664E22 /* Foundation.framework in Frameworks */,
+				48ACF737168074D400664E22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A5BE4116820BDA007D4DC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		48ACF723168074D400664E22 = {
+			isa = PBXGroup;
+			children = (
+				48A5BE4216820C98007D4DC3 /* captura.png */,
+				48ACF7C61680DA2D00664E22 /* README.md */,
+				48BD05521683344500239285 /* images.bundle */,
+				48ACF7891680B41C00664E22 /* Extern */,
+				48ACF755168074DA00664E22 /* LAAnimatedGrid */,
+				48ACF738168074D400664E22 /* LAAnimatedGridExample */,
+				48ACF731168074D400664E22 /* Frameworks */,
+				48ACF72F168074D400664E22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48ACF72F168074D400664E22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF72E168074D400664E22 /* LAAnimatedGridExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48ACF731168074D400664E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A5BE371681B8B8007D4DC3 /* QuartzCore.framework */,
+				48ACF7C41680D96E00664E22 /* MobileCoreServices.framework */,
+				48ACF7C21680D96300664E22 /* SystemConfiguration.framework */,
+				48ACF732168074D400664E22 /* UIKit.framework */,
+				48ACF734168074D400664E22 /* Foundation.framework */,
+				48ACF736168074D400664E22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48ACF738168074D400664E22 /* LAAnimatedGridExample */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF741168074D400664E22 /* AppDelegate.h */,
+				48ACF742168074D400664E22 /* AppDelegate.m */,
+				48ACF74A168074D500664E22 /* ViewController.h */,
+				48ACF74B168074D500664E22 /* ViewController.m */,
+				48ACF74D168074D500664E22 /* ViewController.xib */,
+				48ACF739168074D400664E22 /* Supporting Files */,
+				48A5BE4116820BDA007D4DC3 /* Resources */,
+			);
+			path = LAAnimatedGridExample;
+			sourceTree = "<group>";
+		};
+		48ACF739168074D400664E22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF73A168074D400664E22 /* LAAnimatedGridExample-Info.plist */,
+				48ACF73B168074D400664E22 /* InfoPlist.strings */,
+				48ACF73E168074D400664E22 /* main.m */,
+				48ACF740168074D400664E22 /* LAAnimatedGridExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48ACF755168074DA00664E22 /* LAAnimatedGrid */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF756168074EB00664E22 /* LAAnimatedGrid.h */,
+				48ACF757168074EB00664E22 /* LAAnimatedGrid.m */,
+				48ACF75D168078BC00664E22 /* LAAnimatedView.h */,
+				48ACF75E168078BC00664E22 /* LAAnimatedView.m */,
+			);
+			name = LAAnimatedGrid;
+			sourceTree = "<group>";
+		};
+		48ACF7891680B41C00664E22 /* Extern */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF7A11680B7DB00664E22 /* AFNetworking */,
+			);
+			path = Extern;
+			sourceTree = "<group>";
+		};
+		48ACF7A11680B7DB00664E22 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				48ACF7A21680B7DB00664E22 /* AFHTTPClient.h */,
+				48ACF7A31680B7DB00664E22 /* AFHTTPClient.m */,
+				48ACF7A41680B7DB00664E22 /* AFHTTPRequestOperation.h */,
+				48ACF7A51680B7DB00664E22 /* AFHTTPRequestOperation.m */,
+				48ACF7A61680B7DB00664E22 /* AFImageRequestOperation.h */,
+				48ACF7A71680B7DB00664E22 /* AFImageRequestOperation.m */,
+				48ACF7A81680B7DB00664E22 /* AFJSONRequestOperation.h */,
+				48ACF7A91680B7DB00664E22 /* AFJSONRequestOperation.m */,
+				48ACF7AA1680B7DB00664E22 /* AFNetworkActivityIndicatorManager.h */,
+				48ACF7AB1680B7DB00664E22 /* AFNetworkActivityIndicatorManager.m */,
+				48ACF7AC1680B7DB00664E22 /* AFNetworking.h */,
+				48ACF7AD1680B7DB00664E22 /* AFPropertyListRequestOperation.h */,
+				48ACF7AE1680B7DB00664E22 /* AFPropertyListRequestOperation.m */,
+				48ACF7AF1680B7DB00664E22 /* AFURLConnectionOperation.h */,
+				48ACF7B01680B7DB00664E22 /* AFURLConnectionOperation.m */,
+				48ACF7B11680B7DB00664E22 /* AFXMLRequestOperation.h */,
+				48ACF7B21680B7DB00664E22 /* AFXMLRequestOperation.m */,
+				48ACF7B31680B7DB00664E22 /* UIImageView+AFNetworking.h */,
+				48ACF7B41680B7DB00664E22 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = AFNetworking_1_0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48ACF72D168074D400664E22 /* LAAnimatedGridExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48ACF752168074D500664E22 /* Build configuration list for PBXNativeTarget "LAAnimatedGridExample" */;
+			buildPhases = (
+				48ACF72A168074D400664E22 /* Sources */,
+				48ACF72B168074D400664E22 /* Frameworks */,
+				48ACF72C168074D400664E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAAnimatedGridExample;
+			productName = LAAnimatedGridExample;
+			productReference = 48ACF72E168074D400664E22 /* LAAnimatedGridExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48ACF725168074D400664E22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luis Ascorbe";
+			};
+			buildConfigurationList = 48ACF728168074D400664E22 /* Build configuration list for PBXProject "LAAnimatedGridExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48ACF723168074D400664E22;
+			productRefGroup = 48ACF72F168074D400664E22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48ACF72D168074D400664E22 /* LAAnimatedGridExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48ACF72C168074D400664E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ACF73D168074D400664E22 /* InfoPlist.strings in Resources */,
+				48ACF74F168074D500664E22 /* ViewController.xib in Resources */,
+				48ACF7C71680DA2D00664E22 /* README.md in Resources */,
+				48A5BE4316820C98007D4DC3 /* captura.png in Resources */,
+				48BD05531683344500239285 /* images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48ACF72A168074D400664E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ACF73F168074D400664E22 /* main.m in Sources */,
+				48ACF743168074D400664E22 /* AppDelegate.m in Sources */,
+				48ACF74C168074D500664E22 /* ViewController.m in Sources */,
+				48ACF758168074EB00664E22 /* LAAnimatedGrid.m in Sources */,
+				48ACF75F168078BC00664E22 /* LAAnimatedView.m in Sources */,
+				48ACF7B51680B7DB00664E22 /* AFHTTPClient.m in Sources */,
+				48ACF7B61680B7DB00664E22 /* AFHTTPRequestOperation.m in Sources */,
+				48ACF7B71680B7DB00664E22 /* AFImageRequestOperation.m in Sources */,
+				48ACF7B81680B7DB00664E22 /* AFJSONRequestOperation.m in Sources */,
+				48ACF7B91680B7DB00664E22 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				48ACF7BA1680B7DB00664E22 /* AFPropertyListRequestOperation.m in Sources */,
+				48ACF7BB1680B7DB00664E22 /* AFURLConnectionOperation.m in Sources */,
+				48ACF7BC1680B7DB00664E22 /* AFXMLRequestOperation.m in Sources */,
+				48ACF7BD1680B7DB00664E22 /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48ACF73B168074D400664E22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48ACF73C168074D400664E22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48ACF74D168074D500664E22 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48ACF74E168074D500664E22 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48ACF750168074D500664E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48ACF751168074D500664E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48ACF753168074D500664E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAAnimatedGridExample/LAAnimatedGridExample-Prefix.pch";
+				INFOPLIST_FILE = "LAAnimatedGridExample/LAAnimatedGridExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48ACF754168074D500664E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAAnimatedGridExample/LAAnimatedGridExample-Prefix.pch";
+				INFOPLIST_FILE = "LAAnimatedGridExample/LAAnimatedGridExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48ACF728168074D400664E22 /* Build configuration list for PBXProject "LAAnimatedGridExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48ACF750168074D500664E22 /* Debug */,
+				48ACF751168074D500664E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48ACF752168074D500664E22 /* Build configuration list for PBXNativeTarget "LAAnimatedGridExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48ACF753168074D500664E22 /* Debug */,
+				48ACF754168074D500664E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48ACF725168074D400664E22 /* Project object */;
+}

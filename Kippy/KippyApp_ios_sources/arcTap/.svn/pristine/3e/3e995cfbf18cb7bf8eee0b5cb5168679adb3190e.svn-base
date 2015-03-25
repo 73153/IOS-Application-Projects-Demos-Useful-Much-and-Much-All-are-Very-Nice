@@ -1,0 +1,63 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapNetwork.h"
+#import "ASIHTTPRequest.h"
+#import "ASIDownloadCache.h"
+
+@implementation TapNetwork
+
+- (id)init {
+  self = [super init];
+  if (self) {
+    [ASIHTTPRequest setDefaultCache:[ASIDownloadCache sharedCache]];
+    observers = [[NSMutableArray alloc] init];
+  }
+  return self;
+}
+
+-(void)downloadResource:(NSString*)url sender:(NSObject*)sender {
+  [observers addObject:sender];
+  ASIHTTPRequest* request = [[ASIHTTPRequest alloc ] initWithURL:[NSURL URLWithString:url]];
+  [request setCacheStoragePolicy:ASICachePermanentlyCacheStoragePolicy];
+  [request setCachePolicy:ASIFallbackToCacheIfLoadFailsCachePolicy | ASIAskServerIfModifiedWhenStaleCachePolicy];
+  [request setDelegate:self];
+  request.tag = [sender hash];
+  request.validatesSecureCertificate = NO;
+  [request startAsynchronous];
+}
+
+- (void)requestFinished:(ASIHTTPRequest *)request {
+  for(NSObject* sender in observers) {
+    if([sender hash] == request.tag) {
+      [sender performSelector:@selector(downloadResourceSuccess:) withObject:request afterDelay:0];
+      [self cancelDownloadResource:sender];
+      break;
+    }
+  }
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request {
+  for(NSObject* sender in observers) {
+    if([sender hash] == request.tag) {
+      [sender performSelector:@selector(downloadResourceFailed:) withObject:request afterDelay:0];
+      [self cancelDownloadResource:sender];
+      break;
+    }
+  }
+}
+
+-(void)cancelDownloadResource:(NSObject*)sender {
+  [observers removeObject:sender];
+  NSOperationQueue* queue = [ASIHTTPRequest sharedQueue];
+  for(ASIHTTPRequest* request in [queue operations]) {
+    if([request isKindOfClass:[ASIHTTPRequest class]]) {
+      if(request.tag == [sender hash]) {
+        [request cancel];
+      }
+    }
+  }
+}
+
+@end

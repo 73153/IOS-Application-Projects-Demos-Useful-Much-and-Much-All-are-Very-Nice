@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F496C6173FD43300A9685B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F496C5173FD43300A9685B /* Foundation.framework */; };
+		34F496E0173FD55300A9685B /* AKTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496D4173FD4D300A9685B /* AKTab.m */; };
+		34F496E1173FD55300A9685B /* AKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496D6173FD4D300A9685B /* AKTabBar.m */; };
+		34F496E2173FD55300A9685B /* AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496D9173FD4D300A9685B /* AKTabBarController.m */; };
+		34F496E3173FD55300A9685B /* AKTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496DB173FD4D300A9685B /* AKTabBarView.m */; };
+		34F496E4173FD55300A9685B /* UINavigationController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496DD173FD4D300A9685B /* UINavigationController+AKTabBarController.m */; };
+		34F496E5173FD55300A9685B /* UIViewController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F496DF173FD4D300A9685B /* UIViewController+AKTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34F496C0173FD43300A9685B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34F496C2173FD43300A9685B /* libAKTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAKTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F496C5173FD43300A9685B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34F496C9173FD43300A9685B /* AKTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AKTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		34F496D3173FD4D300A9685B /* AKTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AKTab.h; sourceTree = "<group>"; };
+		34F496D4173FD4D300A9685B /* AKTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKTab.m; sourceTree = "<group>"; };
+		34F496D5173FD4D300A9685B /* AKTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AKTabBar.h; sourceTree = "<group>"; };
+		34F496D6173FD4D300A9685B /* AKTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKTabBar.m; sourceTree = "<group>"; };
+		34F496D7173FD4D300A9685B /* AKTabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKTabBarController.bundle; sourceTree = "<group>"; };
+		34F496D8173FD4D300A9685B /* AKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AKTabBarController.h; sourceTree = "<group>"; };
+		34F496D9173FD4D300A9685B /* AKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKTabBarController.m; sourceTree = "<group>"; };
+		34F496DA173FD4D300A9685B /* AKTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AKTabBarView.h; sourceTree = "<group>"; };
+		34F496DB173FD4D300A9685B /* AKTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKTabBarView.m; sourceTree = "<group>"; };
+		34F496DC173FD4D300A9685B /* UINavigationController+AKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = "UINavigationController+AKTabBarController.h"; sourceTree = "<group>"; };
+		34F496DD173FD4D300A9685B /* UINavigationController+AKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKTabBarController.m"; sourceTree = "<group>"; };
+		34F496DE173FD4D300A9685B /* UIViewController+AKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = "UIViewController+AKTabBarController.h"; sourceTree = "<group>"; };
+		34F496DF173FD4D300A9685B /* UIViewController+AKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKTabBarController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F496BF173FD43300A9685B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F496C6173FD43300A9685B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F496B9173FD43300A9685B = {
+			isa = PBXGroup;
+			children = (
+				34F496C7173FD43300A9685B /* AKTabBarController */,
+				34F496C4173FD43300A9685B /* Frameworks */,
+				34F496C3173FD43300A9685B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F496C3173FD43300A9685B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F496C2173FD43300A9685B /* libAKTabBarController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F496C4173FD43300A9685B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F496C5173FD43300A9685B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34F496C7173FD43300A9685B /* AKTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				34F496D3173FD4D300A9685B /* AKTab.h */,
+				34F496D4173FD4D300A9685B /* AKTab.m */,
+				34F496D5173FD4D300A9685B /* AKTabBar.h */,
+				34F496D6173FD4D300A9685B /* AKTabBar.m */,
+				34F496D7173FD4D300A9685B /* AKTabBarController.bundle */,
+				34F496D8173FD4D300A9685B /* AKTabBarController.h */,
+				34F496D9173FD4D300A9685B /* AKTabBarController.m */,
+				34F496DA173FD4D300A9685B /* AKTabBarView.h */,
+				34F496DB173FD4D300A9685B /* AKTabBarView.m */,
+				34F496DC173FD4D300A9685B /* UINavigationController+AKTabBarController.h */,
+				34F496DD173FD4D300A9685B /* UINavigationController+AKTabBarController.m */,
+				34F496DE173FD4D300A9685B /* UIViewController+AKTabBarController.h */,
+				34F496DF173FD4D300A9685B /* UIViewController+AKTabBarController.m */,
+				34F496C8173FD43300A9685B /* Supporting Files */,
+			);
+			path = AKTabBarController;
+			sourceTree = "<group>";
+		};
+		34F496C8173FD43300A9685B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F496C9173FD43300A9685B /* AKTabBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F496C1173FD43300A9685B /* AKTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F496D0173FD43300A9685B /* Build configuration list for PBXNativeTarget "AKTabBarController" */;
+			buildPhases = (
+				34F496BE173FD43300A9685B /* Sources */,
+				34F496BF173FD43300A9685B /* Frameworks */,
+				34F496C0173FD43300A9685B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKTabBarController;
+			productName = AKTabBarController;
+			productReference = 34F496C2173FD43300A9685B /* libAKTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F496BA173FD43300A9685B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AKTabBarController;
+			};
+			buildConfigurationList = 34F496BD173FD43300A9685B /* Build configuration list for PBXProject "AKTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34F496B9173FD43300A9685B;
+			productRefGroup = 34F496C3173FD43300A9685B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F496C1173FD43300A9685B /* AKTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F496BE173FD43300A9685B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F496E0173FD55300A9685B /* AKTab.m in Sources */,
+				34F496E1173FD55300A9685B /* AKTabBar.m in Sources */,
+				34F496E2173FD55300A9685B /* AKTabBarController.m in Sources */,
+				34F496E3173FD55300A9685B /* AKTabBarView.m in Sources */,
+				34F496E4173FD55300A9685B /* UINavigationController+AKTabBarController.m in Sources */,
+				34F496E5173FD55300A9685B /* UIViewController+AKTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34F496CE173FD43300A9685B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F496CF173FD43300A9685B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F496D1173FD43300A9685B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AKTabBarController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKTabBarController/AKTabBarController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34F496D2173FD43300A9685B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AKTabBarController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKTabBarController/AKTabBarController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F496BD173FD43300A9685B /* Build configuration list for PBXProject "AKTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F496CE173FD43300A9685B /* Debug */,
+				34F496CF173FD43300A9685B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F496D0173FD43300A9685B /* Build configuration list for PBXNativeTarget "AKTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F496D1173FD43300A9685B /* Debug */,
+				34F496D2173FD43300A9685B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F496BA173FD43300A9685B /* Project object */;
+}

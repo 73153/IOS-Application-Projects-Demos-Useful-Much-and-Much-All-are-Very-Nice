@@ -1,0 +1,655 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CNSplitView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CNSplitView </a></h1>
+				<a id="developerHome" href="../index.html">cocoa:naut</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CNSplitView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/draggingHandleEnabled">&nbsp;&nbsp;&nbsp;&nbsp;draggingHandleEnabled</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/attachToolbar:toSubViewAtIndex:onEdge:">&nbsp;&nbsp;&nbsp;&nbsp;- attachToolbar:toSubViewAtIndex:onEdge:</option>
+	
+	<option value="//api/name/hideToolbarAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;- hideToolbarAnimated:</option>
+	
+	<option value="//api/name/setDeviderColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setDeviderColor:</option>
+	
+	<option value="//api/name/showToolbarAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;- showToolbarAnimated:</option>
+	
+	<option value="//api/name/toggleToolbarAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;- toggleToolbarAnimated:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring &amp; Handling Toolbars">Configuring &amp; Handling Toolbars</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing the Delegate and the Data Source">Managing the Delegate and the Data Source</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/draggingHandleEnabled">draggingHandleEnabled</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attachToolbar:toSubViewAtIndex:onEdge:">attachToolbar:toSubViewAtIndex:onEdge:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hideToolbarAnimated:">hideToolbarAnimated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDeviderColor:">setDeviderColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showToolbarAnimated:">showToolbarAnimated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/toggleToolbarAnimated:">toggleToolbarAnimated:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CNSplitView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CNSplitView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSSplitView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/CNSplitViewToolbarDelegate.html">CNSplitViewToolbarDelegate</a><br />NSSplitViewDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CNSplitView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The intention of <code>CNSplitView</code> was to create an extended version of the standard <code>NSSplitView</code> to implement the so beloved
+feature of Brandon Walkin&rsquo;s <a href="http://brandonwalkin.com/bwtoolkit/">BWToolkit</a> that has support for an anchored toolbar. Since
+the release of Xcode 4 Apple broke with the less or more well known plugin structure of Xcode 3 and BWToolkit is no longer supported.</p>
+
+<p>Well, <code>CNSplitView</code> tries to fill the hole and provides a feature for adding such a toolbar.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Configuring &amp; Handling Toolbars" name="task_Configuring &amp; Handling Toolbars"></a>
+						<h3 class="subsubtitle task-title">Configuring &amp; Handling Toolbars</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attachToolbar:toSubViewAtIndex:onEdge:">&ndash;&nbsp;attachToolbar:toSubViewAtIndex:onEdge:</a></code>
+		<span class="tooltip"><p>Adds a toolbar besides a <code>CNSplitView</code>&rsquo;s subview.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showToolbarAnimated:">&ndash;&nbsp;showToolbarAnimated:</a></code>
+		<span class="tooltip"><p>Shows an attached toolbar.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hideToolbarAnimated:">&ndash;&nbsp;hideToolbarAnimated:</a></code>
+		<span class="tooltip"><p>Hides an already visible toolbar.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/toggleToolbarAnimated:">&ndash;&nbsp;toggleToolbarAnimated:</a></code>
+		<span class="tooltip"><p>Toggles the visibility of an attached toolbar.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Managing the Delegate and the Data Source" name="task_Managing the Delegate and the Data Source"></a>
+						<h3 class="subsubtitle task-title">Managing the Delegate and the Data Source</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDeviderColor:">&ndash;&nbsp;setDeviderColor:</a></code>
+		<span class="tooltip"><p>Sets the color of the split view divider.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/draggingHandleEnabled">&nbsp;&nbsp;draggingHandleEnabled</a></code>
+		<span class="tooltip"><p>Property that indicates whether an assistive split view dragging handle is enabled or not.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/draggingHandleEnabled" title="draggingHandleEnabled"></a>
+	<h3 class="subsubtitle method-title">draggingHandleEnabled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Property that indicates whether an assistive split view dragging handle is enabled or not.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic, getter=isDraggingHandleEnabled) BOOL draggingHandleEnabled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/attachToolbar:toSubViewAtIndex:onEdge:" title="attachToolbar:toSubViewAtIndex:onEdge:"></a>
+	<h3 class="subsubtitle method-title">attachToolbar:toSubViewAtIndex:onEdge:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a toolbar besides a <code>CNSplitView</code>&rsquo;s subview.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)attachToolbar:(CNSplitViewToolbar *)<em>theToolbar</em> toSubViewAtIndex:(NSUInteger)<em>dividerIndex</em> onEdge:(CNSplitViewToolbarEdge)<em>anchorEdge</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theToolbar</em></dt>
+			<dd><p>An instance of <a href="../Classes/CNSplitViewToolbar.html"><code>CNSplitViewToolbar</code></a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theSubviewIndex</em></dt>
+			<dd><p>The subview&rsquo;s index the toolbar will be attached to. The first index <code>0</code> is the leftmost (on vertical orientation) or the topmost (on horizontal orientation) subview.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEdge</em></dt>
+			<dd><p>A value provided by the <code>CNSplitViewToolbarEdge</code> enum.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This method attaches an instance of a <a href="../Classes/CNSplitViewToolbar.html"><code>CNSplitViewToolbar</code></a> to a receivers subview specified by its index on the top or bottom edge of it.
+The edge the toolbar should be attached to is a value of the <code>CNSplitViewToolbarEdge</code> enum:</p>
+
+<pre><code>typedef enum {
+    CNSplitViewToolbarEdgeUndefined = 0,
+    CNSplitViewToolbarEdgeBottom,
+    CNSplitViewToolbarEdgeTop
+} CNSplitViewToolbarEdge;
+</code></pre><div class="note"><p><strong>Note:</strong> Attaching a toolbar to the split view doesn&rsquo;t imply that it will be visible. You have to call <a href="#//api/name/showToolbarAnimated:">showToolbarAnimated:</a> or <a href="#//api/name/toggleToolbarAnimated:">toggleToolbarAnimated:</a> explicitly.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hideToolbarAnimated:" title="hideToolbarAnimated:"></a>
+	<h3 class="subsubtitle method-title">hideToolbarAnimated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Hides an already visible toolbar.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)hideToolbarAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p><code>YES</code> the toolbar will be hidden using a slide out animation, otherwise <code>NO</code> for no animation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDeviderColor:" title="setDeviderColor:"></a>
+	<h3 class="subsubtitle method-title">setDeviderColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the color of the split view divider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setDeviderColor:(NSColor *)<em>theColor</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theColor</em></dt>
+			<dd><p>An instance of <code>NSColor</code>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>You can make use of any <code>NSColor</code> instance even with pattern images.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showToolbarAnimated:" title="showToolbarAnimated:"></a>
+	<h3 class="subsubtitle method-title">showToolbarAnimated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Shows an attached toolbar.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showToolbarAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p><code>YES</code> the toolbar will be shown using a slide in animation, otherwise <code>NO</code> for no animation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Before you can use this function you have to add a toolbar to the split view, of course.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/toggleToolbarAnimated:" title="toggleToolbarAnimated:"></a>
+	<h3 class="subsubtitle method-title">toggleToolbarAnimated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Toggles the visibility of an attached toolbar.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)toggleToolbarAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p><code>YES</code> for an animated toggle effect, otherwise <code>NO</code>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CNSplitView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 cocoa:naut. All rights reserved. (Last updated: 2013-05-24)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

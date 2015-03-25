@@ -1,0 +1,22 @@
+{
+  "uuid": "19c5d625-de32-42d1-ab4a-7d08edd471dc",
+  "shortName": "Fuzzy Time",
+  "longName": "Fuzzy Time",
+  "companyName": "Pebble Technology",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_fuzzy_watch.png"
+      }
+    ]
+  }
+}

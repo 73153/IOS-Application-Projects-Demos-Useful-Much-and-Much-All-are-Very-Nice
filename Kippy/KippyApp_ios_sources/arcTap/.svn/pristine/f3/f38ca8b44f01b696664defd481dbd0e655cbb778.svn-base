@@ -1,0 +1,16 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapUtils.h"
+
+@implementation TapUtils
+
++(void)showAvailableFonts {
+  for(NSString* familyName in [UIFont familyNames])
+    for(NSString* name in [UIFont fontNamesForFamilyName:familyName]) {
+      NSLog(@"%@", name);
+    }
+}
+
+@end

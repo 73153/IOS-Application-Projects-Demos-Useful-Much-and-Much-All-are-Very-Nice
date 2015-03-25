@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0DB9B87B-BE18-4730-8D2C-38DC9E434CE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GradientColorSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>16CEFE92-496B-459B-8B39-E9C68050ADDD</key>
+		<string>https://github.com/ldesroziers/PXPGradientColor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GradientColorSample/GradientColorSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>16CEFE92-496B-459B-8B39-E9C68050ADDD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ldesroziers/PXPGradientColor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>16CEFE92-496B-459B-8B39-E9C68050ADDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>16CEFE92-496B-459B-8B39-E9C68050ADDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PXPGradientColor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

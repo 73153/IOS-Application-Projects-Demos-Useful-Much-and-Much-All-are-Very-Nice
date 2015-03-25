@@ -1,0 +1,103 @@
+#LPThreeSplitViewController
+
+LPThreeSplitViewController is custom UISplitViewController with three views (MenuView,ListView,DetailView) for iOS devices. MenuView and DetailView are always visible, ListView visibility can be toggled.
+ViewControllers contains UINavigationController so it's easy to make standard navigation by pushing and poping UIViewControllers.
+
+![ScreenShots](ScreenShots/img1.png)
+![ScreenShots](ScreenShots/img2.png)
+![ScreenShots](ScreenShots/img3.png)
+
+##Features
+LPThreeSplitViewController works on any iOS version and is compatible with both ARC and non-ARC projects.
+
+Configuration options:
+
+* MenuView width for landscape and portrait orientation
+* ListView width for landscape and portrait orientation
+* ListView in portrait orientation can be visible or hidden (Default: YES)
+* Show ListView when rotate to portrait orientation (Default: YES)
+* MenuView shadow color (Default: black)
+* MenuView shadow radius (Default: 2.5f)
+* MenuView shadow opacity (Default: 1.0f)
+* ListView shadow color (Default: black)
+* ListView shadow radius (Default: 2.5f)
+* ListView shadow opacity (Default: 1.0f)
+* ListView animation duration (Default: 0.25f)
+* GestureView for close ListView color (Default: black)
+* GestureView for close ListView opacity (Default: 0.3f)
+* GestureView for close ListView padding top (Default: 44.0f)
+ 
+Using Apple Frameworks:
+
+* UIKit.framework
+* Foundation.framework
+* CoreGraphics.framework
+* QuartzCore.framework
+
+##What you need
+To use LPThreeSplitViewController you only need:
+
+* `LPThreeSplitViewController.h`
+* `LPThreeSplitViewController.m`
+
+That's it.
+
+##Delegate messages
+Set your delegate
+
+```objective-c
+self.threeSplitViewController = [[LPThreeSplitViewController alloc] initWithMenuViewController:navigationControllerMenuView ListViewController:navigationControllerListView DetailViewController:navigationControllerDetailView];
+    self.threeSplitViewController.delegate=menuViewController;
+....
+```
+
+In this case we are setting up the MenuViewController as our delegate.
+
+We need to set up LPThreeSplitViewControllerDelegate in MenuViewController.h file
+
+```objective-c
+#import "LPThreeSplitViewController.h"
+....
+@interface MenuViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,LPThreeSplitViewControllerDelegate>
+```
+
+####Delegate methods
+
+```objective-c
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController willShowListViewController:(UIViewController*)listViewController;
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController didShowListViewController:(UIViewController*)listViewController;
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController willHideListViewController:(UIViewController*)listViewController;
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController didHideListViewController:(UIViewController*)listViewController;
+```
+
+```objective-c
+#pragma mark - LPThreeViewControllerDelegate
+
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController willShowListViewController:(UIViewController *)listViewController
+{
+    NSLog(@"willShowListViewController");
+}
+
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController didShowListViewController:(UIViewController *)listViewController
+{
+    NSLog(@"didShowListViewController");
+}
+
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController willHideListViewController:(UIViewController *)listViewController
+{
+    NSLog(@"willHideListViewController");
+}
+
+- (void)LPThreeSplitViewController:(LPThreeSplitViewController *)threeSplitViewController didHideListViewController:(UIViewController *)listViewController
+{
+    NSLog(@"didHideListViewController");
+}
+```
+
+##License
+
+This code is distributed under the terms and conditions of the [MIT license](LICENSE). 
+
+##Change log
+
+A brief summary of each LPGoogleFunctions release can be found on the [wiki](https://github.com/luka1995/LPThreeSplitViewController/wiki/Change-log).

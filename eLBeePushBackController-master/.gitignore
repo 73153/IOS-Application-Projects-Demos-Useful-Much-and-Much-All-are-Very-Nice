@@ -1,0 +1,110 @@
+# Source: https://github.com/github/gitignore/tree/master/Global
+#-----------------------------------------------------------
+
+#
+# Xcode
+#
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+#CocoaPods
+Pods
+
+#-----------------------------------------------------------
+
+#
+# Archive files
+#
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+#-----------------------------------------------------------
+
+#
+# IntelliJ (IDEA, Appcode, etc)
+#
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#-----------------------------------------------------------
+
+#
+# Netbeans
+#
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+#-----------------------------------------------------------
+
+#
+# Mac OSX-related
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+
+#-----------------------------------------------------------
+
+#
+# vi/vim
+#
+*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+#-----------------------------------------------------------
+
+#
+# SublimeText project files
+#
+*.sublime-workspace
+
+#-----------------------------------------------------------
+
+#
+# svn
+#
+.svn
+.svn/

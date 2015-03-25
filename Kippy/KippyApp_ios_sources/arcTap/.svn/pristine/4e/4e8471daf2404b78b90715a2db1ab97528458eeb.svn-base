@@ -1,0 +1,53 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapUtils.h"
+
+@implementation TapUtils
+
++(void)showAvailableFonts {
+  for(NSString* familyName in [UIFont familyNames])
+    for(NSString* name in [UIFont fontNamesForFamilyName:familyName]) {
+      NSLog(@"%@", name);
+    }
+}
+
++(NSString*)retina {
+  if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] == YES && [[UIScreen mainScreen] scale] == 2.00) {
+    return @"@2x";
+  }
+  return @"";
+}
+
++(NSString*)date2string:(NSDate*)date format:(NSString*)format locale:(NSString*)locale {
+  NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+  [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:locale]];
+  [dateFormatter setDateFormat:format];
+  NSString* string = [dateFormatter stringFromDate:date];
+  return string;
+}
+
++(NSDate*)string2date:(NSString*)string format:(NSString*)format locale:(NSString*)locale {
+  NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+  [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:locale]];
+  [dateFormatter setDateFormat:format];
+  NSDate* date = [dateFormatter dateFromString:string];
+  return date;
+}
+
++(NSDate*)monday {
+  NSDate* today = [NSDate date];
+  NSDateComponents* components = [[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:today];
+  int weekday = [components weekday];
+  return [TapUtils dateByAddingDays:today days:-weekday+2];
+}
+
++(NSDate*)dateByAddingDays:(NSDate*)date days:(int)n {
+  NSDateComponents *components = [[NSDateComponents alloc] init];
+  [components setDay:n];
+  NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+  return [gregorian dateByAddingComponents:components toDate:date options:0];
+}
+
+@end

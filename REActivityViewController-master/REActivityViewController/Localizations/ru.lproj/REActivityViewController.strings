@@ -1,0 +1,108 @@
+/*
+ REActivityViewController.strings
+ Created by Roman Efimov on 02/14/13.
+*/
+
+/////////////////////
+// ACTIVITIES
+/////////////////////
+
+/* Mail */
+"activity.Mail.title"="Mail";
+
+/* Copy */
+"activity.Copy.title"="Скопировать";
+
+/* Save to Diigo */
+"activity.Diigo.title"="Сохранить в Diigo";
+"activity.Diigo.dialog.title"="Diigo";
+"activity.Diigo.authentication.title"="Diigo";
+"activity.Diigo.authentication.error"="Пожалуйста, проверьте имя пользователя и пароль. Если они верны, возможно Diigo недоступен в данный момент, повторите через несколько минут.";
+"activity.Diigo.error.title"="Ошибка.";
+"activity.Diigo.error.text"="Пожалуйста, введите название ссылки.";
+
+/* Save to Kippt */
+"activity.Kippt.title"="Сохранить в Kippt";
+"activity.Kippt.dialog.title"="Kippt";
+"activity.Kippt.authentication.title"="Kippt";
+"activity.Kippt.authentication.error"="Пожалуйста, проверьте имя пользователя и пароль. Если они верны, возможно Kippt недоступен в данный момент, повторите через несколько минут.";
+"activity.Kippt.error.title"="Ошибка.";
+"activity.Kippt.error.text"="Пожалуйста, введите название ссылки.";
+
+/* Facebook */
+"activity.Facebook.title"="Facebook";
+
+/* Send to Instapaper */
+"activity.Instapaper.title"="Отправить в Instapaper";
+"activity.Instapaper.authentication.title"="Instapaper";
+"activity.Instapaper.authentication.error"="Пожалуйста, проверьте имя пользователя и пароль. Если они верны, возможно Instapaper недоступен в данный момент, повторите через несколько минут.";
+
+/* Open in Maps */
+"activity.Maps.title"="Открыть в Картах";
+
+/* Message */
+"activity.Message.title"="Сообщение";
+
+/* Save to Pocket */
+"activity.Pocket.title"="Сохранить в Pocket";
+
+/* Print */
+"activity.Print.title"="Печать";
+"activity.Print.error.title"="Ошибка.";
+"activity.Print.error.message"="Произошла ошибка при печати: %@";
+
+/* Save to Readability */
+"activity.Readability.title"="Сохранить в Readability";
+"activity.Readability.authentication.title"="Readability";
+"activity.Readability.authentication.error"="Пожалуйста, проверьте имя пользователя и пароль. Если они верны, возможно Readability недоступен в данный момент, повторите через несколько минут.";
+
+/* Open in Safari */
+"activity.Safari.title"="Открыть в Safari";
+
+/* Open in Chrome */
+"activity.Chrome.title"="Открыть в Chrome";
+"activity.Chrome.dialog.appstore.title"="Chrome в App Store";
+"activity.Chrome.dialog.appstore.message"="Хотите ли Вы установить Google Chrome из App Store?";
+
+/* Save to Camera Roll */
+"activity.CameraRoll.title"="Фотопоток";
+
+/* Tumblr */
+"activity.Tumblr.title"="Tumblr";
+"activity.Tumblr.dialog.title"="Tumblr";
+"activity.Tumblr.authentication.title"="Tumblr";
+"activity.Tumblr.authentication.error"="Пожалуйста, проверьте e-mail и пароль. Если они верны, возможно Tumblr недоступен в данный момент, повторите через несколько минут.";
+
+/* Twitter */
+"activity.Twitter.title"="Twitter";
+
+/* VKontakte */
+"activity.VKontakte.title"="ВКонтакте";
+"activity.VKontakte.dialog.title"="ВКонтакте";
+"activity.VKontakte.authentication.title"="ВКонтакте";
+
+/////////////////////
+// GENERIC
+/////////////////////
+
+/* Buttons */
+"button.cancel"="Отмена";
+"button.dismiss"="ОК";
+"button.login"="Войти";
+"button.ok"="OK";
+
+/* Email */
+"field.email"="E-mail";
+
+/* Username */
+"field.username"="Логин";
+
+/* Password */
+"field.password"="Пароль";
+
+/* We never store your password. */
+"slogan.never.store.password"="Мы никогда не храним Ваш пароль.";
+
+/* We save your password in a safe place. */
+"slogan.password.storage.is.safe"="Мы храним Ваш пароль в надежном месте.";
+

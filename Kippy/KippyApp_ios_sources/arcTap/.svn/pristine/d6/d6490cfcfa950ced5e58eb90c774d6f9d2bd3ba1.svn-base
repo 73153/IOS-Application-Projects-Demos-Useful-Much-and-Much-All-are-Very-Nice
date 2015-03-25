@@ -1,0 +1,70 @@
+//
+//  Copyright (c) 2012 Click'nTap. All rights reserved.
+//
+
+#import "TapApp.h"
+#import "TapController.h"
+#import "TapNetwork.h"
+
+@implementation TapApp
+
+@synthesize window, navigationController;
+
+
+-(void)initApp {
+  [[UIAccelerometer sharedAccelerometer] setUpdateInterval:0.02f];
+  [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+}
+
+-(void)openApp:(UIApplication *)application options:(NSDictionary*)launchOptions {
+  
+}
+
+-(void)closeApp {
+  
+}
+
+- (void)dealloc {
+  [self closeApp];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  network = [[TapNetwork alloc] init];
+  [self initApp];
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  [self openApp:application options:launchOptions];
+  [self.window makeKeyAndVisible];
+  [NSTimer scheduledTimerWithTimeInterval:0.02f target:self selector:@selector(appIdle) userInfo:nil repeats:YES];
+  return YES;
+}
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+  return (UIInterfaceOrientationMaskAll);
+}
+
+-(void)appIdle {
+  for(UIViewController* controller in [navigationController viewControllers]) {
+    if([controller isKindOfClass:[TapController class]]) {
+      [(TapController*)controller idle];
+    }
+  }
+}
+
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+  for(UIViewController* controller in [navigationController viewControllers]) {
+    if([controller isKindOfClass:[TapController class]]) {
+      [(TapController*)controller accelerometer:accelerometer didAccelerate:acceleration];
+    }
+  }
+}
+
+-(void)downloadResource:(NSString*)url sender:(NSObject*)sender {
+  [network downloadResource:url sender:sender];
+}
+
+-(void)cancelDownloadResource:(NSObject*)sender {
+  [network cancelDownloadResource:sender];
+}
+
+@end

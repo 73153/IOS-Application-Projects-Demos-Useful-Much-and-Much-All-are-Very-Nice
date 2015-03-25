@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A54D66164D31A30038BCB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A54D65164D31A30038BCB6 /* UIKit.framework */; };
+		85A54D68164D31A30038BCB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A54D67164D31A30038BCB6 /* Foundation.framework */; };
+		85A54D6A164D31A30038BCB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A54D69164D31A30038BCB6 /* CoreGraphics.framework */; };
+		85A54D70164D31A30038BCB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85A54D6E164D31A30038BCB6 /* InfoPlist.strings */; };
+		85A54D72164D31A30038BCB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A54D71164D31A30038BCB6 /* main.m */; };
+		85A54D76164D31A30038BCB6 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A54D75164D31A30038BCB6 /* MBAppDelegate.m */; };
+		85A54D78164D31A30038BCB6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A54D77164D31A30038BCB6 /* Default.png */; };
+		85A54D7A164D31A30038BCB6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A54D79164D31A30038BCB6 /* Default@2x.png */; };
+		85A54D7C164D31A30038BCB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A54D7B164D31A30038BCB6 /* Default-568h@2x.png */; };
+		85A54D7F164D31A30038BCB6 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A54D7E164D31A30038BCB6 /* MBViewController.m */; };
+		85A54D82164D31A30038BCB6 /* MBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A54D80164D31A30038BCB6 /* MBViewController.xib */; };
+		85A55143164D34520038BCB6 /* de.yml in Resources */ = {isa = PBXBuildFile; fileRef = 85A550B5164D34520038BCB6 /* de.yml */; };
+		85A5514A164D34520038BCB6 /* en.yml in Resources */ = {isa = PBXBuildFile; fileRef = 85A550BC164D34520038BCB6 /* en.yml */; };
+		85A5514B164D34520038BCB6 /* fr.yml in Resources */ = {isa = PBXBuildFile; fileRef = 85A550BD164D34520038BCB6 /* fr.yml */; };
+		85A5514C164D34520038BCB6 /* nl.yml in Resources */ = {isa = PBXBuildFile; fileRef = 85A550BE164D34520038BCB6 /* nl.yml */; };
+		85A5514E164D34520038BCB6 /* pl.yml in Resources */ = {isa = PBXBuildFile; fileRef = 85A550C0164D34520038BCB6 /* pl.yml */; };
+		85A55151164D34520038BCB6 /* MBFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550C4164D34520038BCB6 /* MBFaker.m */; };
+		85A55152164D34520038BCB6 /* MBFakerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550C6164D34520038BCB6 /* MBFakerAddress.m */; };
+		85A55153164D34520038BCB6 /* MBFakerCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550C8164D34520038BCB6 /* MBFakerCompany.m */; };
+		85A55154164D34520038BCB6 /* MBFakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550CA164D34520038BCB6 /* MBFakerHelper.m */; };
+		85A55155164D34520038BCB6 /* MBFakerInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550CC164D34520038BCB6 /* MBFakerInternet.m */; };
+		85A55156164D34520038BCB6 /* MBFakerLorem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550CE164D34520038BCB6 /* MBFakerLorem.m */; };
+		85A55157164D34520038BCB6 /* MBFakerName.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550D0164D34520038BCB6 /* MBFakerName.m */; };
+		85A55158164D34520038BCB6 /* MBFakerPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A550D2164D34520038BCB6 /* MBFakerPhoneNumber.m */; };
+		85A551AB164D34520038BCB6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 85A5512B164D34520038BCB6 /* LICENSE */; };
+		85A551AC164D34520038BCB6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 85A5512C164D34520038BCB6 /* README */; };
+		85A551AD164D34520038BCB6 /* api.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A5512F164D34520038BCB6 /* api.Plo */; };
+		85A551AE164D34520038BCB6 /* dumper.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55130164D34520038BCB6 /* dumper.Plo */; };
+		85A551AF164D34520038BCB6 /* emitter.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55131164D34520038BCB6 /* emitter.Plo */; };
+		85A551B0164D34520038BCB6 /* loader.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55132164D34520038BCB6 /* loader.Plo */; };
+		85A551B1164D34520038BCB6 /* parser.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55133164D34520038BCB6 /* parser.Plo */; };
+		85A551B2164D34520038BCB6 /* reader.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55134164D34520038BCB6 /* reader.Plo */; };
+		85A551B3164D34520038BCB6 /* scanner.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55135164D34520038BCB6 /* scanner.Plo */; };
+		85A551B4164D34520038BCB6 /* writer.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 85A55136164D34520038BCB6 /* writer.Plo */; };
+		85A551B5164D34520038BCB6 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A55137164D34520038BCB6 /* api.c */; };
+		85A551B6164D34520038BCB6 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A55138164D34520038BCB6 /* dumper.c */; };
+		85A551B7164D34520038BCB6 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A55139164D34520038BCB6 /* emitter.c */; };
+		85A551B8164D34520038BCB6 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A5513A164D34520038BCB6 /* loader.c */; };
+		85A551B9164D34520038BCB6 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A5513B164D34520038BCB6 /* parser.c */; };
+		85A551BA164D34520038BCB6 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A5513C164D34520038BCB6 /* reader.c */; };
+		85A551BB164D34520038BCB6 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A5513D164D34520038BCB6 /* scanner.c */; };
+		85A551BC164D34520038BCB6 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 85A5513E164D34520038BCB6 /* writer.c */; };
+		85A551BD164D34520038BCB6 /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A55141164D34520038BCB6 /* YAMLSerialization.m */; };
+		85A551C9164D36F00038BCB6 /* MBTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A551C8164D36F00038BCB6 /* MBTableCell.m */; };
+		85A551CB164D370C0038BCB6 /* MBTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A551CA164D370C0038BCB6 /* MBTableCell.xib */; };
+		85A551CE164D3D190038BCB6 /* MBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A551CD164D3D190038BCB6 /* MBPerson.m */; };
+		8FE4DEC0177AF382005DF1A1 /* ru.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8FE4DEBF177AF382005DF1A1 /* ru.yml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85A54D61164D31A30038BCB6 /* MBFaker Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBFaker Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A54D65164D31A30038BCB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85A54D67164D31A30038BCB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85A54D69164D31A30038BCB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85A54D6D164D31A30038BCB6 /* MBFaker Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBFaker Demo-Info.plist"; sourceTree = "<group>"; };
+		85A54D6F164D31A30038BCB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85A54D71164D31A30038BCB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85A54D73164D31A30038BCB6 /* MBFaker Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBFaker Demo-Prefix.pch"; sourceTree = "<group>"; };
+		85A54D74164D31A30038BCB6 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		85A54D75164D31A30038BCB6 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		85A54D77164D31A30038BCB6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85A54D79164D31A30038BCB6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		85A54D7B164D31A30038BCB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85A54D7D164D31A30038BCB6 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		85A54D7E164D31A30038BCB6 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		85A54D81164D31A30038BCB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MBViewController.xib; sourceTree = "<group>"; };
+		85A550B5164D34520038BCB6 /* de.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = de.yml; sourceTree = "<group>"; };
+		85A550BC164D34520038BCB6 /* en.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.yml; sourceTree = "<group>"; };
+		85A550BD164D34520038BCB6 /* fr.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fr.yml; sourceTree = "<group>"; };
+		85A550BE164D34520038BCB6 /* nl.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nl.yml; sourceTree = "<group>"; };
+		85A550C0164D34520038BCB6 /* pl.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pl.yml; sourceTree = "<group>"; };
+		85A550C3164D34520038BCB6 /* MBFaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFaker.h; sourceTree = "<group>"; };
+		85A550C4164D34520038BCB6 /* MBFaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFaker.m; sourceTree = "<group>"; };
+		85A550C5164D34520038BCB6 /* MBFakerAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerAddress.h; sourceTree = "<group>"; };
+		85A550C6164D34520038BCB6 /* MBFakerAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerAddress.m; sourceTree = "<group>"; };
+		85A550C7164D34520038BCB6 /* MBFakerCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerCompany.h; sourceTree = "<group>"; };
+		85A550C8164D34520038BCB6 /* MBFakerCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerCompany.m; sourceTree = "<group>"; };
+		85A550C9164D34520038BCB6 /* MBFakerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerHelper.h; sourceTree = "<group>"; };
+		85A550CA164D34520038BCB6 /* MBFakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerHelper.m; sourceTree = "<group>"; };
+		85A550CB164D34520038BCB6 /* MBFakerInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerInternet.h; sourceTree = "<group>"; };
+		85A550CC164D34520038BCB6 /* MBFakerInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerInternet.m; sourceTree = "<group>"; };
+		85A550CD164D34520038BCB6 /* MBFakerLorem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerLorem.h; sourceTree = "<group>"; };
+		85A550CE164D34520038BCB6 /* MBFakerLorem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerLorem.m; sourceTree = "<group>"; };
+		85A550CF164D34520038BCB6 /* MBFakerName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerName.h; sourceTree = "<group>"; };
+		85A550D0164D34520038BCB6 /* MBFakerName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerName.m; sourceTree = "<group>"; };
+		85A550D1164D34520038BCB6 /* MBFakerPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerPhoneNumber.h; sourceTree = "<group>"; };
+		85A550D2164D34520038BCB6 /* MBFakerPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerPhoneNumber.m; sourceTree = "<group>"; };
+		85A550D4164D34520038BCB6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		85A5512A164D34520038BCB6 /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		85A5512B164D34520038BCB6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85A5512C164D34520038BCB6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		85A5512F164D34520038BCB6 /* api.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.Plo; sourceTree = "<group>"; };
+		85A55130164D34520038BCB6 /* dumper.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dumper.Plo; sourceTree = "<group>"; };
+		85A55131164D34520038BCB6 /* emitter.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emitter.Plo; sourceTree = "<group>"; };
+		85A55132164D34520038BCB6 /* loader.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loader.Plo; sourceTree = "<group>"; };
+		85A55133164D34520038BCB6 /* parser.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = parser.Plo; sourceTree = "<group>"; };
+		85A55134164D34520038BCB6 /* reader.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reader.Plo; sourceTree = "<group>"; };
+		85A55135164D34520038BCB6 /* scanner.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scanner.Plo; sourceTree = "<group>"; };
+		85A55136164D34520038BCB6 /* writer.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = writer.Plo; sourceTree = "<group>"; };
+		85A55137164D34520038BCB6 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		85A55138164D34520038BCB6 /* dumper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dumper.c; sourceTree = "<group>"; };
+		85A55139164D34520038BCB6 /* emitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
+		85A5513A164D34520038BCB6 /* loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loader.c; sourceTree = "<group>"; };
+		85A5513B164D34520038BCB6 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		85A5513C164D34520038BCB6 /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		85A5513D164D34520038BCB6 /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		85A5513E164D34520038BCB6 /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
+		85A5513F164D34520038BCB6 /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
+		85A55140164D34520038BCB6 /* YAMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLSerialization.h; sourceTree = "<group>"; };
+		85A55141164D34520038BCB6 /* YAMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLSerialization.m; sourceTree = "<group>"; };
+		85A551C7164D36F00038BCB6 /* MBTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableCell.h; sourceTree = "<group>"; };
+		85A551C8164D36F00038BCB6 /* MBTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableCell.m; sourceTree = "<group>"; };
+		85A551CA164D370C0038BCB6 /* MBTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBTableCell.xib; sourceTree = "<group>"; };
+		85A551CC164D3D190038BCB6 /* MBPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPerson.h; sourceTree = "<group>"; };
+		85A551CD164D3D190038BCB6 /* MBPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPerson.m; sourceTree = "<group>"; };
+		8FE4DEBF177AF382005DF1A1 /* ru.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ru.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A54D5E164D31A30038BCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A54D66164D31A30038BCB6 /* UIKit.framework in Frameworks */,
+				85A54D68164D31A30038BCB6 /* Foundation.framework in Frameworks */,
+				85A54D6A164D31A30038BCB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A54D56164D31A30038BCB6 = {
+			isa = PBXGroup;
+			children = (
+				85A550B2164D34520038BCB6 /* MBFaker */,
+				85A54D6B164D31A30038BCB6 /* MBFaker Demo */,
+				85A54D64164D31A30038BCB6 /* Frameworks */,
+				85A54D62164D31A30038BCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A54D62164D31A30038BCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A54D61164D31A30038BCB6 /* MBFaker Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A54D64164D31A30038BCB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A54D65164D31A30038BCB6 /* UIKit.framework */,
+				85A54D67164D31A30038BCB6 /* Foundation.framework */,
+				85A54D69164D31A30038BCB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A54D6B164D31A30038BCB6 /* MBFaker Demo */ = {
+			isa = PBXGroup;
+			children = (
+				85A54D74164D31A30038BCB6 /* MBAppDelegate.h */,
+				85A54D75164D31A30038BCB6 /* MBAppDelegate.m */,
+				85A54D7D164D31A30038BCB6 /* MBViewController.h */,
+				85A54D7E164D31A30038BCB6 /* MBViewController.m */,
+				85A54D80164D31A30038BCB6 /* MBViewController.xib */,
+				85A551C7164D36F00038BCB6 /* MBTableCell.h */,
+				85A551C8164D36F00038BCB6 /* MBTableCell.m */,
+				85A551CA164D370C0038BCB6 /* MBTableCell.xib */,
+				85A551CC164D3D190038BCB6 /* MBPerson.h */,
+				85A551CD164D3D190038BCB6 /* MBPerson.m */,
+				85A54D6C164D31A30038BCB6 /* Supporting Files */,
+			);
+			path = "MBFaker Demo";
+			sourceTree = "<group>";
+		};
+		85A54D6C164D31A30038BCB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A54D6D164D31A30038BCB6 /* MBFaker Demo-Info.plist */,
+				85A54D6E164D31A30038BCB6 /* InfoPlist.strings */,
+				85A54D71164D31A30038BCB6 /* main.m */,
+				85A54D73164D31A30038BCB6 /* MBFaker Demo-Prefix.pch */,
+				85A54D77164D31A30038BCB6 /* Default.png */,
+				85A54D79164D31A30038BCB6 /* Default@2x.png */,
+				85A54D7B164D31A30038BCB6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A550B2164D34520038BCB6 /* MBFaker */ = {
+			isa = PBXGroup;
+			children = (
+				85A550B3164D34520038BCB6 /* Locales */,
+				85A550C3164D34520038BCB6 /* MBFaker.h */,
+				85A550C4164D34520038BCB6 /* MBFaker.m */,
+				85A550C5164D34520038BCB6 /* MBFakerAddress.h */,
+				85A550C6164D34520038BCB6 /* MBFakerAddress.m */,
+				85A550C7164D34520038BCB6 /* MBFakerCompany.h */,
+				85A550C8164D34520038BCB6 /* MBFakerCompany.m */,
+				85A550C9164D34520038BCB6 /* MBFakerHelper.h */,
+				85A550CA164D34520038BCB6 /* MBFakerHelper.m */,
+				85A550CB164D34520038BCB6 /* MBFakerInternet.h */,
+				85A550CC164D34520038BCB6 /* MBFakerInternet.m */,
+				85A550CD164D34520038BCB6 /* MBFakerLorem.h */,
+				85A550CE164D34520038BCB6 /* MBFakerLorem.m */,
+				85A550CF164D34520038BCB6 /* MBFakerName.h */,
+				85A550D0164D34520038BCB6 /* MBFakerName.m */,
+				85A550D1164D34520038BCB6 /* MBFakerPhoneNumber.h */,
+				85A550D2164D34520038BCB6 /* MBFakerPhoneNumber.m */,
+				85A55140164D34520038BCB6 /* YAMLSerialization.h */,
+				85A55141164D34520038BCB6 /* YAMLSerialization.m */,
+				85A550D3164D34520038BCB6 /* yaml-0.1.3 */,
+			);
+			name = MBFaker;
+			path = ../MBFaker;
+			sourceTree = "<group>";
+		};
+		85A550B3164D34520038BCB6 /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				8FE4DEBF177AF382005DF1A1 /* ru.yml */,
+				85A550B5164D34520038BCB6 /* de.yml */,
+				85A550BC164D34520038BCB6 /* en.yml */,
+				85A550BD164D34520038BCB6 /* fr.yml */,
+				85A550BE164D34520038BCB6 /* nl.yml */,
+				85A550C0164D34520038BCB6 /* pl.yml */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
+		};
+		85A550D3164D34520038BCB6 /* yaml-0.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				85A550D4164D34520038BCB6 /* config.h */,
+				85A55129164D34520038BCB6 /* include */,
+				85A5512B164D34520038BCB6 /* LICENSE */,
+				85A5512C164D34520038BCB6 /* README */,
+				85A5512D164D34520038BCB6 /* src */,
+			);
+			path = "yaml-0.1.3";
+			sourceTree = "<group>";
+		};
+		85A55129164D34520038BCB6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				85A5512A164D34520038BCB6 /* yaml.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		85A5512D164D34520038BCB6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				85A5512E164D34520038BCB6 /* .deps */,
+				85A55137164D34520038BCB6 /* api.c */,
+				85A55138164D34520038BCB6 /* dumper.c */,
+				85A55139164D34520038BCB6 /* emitter.c */,
+				85A5513A164D34520038BCB6 /* loader.c */,
+				85A5513B164D34520038BCB6 /* parser.c */,
+				85A5513C164D34520038BCB6 /* reader.c */,
+				85A5513D164D34520038BCB6 /* scanner.c */,
+				85A5513E164D34520038BCB6 /* writer.c */,
+				85A5513F164D34520038BCB6 /* yaml_private.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		85A5512E164D34520038BCB6 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				85A5512F164D34520038BCB6 /* api.Plo */,
+				85A55130164D34520038BCB6 /* dumper.Plo */,
+				85A55131164D34520038BCB6 /* emitter.Plo */,
+				85A55132164D34520038BCB6 /* loader.Plo */,
+				85A55133164D34520038BCB6 /* parser.Plo */,
+				85A55134164D34520038BCB6 /* reader.Plo */,
+				85A55135164D34520038BCB6 /* scanner.Plo */,
+				85A55136164D34520038BCB6 /* writer.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A54D60164D31A30038BCB6 /* MBFaker Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A54D85164D31A30038BCB6 /* Build configuration list for PBXNativeTarget "MBFaker Demo" */;
+			buildPhases = (
+				85A54D5D164D31A30038BCB6 /* Sources */,
+				85A54D5E164D31A30038BCB6 /* Frameworks */,
+				85A54D5F164D31A30038BCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBFaker Demo";
+			productName = "MBFaker Demo";
+			productReference = 85A54D61164D31A30038BCB6 /* MBFaker Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A54D58164D31A30038BCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Michał Banasiak";
+			};
+			buildConfigurationList = 85A54D5B164D31A30038BCB6 /* Build configuration list for PBXProject "MBFaker Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85A54D56164D31A30038BCB6;
+			productRefGroup = 85A54D62164D31A30038BCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A54D60164D31A30038BCB6 /* MBFaker Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A54D5F164D31A30038BCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A54D70164D31A30038BCB6 /* InfoPlist.strings in Resources */,
+				85A54D78164D31A30038BCB6 /* Default.png in Resources */,
+				85A54D7A164D31A30038BCB6 /* Default@2x.png in Resources */,
+				85A54D7C164D31A30038BCB6 /* Default-568h@2x.png in Resources */,
+				85A54D82164D31A30038BCB6 /* MBViewController.xib in Resources */,
+				85A55143164D34520038BCB6 /* de.yml in Resources */,
+				85A5514A164D34520038BCB6 /* en.yml in Resources */,
+				85A5514B164D34520038BCB6 /* fr.yml in Resources */,
+				85A5514C164D34520038BCB6 /* nl.yml in Resources */,
+				85A5514E164D34520038BCB6 /* pl.yml in Resources */,
+				85A551AB164D34520038BCB6 /* LICENSE in Resources */,
+				85A551AC164D34520038BCB6 /* README in Resources */,
+				85A551AD164D34520038BCB6 /* api.Plo in Resources */,
+				85A551AE164D34520038BCB6 /* dumper.Plo in Resources */,
+				85A551AF164D34520038BCB6 /* emitter.Plo in Resources */,
+				85A551B0164D34520038BCB6 /* loader.Plo in Resources */,
+				85A551B1164D34520038BCB6 /* parser.Plo in Resources */,
+				85A551B2164D34520038BCB6 /* reader.Plo in Resources */,
+				85A551B3164D34520038BCB6 /* scanner.Plo in Resources */,
+				85A551B4164D34520038BCB6 /* writer.Plo in Resources */,
+				85A551CB164D370C0038BCB6 /* MBTableCell.xib in Resources */,
+				8FE4DEC0177AF382005DF1A1 /* ru.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A54D5D164D31A30038BCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A54D72164D31A30038BCB6 /* main.m in Sources */,
+				85A54D76164D31A30038BCB6 /* MBAppDelegate.m in Sources */,
+				85A54D7F164D31A30038BCB6 /* MBViewController.m in Sources */,
+				85A55151164D34520038BCB6 /* MBFaker.m in Sources */,
+				85A55152164D34520038BCB6 /* MBFakerAddress.m in Sources */,
+				85A55153164D34520038BCB6 /* MBFakerCompany.m in Sources */,
+				85A55154164D34520038BCB6 /* MBFakerHelper.m in Sources */,
+				85A55155164D34520038BCB6 /* MBFakerInternet.m in Sources */,
+				85A55156164D34520038BCB6 /* MBFakerLorem.m in Sources */,
+				85A55157164D34520038BCB6 /* MBFakerName.m in Sources */,
+				85A55158164D34520038BCB6 /* MBFakerPhoneNumber.m in Sources */,
+				85A551B5164D34520038BCB6 /* api.c in Sources */,
+				85A551B6164D34520038BCB6 /* dumper.c in Sources */,
+				85A551B7164D34520038BCB6 /* emitter.c in Sources */,
+				85A551B8164D34520038BCB6 /* loader.c in Sources */,
+				85A551B9164D34520038BCB6 /* parser.c in Sources */,
+				85A551BA164D34520038BCB6 /* reader.c in Sources */,
+				85A551BB164D34520038BCB6 /* scanner.c in Sources */,
+				85A551BC164D34520038BCB6 /* writer.c in Sources */,
+				85A551BD164D34520038BCB6 /* YAMLSerialization.m in Sources */,
+				85A551C9164D36F00038BCB6 /* MBTableCell.m in Sources */,
+				85A551CE164D3D190038BCB6 /* MBPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85A54D6E164D31A30038BCB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A54D6F164D31A30038BCB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85A54D80164D31A30038BCB6 /* MBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A54D81164D31A30038BCB6 /* en */,
+			);
+			name = MBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A54D83164D31A30038BCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85A54D84164D31A30038BCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A54D86164D31A30038BCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MBFaker\"",
+					"\"$(SRCROOT)/MBFaker\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBFaker Demo/MBFaker Demo-Prefix.pch";
+				INFOPLIST_FILE = "MBFaker Demo/MBFaker Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85A54D87164D31A30038BCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MBFaker\"",
+					"\"$(SRCROOT)/MBFaker\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBFaker Demo/MBFaker Demo-Prefix.pch";
+				INFOPLIST_FILE = "MBFaker Demo/MBFaker Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A54D5B164D31A30038BCB6 /* Build configuration list for PBXProject "MBFaker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A54D83164D31A30038BCB6 /* Debug */,
+				85A54D84164D31A30038BCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A54D85164D31A30038BCB6 /* Build configuration list for PBXNativeTarget "MBFaker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A54D86164D31A30038BCB6 /* Debug */,
+				85A54D87164D31A30038BCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A54D58164D31A30038BCB6 /* Project object */;
+}

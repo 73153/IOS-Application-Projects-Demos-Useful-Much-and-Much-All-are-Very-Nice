@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40DF033166255800050E22C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF032166255800050E22C /* UIKit.framework */; };
+		F40DF035166255800050E22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF034166255800050E22C /* Foundation.framework */; };
+		F40DF037166255800050E22C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF036166255800050E22C /* CoreGraphics.framework */; };
+		F40DF03D166255800050E22C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40DF03B166255800050E22C /* InfoPlist.strings */; };
+		F40DF03F166255800050E22C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF03E166255800050E22C /* main.m */; };
+		F40DF043166255800050E22C /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF042166255800050E22C /* GSAppDelegate.m */; };
+		F40DF045166255800050E22C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF044166255800050E22C /* Default.png */; };
+		F40DF047166255800050E22C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF046166255800050E22C /* Default@2x.png */; };
+		F40DF049166255800050E22C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF048166255800050E22C /* Default-568h@2x.png */; };
+		F40DF04C166255800050E22C /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF04B166255800050E22C /* GSViewController.m */; };
+		F40DF04F166255800050E22C /* GSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40DF04D166255800050E22C /* GSViewController.xib */; };
+		F40DF056166255D80050E22C /* kitten-thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40DF055166255D80050E22C /* kitten-thumbnail.jpg */; };
+		F40DF065166256780050E22C /* GSDropboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF059166256780050E22C /* GSDropboxActivity.m */; };
+		F40DF067166256780050E22C /* GSDropboxActivityIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF05B166256780050E22C /* GSDropboxActivityIcon.png */; };
+		F40DF068166256780050E22C /* GSDropboxActivityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF05C166256780050E22C /* GSDropboxActivityIcon@2x.png */; };
+		F40DF069166256780050E22C /* GSDropboxActivityIcon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF05D166256780050E22C /* GSDropboxActivityIcon@2x~ipad.png */; };
+		F40DF06A166256780050E22C /* GSDropboxActivityIcon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF05E166256780050E22C /* GSDropboxActivityIcon~ipad.png */; };
+		F40DF06B166256780050E22C /* GSDropboxDestinationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF060166256780050E22C /* GSDropboxDestinationSelectionViewController.m */; };
+		F40DF06C166256780050E22C /* GSDropboxUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF062166256780050E22C /* GSDropboxUploader.m */; };
+		F40DF06D166256780050E22C /* GSDropboxUploadJob.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF064166256780050E22C /* GSDropboxUploadJob.m */; };
+		F40DF06F166257BB0050E22C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF06E166257BB0050E22C /* DropboxSDK.framework */; };
+		F40DF0791662581C0050E22C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF0781662581C0050E22C /* QuartzCore.framework */; };
+		F40DF07B166258220050E22C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF07A166258220050E22C /* Security.framework */; };
+		F40DF08816625D5F0050E22C /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40DF08716625D5F0050E22C /* kitten.jpg */; };
+		F465929E17956AA000A3847E /* GSDropboxActivityIcon-iOS6.png in Resources */ = {isa = PBXBuildFile; fileRef = F465929A17956AA000A3847E /* GSDropboxActivityIcon-iOS6.png */; };
+		F465929F17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F465929B17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x.png */; };
+		F46592A017956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F465929C17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x~ipad.png */; };
+		F46592A117956AA000A3847E /* GSDropboxActivityIcon-iOS6~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F465929D17956AA000A3847E /* GSDropboxActivityIcon-iOS6~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F40DF02E166255800050E22C /* GSDropboxDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSDropboxDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40DF032166255800050E22C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F40DF034166255800050E22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F40DF036166255800050E22C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F40DF03A166255800050E22C /* GSDropboxDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSDropboxDemoApp-Info.plist"; sourceTree = "<group>"; };
+		F40DF03C166255800050E22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F40DF03E166255800050E22C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40DF040166255800050E22C /* GSDropboxDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSDropboxDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		F40DF041166255800050E22C /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		F40DF042166255800050E22C /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		F40DF044166255800050E22C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F40DF046166255800050E22C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F40DF048166255800050E22C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F40DF04A166255800050E22C /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		F40DF04B166255800050E22C /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		F40DF04E166255800050E22C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GSViewController.xib; sourceTree = "<group>"; };
+		F40DF055166255D80050E22C /* kitten-thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kitten-thumbnail.jpg"; sourceTree = "<group>"; };
+		F40DF058166256780050E22C /* GSDropboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxActivity.h; sourceTree = "<group>"; };
+		F40DF059166256780050E22C /* GSDropboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxActivity.m; sourceTree = "<group>"; };
+		F40DF05B166256780050E22C /* GSDropboxActivityIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSDropboxActivityIcon.png; sourceTree = "<group>"; };
+		F40DF05C166256780050E22C /* GSDropboxActivityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x.png"; sourceTree = "<group>"; };
+		F40DF05D166256780050E22C /* GSDropboxActivityIcon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x~ipad.png"; sourceTree = "<group>"; };
+		F40DF05E166256780050E22C /* GSDropboxActivityIcon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon~ipad.png"; sourceTree = "<group>"; };
+		F40DF05F166256780050E22C /* GSDropboxDestinationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxDestinationSelectionViewController.h; sourceTree = "<group>"; };
+		F40DF060166256780050E22C /* GSDropboxDestinationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxDestinationSelectionViewController.m; sourceTree = "<group>"; };
+		F40DF061166256780050E22C /* GSDropboxUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploader.h; sourceTree = "<group>"; };
+		F40DF062166256780050E22C /* GSDropboxUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploader.m; sourceTree = "<group>"; };
+		F40DF063166256780050E22C /* GSDropboxUploadJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploadJob.h; sourceTree = "<group>"; };
+		F40DF064166256780050E22C /* GSDropboxUploadJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploadJob.m; sourceTree = "<group>"; };
+		F40DF06E166257BB0050E22C /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		F40DF0781662581C0050E22C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F40DF07A166258220050E22C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F40DF08716625D5F0050E22C /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		F465929A17956AA000A3847E /* GSDropboxActivityIcon-iOS6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon-iOS6.png"; sourceTree = "<group>"; };
+		F465929B17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon-iOS6@2x.png"; sourceTree = "<group>"; };
+		F465929C17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon-iOS6@2x~ipad.png"; sourceTree = "<group>"; };
+		F465929D17956AA000A3847E /* GSDropboxActivityIcon-iOS6~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon-iOS6~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40DF02B166255800050E22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DF07B166258220050E22C /* Security.framework in Frameworks */,
+				F40DF0791662581C0050E22C /* QuartzCore.framework in Frameworks */,
+				F40DF033166255800050E22C /* UIKit.framework in Frameworks */,
+				F40DF035166255800050E22C /* Foundation.framework in Frameworks */,
+				F40DF037166255800050E22C /* CoreGraphics.framework in Frameworks */,
+				F40DF06F166257BB0050E22C /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40DF023166255800050E22C = {
+			isa = PBXGroup;
+			children = (
+				F40DF038166255800050E22C /* GSDropboxDemoApp */,
+				F40DF031166255800050E22C /* Frameworks */,
+				F40DF02F166255800050E22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40DF02F166255800050E22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF02E166255800050E22C /* GSDropboxDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40DF031166255800050E22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF036166255800050E22C /* CoreGraphics.framework */,
+				F40DF06E166257BB0050E22C /* DropboxSDK.framework */,
+				F40DF034166255800050E22C /* Foundation.framework */,
+				F40DF0781662581C0050E22C /* QuartzCore.framework */,
+				F40DF07A166258220050E22C /* Security.framework */,
+				F40DF032166255800050E22C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40DF038166255800050E22C /* GSDropboxDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF057166256780050E22C /* GSDropboxActivity */,
+				F40DF041166255800050E22C /* GSAppDelegate.h */,
+				F40DF042166255800050E22C /* GSAppDelegate.m */,
+				F40DF04A166255800050E22C /* GSViewController.h */,
+				F40DF04B166255800050E22C /* GSViewController.m */,
+				F40DF04D166255800050E22C /* GSViewController.xib */,
+				F40DF039166255800050E22C /* Supporting Files */,
+			);
+			path = GSDropboxDemoApp;
+			sourceTree = "<group>";
+		};
+		F40DF039166255800050E22C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF055166255D80050E22C /* kitten-thumbnail.jpg */,
+				F40DF08716625D5F0050E22C /* kitten.jpg */,
+				F40DF03A166255800050E22C /* GSDropboxDemoApp-Info.plist */,
+				F40DF03B166255800050E22C /* InfoPlist.strings */,
+				F40DF03E166255800050E22C /* main.m */,
+				F40DF040166255800050E22C /* GSDropboxDemoApp-Prefix.pch */,
+				F40DF044166255800050E22C /* Default.png */,
+				F40DF046166255800050E22C /* Default@2x.png */,
+				F40DF048166255800050E22C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F40DF057166256780050E22C /* GSDropboxActivity */ = {
+			isa = PBXGroup;
+			children = (
+				F46592A217956AAC00A3847E /* Icons */,
+				F40DF058166256780050E22C /* GSDropboxActivity.h */,
+				F40DF059166256780050E22C /* GSDropboxActivity.m */,
+				F40DF05F166256780050E22C /* GSDropboxDestinationSelectionViewController.h */,
+				F40DF060166256780050E22C /* GSDropboxDestinationSelectionViewController.m */,
+				F40DF061166256780050E22C /* GSDropboxUploader.h */,
+				F40DF062166256780050E22C /* GSDropboxUploader.m */,
+				F40DF063166256780050E22C /* GSDropboxUploadJob.h */,
+				F40DF064166256780050E22C /* GSDropboxUploadJob.m */,
+			);
+			name = GSDropboxActivity;
+			path = ../../GSDropboxActivity;
+			sourceTree = "<group>";
+		};
+		F46592A217956AAC00A3847E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F465929A17956AA000A3847E /* GSDropboxActivityIcon-iOS6.png */,
+				F465929B17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x.png */,
+				F465929C17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x~ipad.png */,
+				F465929D17956AA000A3847E /* GSDropboxActivityIcon-iOS6~ipad.png */,
+				F40DF05B166256780050E22C /* GSDropboxActivityIcon.png */,
+				F40DF05C166256780050E22C /* GSDropboxActivityIcon@2x.png */,
+				F40DF05D166256780050E22C /* GSDropboxActivityIcon@2x~ipad.png */,
+				F40DF05E166256780050E22C /* GSDropboxActivityIcon~ipad.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40DF02D166255800050E22C /* GSDropboxDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40DF052166255800050E22C /* Build configuration list for PBXNativeTarget "GSDropboxDemoApp" */;
+			buildPhases = (
+				F40DF02A166255800050E22C /* Sources */,
+				F40DF02B166255800050E22C /* Frameworks */,
+				F40DF02C166255800050E22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSDropboxDemoApp;
+			productName = GSDropboxDemoApp;
+			productReference = F40DF02E166255800050E22C /* GSDropboxDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40DF025166255800050E22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Goo Software Ltd";
+			};
+			buildConfigurationList = F40DF028166255800050E22C /* Build configuration list for PBXProject "GSDropboxDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F40DF023166255800050E22C;
+			productRefGroup = F40DF02F166255800050E22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40DF02D166255800050E22C /* GSDropboxDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40DF02C166255800050E22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DF03D166255800050E22C /* InfoPlist.strings in Resources */,
+				F40DF045166255800050E22C /* Default.png in Resources */,
+				F40DF047166255800050E22C /* Default@2x.png in Resources */,
+				F40DF049166255800050E22C /* Default-568h@2x.png in Resources */,
+				F40DF04F166255800050E22C /* GSViewController.xib in Resources */,
+				F40DF056166255D80050E22C /* kitten-thumbnail.jpg in Resources */,
+				F40DF067166256780050E22C /* GSDropboxActivityIcon.png in Resources */,
+				F40DF068166256780050E22C /* GSDropboxActivityIcon@2x.png in Resources */,
+				F40DF069166256780050E22C /* GSDropboxActivityIcon@2x~ipad.png in Resources */,
+				F40DF06A166256780050E22C /* GSDropboxActivityIcon~ipad.png in Resources */,
+				F40DF08816625D5F0050E22C /* kitten.jpg in Resources */,
+				F465929E17956AA000A3847E /* GSDropboxActivityIcon-iOS6.png in Resources */,
+				F465929F17956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x.png in Resources */,
+				F46592A017956AA000A3847E /* GSDropboxActivityIcon-iOS6@2x~ipad.png in Resources */,
+				F46592A117956AA000A3847E /* GSDropboxActivityIcon-iOS6~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40DF02A166255800050E22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DF03F166255800050E22C /* main.m in Sources */,
+				F40DF043166255800050E22C /* GSAppDelegate.m in Sources */,
+				F40DF04C166255800050E22C /* GSViewController.m in Sources */,
+				F40DF065166256780050E22C /* GSDropboxActivity.m in Sources */,
+				F40DF06B166256780050E22C /* GSDropboxDestinationSelectionViewController.m in Sources */,
+				F40DF06C166256780050E22C /* GSDropboxUploader.m in Sources */,
+				F40DF06D166256780050E22C /* GSDropboxUploadJob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F40DF03B166255800050E22C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40DF03C166255800050E22C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F40DF04D166255800050E22C /* GSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40DF04E166255800050E22C /* en */,
+			);
+			name = GSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40DF050166255800050E22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F40DF051166255800050E22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40DF053166255800050E22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSDropboxDemoApp/GSDropboxDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "GSDropboxDemoApp/GSDropboxDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F40DF054166255800050E22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSDropboxDemoApp/GSDropboxDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "GSDropboxDemoApp/GSDropboxDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40DF028166255800050E22C /* Build configuration list for PBXProject "GSDropboxDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40DF050166255800050E22C /* Debug */,
+				F40DF051166255800050E22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40DF052166255800050E22C /* Build configuration list for PBXNativeTarget "GSDropboxDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40DF053166255800050E22C /* Debug */,
+				F40DF054166255800050E22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40DF025166255800050E22C /* Project object */;
+}

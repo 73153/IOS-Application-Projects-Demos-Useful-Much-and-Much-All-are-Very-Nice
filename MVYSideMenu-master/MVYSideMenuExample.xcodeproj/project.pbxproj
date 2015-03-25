@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3841358917E7B48E006BEEFF /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3841358717E7B48E006BEEFF /* menu_icon@2x.png */; };
+		C2ABB3D2178D680E0041CAF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ABB3D1178D680E0041CAF1 /* UIKit.framework */; };
+		C2ABB3D4178D680E0041CAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ABB3D3178D680E0041CAF1 /* Foundation.framework */; };
+		C2ABB3D6178D680E0041CAF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ABB3D5178D680E0041CAF1 /* CoreGraphics.framework */; };
+		C2ABB3DC178D680E0041CAF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB3DA178D680E0041CAF1 /* InfoPlist.strings */; };
+		C2ABB3DE178D680E0041CAF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB3DD178D680E0041CAF1 /* main.m */; };
+		C2ABB3E2178D680E0041CAF1 /* MVYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB3E1178D680E0041CAF1 /* MVYAppDelegate.m */; };
+		C2ABB3E4178D680E0041CAF1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB3E3178D680E0041CAF1 /* Default.png */; };
+		C2ABB3E6178D680E0041CAF1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB3E5178D680E0041CAF1 /* Default@2x.png */; };
+		C2ABB3E8178D680E0041CAF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB3E7178D680E0041CAF1 /* Default-568h@2x.png */; };
+		C2ABB3F7178D68D40041CAF1 /* MVYSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB3F6178D68D40041CAF1 /* MVYSideMenuController.m */; };
+		C2ABB3FA178D69020041CAF1 /* MVYSideMenuOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB3F9178D69020041CAF1 /* MVYSideMenuOptions.m */; };
+		C2ABB3FE178D69FE0041CAF1 /* MVYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB3FC178D69FE0041CAF1 /* MVYMenuViewController.m */; };
+		C2ABB3FF178D69FE0041CAF1 /* MVYMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB3FD178D69FE0041CAF1 /* MVYMenuViewController.xib */; };
+		C2ABB403178D6A120041CAF1 /* MVYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABB401178D6A120041CAF1 /* MVYContentViewController.m */; };
+		C2ABB404178D6A120041CAF1 /* MVYContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2ABB402178D6A120041CAF1 /* MVYContentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3841358717E7B48E006BEEFF /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		C2ABB3CE178D680E0041CAF1 /* MVYSideMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVYSideMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ABB3D1178D680E0041CAF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2ABB3D3178D680E0041CAF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2ABB3D5178D680E0041CAF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2ABB3D9178D680E0041CAF1 /* MVYSideMenuExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVYSideMenuExample-Info.plist"; sourceTree = "<group>"; };
+		C2ABB3DB178D680E0041CAF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2ABB3DD178D680E0041CAF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2ABB3DF178D680E0041CAF1 /* MVYSideMenuExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVYSideMenuExample-Prefix.pch"; sourceTree = "<group>"; };
+		C2ABB3E0178D680E0041CAF1 /* MVYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVYAppDelegate.h; sourceTree = "<group>"; };
+		C2ABB3E1178D680E0041CAF1 /* MVYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVYAppDelegate.m; sourceTree = "<group>"; };
+		C2ABB3E3178D680E0041CAF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C2ABB3E5178D680E0041CAF1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C2ABB3E7178D680E0041CAF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2ABB3F5178D68D40041CAF1 /* MVYSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYSideMenuController.h; sourceTree = "<group>"; };
+		C2ABB3F6178D68D40041CAF1 /* MVYSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYSideMenuController.m; sourceTree = "<group>"; };
+		C2ABB3F8178D69020041CAF1 /* MVYSideMenuOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYSideMenuOptions.h; sourceTree = "<group>"; };
+		C2ABB3F9178D69020041CAF1 /* MVYSideMenuOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYSideMenuOptions.m; sourceTree = "<group>"; };
+		C2ABB3FB178D69FE0041CAF1 /* MVYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYMenuViewController.h; sourceTree = "<group>"; };
+		C2ABB3FC178D69FE0041CAF1 /* MVYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYMenuViewController.m; sourceTree = "<group>"; };
+		C2ABB3FD178D69FE0041CAF1 /* MVYMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYMenuViewController.xib; sourceTree = "<group>"; };
+		C2ABB400178D6A120041CAF1 /* MVYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYContentViewController.h; sourceTree = "<group>"; };
+		C2ABB401178D6A120041CAF1 /* MVYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYContentViewController.m; sourceTree = "<group>"; };
+		C2ABB402178D6A120041CAF1 /* MVYContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYContentViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2ABB3CB178D680E0041CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ABB3D2178D680E0041CAF1 /* UIKit.framework in Frameworks */,
+				C2ABB3D4178D680E0041CAF1 /* Foundation.framework in Frameworks */,
+				C2ABB3D6178D680E0041CAF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3841358017E7B44D006BEEFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3841358117E7B44D006BEEFF /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3841358117E7B44D006BEEFF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3841358717E7B48E006BEEFF /* menu_icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C2ABB3C5178D680E0041CAF1 = {
+			isa = PBXGroup;
+			children = (
+				C2ABB3F4178D68BA0041CAF1 /* MVYSideMenu */,
+				C2ABB3D7178D680E0041CAF1 /* MVYSideMenuExample */,
+				C2ABB3D0178D680E0041CAF1 /* Frameworks */,
+				C2ABB3CF178D680E0041CAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2ABB3CF178D680E0041CAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2ABB3CE178D680E0041CAF1 /* MVYSideMenuExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2ABB3D0178D680E0041CAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2ABB3D1178D680E0041CAF1 /* UIKit.framework */,
+				C2ABB3D3178D680E0041CAF1 /* Foundation.framework */,
+				C2ABB3D5178D680E0041CAF1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2ABB3D7178D680E0041CAF1 /* MVYSideMenuExample */ = {
+			isa = PBXGroup;
+			children = (
+				3841358017E7B44D006BEEFF /* Resources */,
+				C2ABB3E0178D680E0041CAF1 /* MVYAppDelegate.h */,
+				C2ABB3E1178D680E0041CAF1 /* MVYAppDelegate.m */,
+				C2ABB3D8178D680E0041CAF1 /* Supporting Files */,
+				C2ABB3FB178D69FE0041CAF1 /* MVYMenuViewController.h */,
+				C2ABB3FC178D69FE0041CAF1 /* MVYMenuViewController.m */,
+				C2ABB3FD178D69FE0041CAF1 /* MVYMenuViewController.xib */,
+				C2ABB400178D6A120041CAF1 /* MVYContentViewController.h */,
+				C2ABB401178D6A120041CAF1 /* MVYContentViewController.m */,
+				C2ABB402178D6A120041CAF1 /* MVYContentViewController.xib */,
+			);
+			path = MVYSideMenuExample;
+			sourceTree = "<group>";
+		};
+		C2ABB3D8178D680E0041CAF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2ABB3D9178D680E0041CAF1 /* MVYSideMenuExample-Info.plist */,
+				C2ABB3DA178D680E0041CAF1 /* InfoPlist.strings */,
+				C2ABB3DD178D680E0041CAF1 /* main.m */,
+				C2ABB3DF178D680E0041CAF1 /* MVYSideMenuExample-Prefix.pch */,
+				C2ABB3E3178D680E0041CAF1 /* Default.png */,
+				C2ABB3E5178D680E0041CAF1 /* Default@2x.png */,
+				C2ABB3E7178D680E0041CAF1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2ABB3F4178D68BA0041CAF1 /* MVYSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C2ABB3F5178D68D40041CAF1 /* MVYSideMenuController.h */,
+				C2ABB3F6178D68D40041CAF1 /* MVYSideMenuController.m */,
+				C2ABB3F8178D69020041CAF1 /* MVYSideMenuOptions.h */,
+				C2ABB3F9178D69020041CAF1 /* MVYSideMenuOptions.m */,
+			);
+			path = MVYSideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2ABB3CD178D680E0041CAF1 /* MVYSideMenuExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ABB3F1178D680E0041CAF1 /* Build configuration list for PBXNativeTarget "MVYSideMenuExample" */;
+			buildPhases = (
+				C2ABB3CA178D680E0041CAF1 /* Sources */,
+				C2ABB3CB178D680E0041CAF1 /* Frameworks */,
+				C2ABB3CC178D680E0041CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVYSideMenuExample;
+			productName = MVYSideMenuExample;
+			productReference = C2ABB3CE178D680E0041CAF1 /* MVYSideMenuExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2ABB3C6178D680E0041CAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MVY;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mobivery;
+			};
+			buildConfigurationList = C2ABB3C9178D680E0041CAF1 /* Build configuration list for PBXProject "MVYSideMenuExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2ABB3C5178D680E0041CAF1;
+			productRefGroup = C2ABB3CF178D680E0041CAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2ABB3CD178D680E0041CAF1 /* MVYSideMenuExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2ABB3CC178D680E0041CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ABB3DC178D680E0041CAF1 /* InfoPlist.strings in Resources */,
+				C2ABB3E4178D680E0041CAF1 /* Default.png in Resources */,
+				C2ABB3E6178D680E0041CAF1 /* Default@2x.png in Resources */,
+				C2ABB3E8178D680E0041CAF1 /* Default-568h@2x.png in Resources */,
+				C2ABB3FF178D69FE0041CAF1 /* MVYMenuViewController.xib in Resources */,
+				C2ABB404178D6A120041CAF1 /* MVYContentViewController.xib in Resources */,
+				3841358917E7B48E006BEEFF /* menu_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2ABB3CA178D680E0041CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ABB3DE178D680E0041CAF1 /* main.m in Sources */,
+				C2ABB3E2178D680E0041CAF1 /* MVYAppDelegate.m in Sources */,
+				C2ABB3F7178D68D40041CAF1 /* MVYSideMenuController.m in Sources */,
+				C2ABB3FA178D69020041CAF1 /* MVYSideMenuOptions.m in Sources */,
+				C2ABB3FE178D69FE0041CAF1 /* MVYMenuViewController.m in Sources */,
+				C2ABB403178D6A120041CAF1 /* MVYContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2ABB3DA178D680E0041CAF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2ABB3DB178D680E0041CAF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2ABB3EF178D680E0041CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2ABB3F0178D680E0041CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2ABB3F2178D680E0041CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVYSideMenuExample/MVYSideMenuExample-Prefix.pch";
+				INFOPLIST_FILE = "MVYSideMenuExample/MVYSideMenuExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2ABB3F3178D680E0041CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVYSideMenuExample/MVYSideMenuExample-Prefix.pch";
+				INFOPLIST_FILE = "MVYSideMenuExample/MVYSideMenuExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2ABB3C9178D680E0041CAF1 /* Build configuration list for PBXProject "MVYSideMenuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ABB3EF178D680E0041CAF1 /* Debug */,
+				C2ABB3F0178D680E0041CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ABB3F1178D680E0041CAF1 /* Build configuration list for PBXNativeTarget "MVYSideMenuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ABB3F2178D680E0041CAF1 /* Debug */,
+				C2ABB3F3178D680E0041CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2ABB3C6178D680E0041CAF1 /* Project object */;
+}

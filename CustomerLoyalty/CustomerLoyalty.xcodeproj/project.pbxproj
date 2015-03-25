@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE69F4A918ACA1CA00D6F537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4A518ACA1CA00D6F537 /* AppDelegate.m */; };
+		DE69F4AE18ACA20D00D6F537 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4AC18ACA20D00D6F537 /* LoginViewController.m */; };
+		DE69F4AF18ACA20D00D6F537 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4AD18ACA20D00D6F537 /* LoginViewController.xib */; };
+		DE69F4B318ACA23900D6F537 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4B118ACA23900D6F537 /* RegistrationViewController.m */; };
+		DE69F4B418ACA23900D6F537 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4B218ACA23900D6F537 /* RegistrationViewController.xib */; };
+		DE69F4B818ACA24B00D6F537 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4B618ACA24B00D6F537 /* SurveyViewController.m */; };
+		DE69F4B918ACA24B00D6F537 /* SurveyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4B718ACA24B00D6F537 /* SurveyViewController.xib */; };
+		DE69F4BD18ACA25700D6F537 /* PointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4BB18ACA25700D6F537 /* PointsViewController.m */; };
+		DE69F4BE18ACA25700D6F537 /* PointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4BC18ACA25700D6F537 /* PointsViewController.xib */; };
+		DE69F4C218ACA26600D6F537 /* PointsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4C018ACA26600D6F537 /* PointsDetailViewController.m */; };
+		DE69F4C318ACA26600D6F537 /* PointsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4C118ACA26600D6F537 /* PointsDetailViewController.xib */; };
+		DE69F4C718ACA27300D6F537 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4C518ACA27300D6F537 /* DashBoardViewController.m */; };
+		DE69F4C818ACA27300D6F537 /* DashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4C618ACA27300D6F537 /* DashBoardViewController.xib */; };
+		DE69F4CC18ACA28900D6F537 /* CompleteRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69F4CA18ACA28900D6F537 /* CompleteRegistrationViewController.m */; };
+		DE69F4CD18ACA28900D6F537 /* CompleteRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69F4CB18ACA28900D6F537 /* CompleteRegistrationViewController.xib */; };
+		DE75454A18ACA0BC00C32EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE75454918ACA0BC00C32EED /* UIKit.framework */; };
+		DE75454C18ACA0BC00C32EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE75454B18ACA0BC00C32EED /* Foundation.framework */; };
+		DE75454E18ACA0BC00C32EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE75454D18ACA0BC00C32EED /* CoreGraphics.framework */; };
+		DE75455418ACA0BC00C32EED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE75455218ACA0BC00C32EED /* InfoPlist.strings */; };
+		DE75455618ACA0BC00C32EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE75455518ACA0BC00C32EED /* main.m */; };
+		DE75455C18ACA0BC00C32EED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75455B18ACA0BC00C32EED /* Default.png */; };
+		DE75455E18ACA0BC00C32EED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75455D18ACA0BC00C32EED /* Default@2x.png */; };
+		DE75456018ACA0BC00C32EED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75455F18ACA0BC00C32EED /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE69F4A418ACA1CA00D6F537 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE69F4A518ACA1CA00D6F537 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE69F4AA18ACA1DF00D6F537 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		DE69F4AB18ACA20D00D6F537 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DE69F4AC18ACA20D00D6F537 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DE69F4AD18ACA20D00D6F537 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DE69F4B018ACA23900D6F537 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		DE69F4B118ACA23900D6F537 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		DE69F4B218ACA23900D6F537 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		DE69F4B518ACA24A00D6F537 /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		DE69F4B618ACA24B00D6F537 /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		DE69F4B718ACA24B00D6F537 /* SurveyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SurveyViewController.xib; sourceTree = "<group>"; };
+		DE69F4BA18ACA25700D6F537 /* PointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsViewController.h; sourceTree = "<group>"; };
+		DE69F4BB18ACA25700D6F537 /* PointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsViewController.m; sourceTree = "<group>"; };
+		DE69F4BC18ACA25700D6F537 /* PointsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointsViewController.xib; sourceTree = "<group>"; };
+		DE69F4BF18ACA26600D6F537 /* PointsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsDetailViewController.h; sourceTree = "<group>"; };
+		DE69F4C018ACA26600D6F537 /* PointsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsDetailViewController.m; sourceTree = "<group>"; };
+		DE69F4C118ACA26600D6F537 /* PointsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointsDetailViewController.xib; sourceTree = "<group>"; };
+		DE69F4C418ACA27300D6F537 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		DE69F4C518ACA27300D6F537 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		DE69F4C618ACA27300D6F537 /* DashBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashBoardViewController.xib; sourceTree = "<group>"; };
+		DE69F4C918ACA28900D6F537 /* CompleteRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteRegistrationViewController.h; sourceTree = "<group>"; };
+		DE69F4CA18ACA28900D6F537 /* CompleteRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteRegistrationViewController.m; sourceTree = "<group>"; };
+		DE69F4CB18ACA28900D6F537 /* CompleteRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompleteRegistrationViewController.xib; sourceTree = "<group>"; };
+		DE75454518ACA0BC00C32EED /* CustomerLoyalty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomerLoyalty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE75454918ACA0BC00C32EED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE75454B18ACA0BC00C32EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE75454D18ACA0BC00C32EED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE75455118ACA0BC00C32EED /* CustomerLoyalty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomerLoyalty-Info.plist"; sourceTree = "<group>"; };
+		DE75455318ACA0BC00C32EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE75455518ACA0BC00C32EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE75455718ACA0BC00C32EED /* CustomerLoyalty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomerLoyalty-Prefix.pch"; sourceTree = "<group>"; };
+		DE75455B18ACA0BC00C32EED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE75455D18ACA0BC00C32EED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE75455F18ACA0BC00C32EED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE75454218ACA0BC00C32EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75454A18ACA0BC00C32EED /* UIKit.framework in Frameworks */,
+				DE75454C18ACA0BC00C32EED /* Foundation.framework in Frameworks */,
+				DE75454E18ACA0BC00C32EED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE69F4A318ACA1CA00D6F537 /* AppSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				DE69F4A418ACA1CA00D6F537 /* AppDelegate.h */,
+				DE69F4A518ACA1CA00D6F537 /* AppDelegate.m */,
+				DE69F4AA18ACA1DF00D6F537 /* AppConstant.h */,
+			);
+			path = AppSpecific;
+			sourceTree = "<group>";
+		};
+		DE69F4A618ACA1CA00D6F537 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE69F4A718ACA1CA00D6F537 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE69F4A718ACA1CA00D6F537 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DE69F4A818ACA1CA00D6F537 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE69F4AB18ACA20D00D6F537 /* LoginViewController.h */,
+				DE69F4AC18ACA20D00D6F537 /* LoginViewController.m */,
+				DE69F4AD18ACA20D00D6F537 /* LoginViewController.xib */,
+				DE69F4B018ACA23900D6F537 /* RegistrationViewController.h */,
+				DE69F4B118ACA23900D6F537 /* RegistrationViewController.m */,
+				DE69F4B218ACA23900D6F537 /* RegistrationViewController.xib */,
+				DE69F4B518ACA24A00D6F537 /* SurveyViewController.h */,
+				DE69F4B618ACA24B00D6F537 /* SurveyViewController.m */,
+				DE69F4B718ACA24B00D6F537 /* SurveyViewController.xib */,
+				DE69F4BA18ACA25700D6F537 /* PointsViewController.h */,
+				DE69F4BB18ACA25700D6F537 /* PointsViewController.m */,
+				DE69F4BC18ACA25700D6F537 /* PointsViewController.xib */,
+				DE69F4BF18ACA26600D6F537 /* PointsDetailViewController.h */,
+				DE69F4C018ACA26600D6F537 /* PointsDetailViewController.m */,
+				DE69F4C118ACA26600D6F537 /* PointsDetailViewController.xib */,
+				DE69F4C418ACA27300D6F537 /* DashBoardViewController.h */,
+				DE69F4C518ACA27300D6F537 /* DashBoardViewController.m */,
+				DE69F4C618ACA27300D6F537 /* DashBoardViewController.xib */,
+				DE69F4C918ACA28900D6F537 /* CompleteRegistrationViewController.h */,
+				DE69F4CA18ACA28900D6F537 /* CompleteRegistrationViewController.m */,
+				DE69F4CB18ACA28900D6F537 /* CompleteRegistrationViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE75453A18ACA0BB00C32EED = {
+			isa = PBXGroup;
+			children = (
+				DE75454F18ACA0BC00C32EED /* CustomerLoyalty */,
+				DE75454818ACA0BC00C32EED /* Frameworks */,
+				DE75454618ACA0BC00C32EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE75454618ACA0BC00C32EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE75454518ACA0BC00C32EED /* CustomerLoyalty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE75454818ACA0BC00C32EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE75454918ACA0BC00C32EED /* UIKit.framework */,
+				DE75454B18ACA0BC00C32EED /* Foundation.framework */,
+				DE75454D18ACA0BC00C32EED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE75454F18ACA0BC00C32EED /* CustomerLoyalty */ = {
+			isa = PBXGroup;
+			children = (
+				DE69F4A318ACA1CA00D6F537 /* AppSpecific */,
+				DE69F4A618ACA1CA00D6F537 /* Resources */,
+				DE69F4A818ACA1CA00D6F537 /* ViewController */,
+				DE75455018ACA0BC00C32EED /* Supporting Files */,
+			);
+			path = CustomerLoyalty;
+			sourceTree = "<group>";
+		};
+		DE75455018ACA0BC00C32EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE75455118ACA0BC00C32EED /* CustomerLoyalty-Info.plist */,
+				DE75455218ACA0BC00C32EED /* InfoPlist.strings */,
+				DE75455518ACA0BC00C32EED /* main.m */,
+				DE75455718ACA0BC00C32EED /* CustomerLoyalty-Prefix.pch */,
+				DE75455B18ACA0BC00C32EED /* Default.png */,
+				DE75455D18ACA0BC00C32EED /* Default@2x.png */,
+				DE75455F18ACA0BC00C32EED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE75454418ACA0BC00C32EED /* CustomerLoyalty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE75456C18ACA0BC00C32EED /* Build configuration list for PBXNativeTarget "CustomerLoyalty" */;
+			buildPhases = (
+				DE75454118ACA0BC00C32EED /* Sources */,
+				DE75454218ACA0BC00C32EED /* Frameworks */,
+				DE75454318ACA0BC00C32EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomerLoyalty;
+			productName = CustomerLoyalty;
+			productReference = DE75454518ACA0BC00C32EED /* CustomerLoyalty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE75453C18ACA0BC00C32EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "N-Tech";
+			};
+			buildConfigurationList = DE75453F18ACA0BC00C32EED /* Build configuration list for PBXProject "CustomerLoyalty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE75453A18ACA0BB00C32EED;
+			productRefGroup = DE75454618ACA0BC00C32EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE75454418ACA0BC00C32EED /* CustomerLoyalty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE75454318ACA0BC00C32EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE69F4AF18ACA20D00D6F537 /* LoginViewController.xib in Resources */,
+				DE69F4C318ACA26600D6F537 /* PointsDetailViewController.xib in Resources */,
+				DE69F4B918ACA24B00D6F537 /* SurveyViewController.xib in Resources */,
+				DE75455418ACA0BC00C32EED /* InfoPlist.strings in Resources */,
+				DE75455C18ACA0BC00C32EED /* Default.png in Resources */,
+				DE69F4B418ACA23900D6F537 /* RegistrationViewController.xib in Resources */,
+				DE69F4BE18ACA25700D6F537 /* PointsViewController.xib in Resources */,
+				DE75455E18ACA0BC00C32EED /* Default@2x.png in Resources */,
+				DE75456018ACA0BC00C32EED /* Default-568h@2x.png in Resources */,
+				DE69F4C818ACA27300D6F537 /* DashBoardViewController.xib in Resources */,
+				DE69F4CD18ACA28900D6F537 /* CompleteRegistrationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE75454118ACA0BC00C32EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE69F4C218ACA26600D6F537 /* PointsDetailViewController.m in Sources */,
+				DE69F4A918ACA1CA00D6F537 /* AppDelegate.m in Sources */,
+				DE69F4B318ACA23900D6F537 /* RegistrationViewController.m in Sources */,
+				DE69F4CC18ACA28900D6F537 /* CompleteRegistrationViewController.m in Sources */,
+				DE69F4C718ACA27300D6F537 /* DashBoardViewController.m in Sources */,
+				DE75455618ACA0BC00C32EED /* main.m in Sources */,
+				DE69F4BD18ACA25700D6F537 /* PointsViewController.m in Sources */,
+				DE69F4AE18ACA20D00D6F537 /* LoginViewController.m in Sources */,
+				DE69F4B818ACA24B00D6F537 /* SurveyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE75455218ACA0BC00C32EED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE75455318ACA0BC00C32EED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE75456A18ACA0BC00C32EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE75456B18ACA0BC00C32EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE75456D18ACA0BC00C32EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomerLoyalty/CustomerLoyalty-Prefix.pch";
+				INFOPLIST_FILE = "CustomerLoyalty/CustomerLoyalty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE75456E18ACA0BC00C32EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomerLoyalty/CustomerLoyalty-Prefix.pch";
+				INFOPLIST_FILE = "CustomerLoyalty/CustomerLoyalty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE75453F18ACA0BC00C32EED /* Build configuration list for PBXProject "CustomerLoyalty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75456A18ACA0BC00C32EED /* Debug */,
+				DE75456B18ACA0BC00C32EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE75456C18ACA0BC00C32EED /* Build configuration list for PBXNativeTarget "CustomerLoyalty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE75456D18ACA0BC00C32EED /* Debug */,
+				DE75456E18ACA0BC00C32EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE75453C18ACA0BC00C32EED /* Project object */;
+}

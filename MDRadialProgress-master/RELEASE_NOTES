@@ -1,0 +1,23 @@
+1.0.4
+
+Reworked issue #12 fix that caused issue #13 on Github. 
+Improved the rendering precision by switching to double values.
+
+1.0.3
+
+Fixed issue #12 on Github that caused an "eclipse" effect when the 
+incompletedColor was the same color as the background color and 
+progressCounter was zero.
+
+1.0.2
+
+Make sure setNeedsDisplay is called from the main thread.
+
+1.0.1
+
+Fixes a minor bug (KV observer was never removed).
+Changes: https://github.com/mdinacci/MDRadialProgress/commit/d61e1c32067f1fd65354e611643fd3da154b929d
+
+1.0.0
+
+First public version

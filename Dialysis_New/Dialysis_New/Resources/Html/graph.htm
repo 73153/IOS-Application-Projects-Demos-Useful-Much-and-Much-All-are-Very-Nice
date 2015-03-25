@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; height:100%;">
+<head>
+    <title></title>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="highcharts.js"></script>
+    <script type="text/javascript" src="exporting.js"></script>
+    <script type="text/javascript">
+        var xPoi5nts,yPoints;
+        var finalarray = new Array();
+        var finalarray1 = new Array();
+        function getParameters(xPoint,yPoint,yPoint1){
+            for(var temp = 0;temp < xPoint.length;temp=temp+1){
+                var myCars=[xPoint[temp],yPoint[temp]];
+                finalarray [temp] = myCars;
+            }
+            for(var temp = 0;temp < xPoint.length;temp=temp+1){
+                var myCars=[xPoint[temp],yPoint1[temp]];
+                finalarray1 [temp] = myCars;
+            }
+            $('#container').highcharts({
+                                       title: {
+                                       text: 'Blood Pressure',
+                                       x: -20, //center
+                                       color:'white'
+                                       },
+                                       subtitle: {
+                                       text: '',
+                                       x: -20
+                                       },
+                                       xAxis: {
+                                       type: 'datetime',
+                                       labels: {
+                                       rotation: 270,
+                                       style: {
+                                       fontSize:'8px'
+                                       },
+                                       },
+                                       dateTimeLabelFormats: {
+                                       day: '%m-%d-%Y',
+                                       week: '%m-%d-%Y',
+                                       month: '%m-%Y',
+                                       year: '%Y'
+                                       },
+                                       tickPositioner: function() {
+                                       var ticks = xPoint;
+                                       ticks.info = {
+                                       unitName: "day",
+                                       higherRanks: {}
+                                       };           
+                                       return ticks;
+                                       }
+                                       },
+                                       yAxis: {
+                                       title: {
+                                       text: 'Blood Pressure',
+                                       min: 0
+                                       },
+                                       plotLines: [{
+                                                   value: 0,
+                                                   width: 1,
+                                                   color: 'yellow'
+                                                   }]
+                                       },
+                                       tooltip: {
+                                       valueSuffix: '',
+                                       isHidden:0
+                                       },
+                                       legend: {
+                                       layout: 'vertical',
+                                       align: 'right',
+                                       verticalAlign: 'middle',
+                                       borderWidth: 0
+                                       },
+                                       series: [{
+                                                name: 'Systolic',
+                                                data:finalarray,
+                                                color: 'yellow'
+                                                },
+                                                {
+                                                name: 'Diastolic',
+                                                data:finalarray1,
+                                                color: 'green'
+                                                }]
+                                       });
+        }
+    </script>
+</head>
+<body style="width: 100%; height:100%;">
+    
+    <div id="container" style="width: 100%; height:100%; margin: 0 auto;" >
+    </div>
+</body>
+</html>

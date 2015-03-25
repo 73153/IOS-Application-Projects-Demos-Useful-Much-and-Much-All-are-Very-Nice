@@ -1,0 +1,110 @@
+/* 
+  REActivityViewController.strings
+  Created by Benoit Pereira da Silva on 13/02/13.
+  http://www.pereira-da-silva.com
+*/
+
+/////////////////////
+// ACTIVITIES
+/////////////////////
+
+/* Mail */
+"activity.Mail.title"="Courriel";
+
+/* Copy */
+"activity.Copy.title"="Copier";
+
+/* Save to Diigo */
+"activity.Diigo.title"="Sauvegarder dans Diigo";
+"activity.Diigo.dialog.title"="Diigo";
+"activity.Diigo.authentication.title"="Diigo";
+"activity.Diigo.authentication.error"="Veuillez vérifier vos identifiants. Si vous êtes sûr qu'ils sont corrects, il est possible que Diigo rencontre des problèmes temporaires. Veuillez réessayer dans quelques minutes.";
+"activity.Diigo.error.title"="Error.";
+"activity.Diigo.error.text"="Please enter title.";
+
+/* Save to Kippt */
+"activity.Kippt.title"="Sauvegarder dans Kippt";
+"activity.Kippt.dialog.title"="Kippt";
+"activity.Kippt.authentication.title"="Kippt";
+"activity.Kippt.authentication.error"="Veuillez vérifier vos identifiants. Si vous êtes sûr qu'ils sont corrects, il est possible que Kippt rencontre des problèmes temporaires. Veuillez réessayer dans quelques minutes.";
+"activity.Kippt.error.title"="Error.";
+"activity.Kippt.error.text"="Please enter title.";
+
+/* Facebook */
+"activity.Facebook.title"="Facebook";
+
+/* Send to Instapaper */
+"activity.Instapaper.title"="Envoyer à Instapaper";
+"activity.Instapaper.authentication.title"="Instapaper";
+"activity.Instapaper.authentication.error"="Veuillez vérifier vos identifiants. Si vous êtes sûr qu'ils sont corrects, il est possible que Instapaper rencontre des problèmes temporaires. Veuillez réessayer dans quelques minutes.";
+
+/* Open in Maps */
+"activity.Maps.title"="Ouvrir dans Plans";
+
+/* Message */
+"activity.Message.title"="Message";
+
+/* Save to Pocket */
+"activity.Pocket.title"="Sauvegarder dans Pocket";
+
+/* Print */
+"activity.Print.title"="Imprimer";
+"activity.Print.error.title"="Error.";
+"activity.Print.error.message"="Une erreur c'est produite pendant l'impression : %@";
+
+/* Save to Readability */
+"activity.Readability.title"="Readability";
+"activity.Readability.authentication.title"="Readability";
+"activity.Readability.authentication.error"="Veuillez vérifier vos identifiants. Si vous êtes sûr qu'ils sont corrects, il est possible que Readability rencontre des problèmes temporaires. Veuillez réessayer dans quelques minutes.";
+
+/* Open in Safari */
+"activity.Safari.title"="Ouvrir dans Safari";
+
+/* Open in Chrome */
+"activity.Chrome.title"="Ouvrir dans Chrome";
+"activity.Chrome.dialog.appstore.title"="Chrome dans App Store";
+"activity.Chrome.dialog.appstore.message"="Voulez-vous ouvrir le App Store pour installer Google Chrome?";
+
+/* Save to Camera Roll */
+"activity.CameraRoll.title"="Enregistrer l'image";
+
+/* Tumblr */
+"activity.Tumblr.title"="Tumblr";
+"activity.Tumblr.dialog.title"="Tumblr";
+"activity.Tumblr.authentication.title"="Tumblr";
+"activity.Tumblr.authentication.error"="Veuillez vérifier vos identifiants. Si vous êtes sûr qu'ils sont corrects, il est possible que Tumblr rencontre des problèmes temporaires. Veuillez réessayer dans quelques minutes.";
+
+/* Twitter */
+"activity.Twitter.title"="Twitter";
+
+/* VKontakte */
+"activity.VKontakte.title"="VKontakte";
+"activity.VKontakte.dialog.title"="VKontakte";
+"activity.VKontakte.authentication.title"="VKontakte";
+
+/////////////////////
+// GENERIC
+/////////////////////
+
+/* Buttons */
+"button.cancel"="Annuler";
+"button.dismiss"="OK";
+"button.login"="Log In";
+"button.ok"="OK";
+
+/* Email */
+"field.email"="Email";
+
+/* Username */
+"field.username"="User Name";
+
+/* Password */
+"field.password"="Password";
+
+/* We never store your password. */
+"slogan.never.store.password"="Nous ne stockons jamais vos mots de passe";
+
+/* We save your password in a safe place. */
+"slogan.password.storage.is.safe"="Nous stockons vos mots de passe dans le trousseau sécurisé.";
+
+

@@ -1,0 +1,16 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface TapUtils : NSObject
+
++(void)showAvailableFonts;
++(NSString*)retina;
++(NSString*)date2string:(NSDate*)date format:(NSString*)format locale:(NSString*)locale;
++(NSDate*)string2date:(NSString*)string format:(NSString*)format locale:(NSString*)locale;
++(NSDate*)monday;
++(NSDate*)dateByAddingDays:(NSDate*)date days:(int)n;
+
+@end

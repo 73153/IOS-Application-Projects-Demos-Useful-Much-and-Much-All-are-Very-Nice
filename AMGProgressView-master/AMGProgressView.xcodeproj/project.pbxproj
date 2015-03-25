@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4098B865171DC7310064E895 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4098B864171DC7310064E895 /* UIKit.framework */; };
+		4098B867171DC7310064E895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4098B866171DC7310064E895 /* Foundation.framework */; };
+		4098B869171DC7310064E895 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4098B868171DC7310064E895 /* CoreGraphics.framework */; };
+		4098B86F171DC7310064E895 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4098B86D171DC7310064E895 /* InfoPlist.strings */; };
+		4098B871171DC7310064E895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4098B870171DC7310064E895 /* main.m */; };
+		4098B875171DC7310064E895 /* AMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4098B874171DC7310064E895 /* AMGAppDelegate.m */; };
+		4098B877171DC7310064E895 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4098B876171DC7310064E895 /* Default.png */; };
+		4098B879171DC7310064E895 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4098B878171DC7310064E895 /* Default@2x.png */; };
+		4098B87B171DC7310064E895 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4098B87A171DC7310064E895 /* Default-568h@2x.png */; };
+		4098B88B171DC74C0064E895 /* AMGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4098B888171DC74C0064E895 /* AMGProgressView.m */; };
+		4098B88C171DC74C0064E895 /* AMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4098B88A171DC74C0064E895 /* AMGViewController.m */; };
+		4098B88E171DC7F70064E895 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4098B88D171DC7F70064E895 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4098B861171DC7310064E895 /* AMGProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMGProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4098B864171DC7310064E895 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4098B866171DC7310064E895 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4098B868171DC7310064E895 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4098B86C171DC7310064E895 /* AMGProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMGProgressView-Info.plist"; sourceTree = "<group>"; };
+		4098B86E171DC7310064E895 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4098B870171DC7310064E895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4098B872171DC7310064E895 /* AMGProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMGProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		4098B873171DC7310064E895 /* AMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMGAppDelegate.h; sourceTree = "<group>"; };
+		4098B874171DC7310064E895 /* AMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMGAppDelegate.m; sourceTree = "<group>"; };
+		4098B876171DC7310064E895 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4098B878171DC7310064E895 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4098B87A171DC7310064E895 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4098B887171DC74C0064E895 /* AMGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGProgressView.h; sourceTree = "<group>"; };
+		4098B888171DC74C0064E895 /* AMGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGProgressView.m; sourceTree = "<group>"; };
+		4098B889171DC74C0064E895 /* AMGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViewController.h; sourceTree = "<group>"; };
+		4098B88A171DC74C0064E895 /* AMGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGViewController.m; sourceTree = "<group>"; };
+		4098B88D171DC7F70064E895 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4098B85E171DC7310064E895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4098B88E171DC7F70064E895 /* QuartzCore.framework in Frameworks */,
+				4098B865171DC7310064E895 /* UIKit.framework in Frameworks */,
+				4098B867171DC7310064E895 /* Foundation.framework in Frameworks */,
+				4098B869171DC7310064E895 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4098B858171DC7310064E895 = {
+			isa = PBXGroup;
+			children = (
+				4098B86A171DC7310064E895 /* AMGProgressView */,
+				4098B863171DC7310064E895 /* Frameworks */,
+				4098B862171DC7310064E895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4098B862171DC7310064E895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4098B861171DC7310064E895 /* AMGProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4098B863171DC7310064E895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4098B88D171DC7F70064E895 /* QuartzCore.framework */,
+				4098B864171DC7310064E895 /* UIKit.framework */,
+				4098B866171DC7310064E895 /* Foundation.framework */,
+				4098B868171DC7310064E895 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4098B86A171DC7310064E895 /* AMGProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				4098B887171DC74C0064E895 /* AMGProgressView.h */,
+				4098B888171DC74C0064E895 /* AMGProgressView.m */,
+				4098B889171DC74C0064E895 /* AMGViewController.h */,
+				4098B88A171DC74C0064E895 /* AMGViewController.m */,
+				4098B873171DC7310064E895 /* AMGAppDelegate.h */,
+				4098B874171DC7310064E895 /* AMGAppDelegate.m */,
+				4098B86B171DC7310064E895 /* Supporting Files */,
+			);
+			path = AMGProgressView;
+			sourceTree = "<group>";
+		};
+		4098B86B171DC7310064E895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4098B86C171DC7310064E895 /* AMGProgressView-Info.plist */,
+				4098B86D171DC7310064E895 /* InfoPlist.strings */,
+				4098B870171DC7310064E895 /* main.m */,
+				4098B872171DC7310064E895 /* AMGProgressView-Prefix.pch */,
+				4098B876171DC7310064E895 /* Default.png */,
+				4098B878171DC7310064E895 /* Default@2x.png */,
+				4098B87A171DC7310064E895 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4098B860171DC7310064E895 /* AMGProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4098B884171DC7310064E895 /* Build configuration list for PBXNativeTarget "AMGProgressView" */;
+			buildPhases = (
+				4098B85D171DC7310064E895 /* Sources */,
+				4098B85E171DC7310064E895 /* Frameworks */,
+				4098B85F171DC7310064E895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMGProgressView;
+			productName = AMGProgressView;
+			productReference = 4098B861171DC7310064E895 /* AMGProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4098B859171DC7310064E895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AMG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Albert Mata";
+			};
+			buildConfigurationList = 4098B85C171DC7310064E895 /* Build configuration list for PBXProject "AMGProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4098B858171DC7310064E895;
+			productRefGroup = 4098B862171DC7310064E895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4098B860171DC7310064E895 /* AMGProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4098B85F171DC7310064E895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4098B86F171DC7310064E895 /* InfoPlist.strings in Resources */,
+				4098B877171DC7310064E895 /* Default.png in Resources */,
+				4098B879171DC7310064E895 /* Default@2x.png in Resources */,
+				4098B87B171DC7310064E895 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4098B85D171DC7310064E895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4098B871171DC7310064E895 /* main.m in Sources */,
+				4098B875171DC7310064E895 /* AMGAppDelegate.m in Sources */,
+				4098B88B171DC74C0064E895 /* AMGProgressView.m in Sources */,
+				4098B88C171DC74C0064E895 /* AMGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4098B86D171DC7310064E895 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4098B86E171DC7310064E895 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4098B882171DC7310064E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4098B883171DC7310064E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4098B885171DC7310064E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMGProgressView/AMGProgressView-Prefix.pch";
+				INFOPLIST_FILE = "AMGProgressView/AMGProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4098B886171DC7310064E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMGProgressView/AMGProgressView-Prefix.pch";
+				INFOPLIST_FILE = "AMGProgressView/AMGProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4098B85C171DC7310064E895 /* Build configuration list for PBXProject "AMGProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4098B882171DC7310064E895 /* Debug */,
+				4098B883171DC7310064E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4098B884171DC7310064E895 /* Build configuration list for PBXNativeTarget "AMGProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4098B885171DC7310064E895 /* Debug */,
+				4098B886171DC7310064E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4098B859171DC7310064E895 /* Project object */;
+}

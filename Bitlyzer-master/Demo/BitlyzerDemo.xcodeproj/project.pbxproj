@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D320256414F5A34700E7753C /* Bitlyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = D320256014F5A34700E7753C /* Bitlyzer.m */; };
+		D323466517BFDF7C00D7C001 /* LICENSE.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D323466317BFDF7C00D7C001 /* LICENSE.markdown */; };
+		D323466617BFDF7C00D7C001 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D323466417BFDF7C00D7C001 /* README.md */; };
+		D323466817BFDF8900D7C001 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D323466717BFDF8900D7C001 /* Default-568h@2x.png */; };
+		D37AF5FF14F5898200296890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37AF5FE14F5898200296890 /* UIKit.framework */; };
+		D37AF60114F5898200296890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37AF60014F5898200296890 /* Foundation.framework */; };
+		D37AF60314F5898200296890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37AF60214F5898200296890 /* CoreGraphics.framework */; };
+		D37AF63114F58BAE00296890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37AF62E14F58BAE00296890 /* main.m */; };
+		D37AF67E14F58F0500296890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D37AF67C14F58F0500296890 /* InfoPlist.strings */; };
+		D3AF428714F5A2F500523C73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF428214F5A2F500523C73 /* AppDelegate.m */; };
+		D3AF428814F5A2F500523C73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF428314F5A2F500523C73 /* ViewController.m */; };
+		D3AF428914F5A2F500523C73 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF428414F5A2F500523C73 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D320255F14F5A34700E7753C /* Bitlyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bitlyzer.h; path = ../Src/Bitlyzer.h; sourceTree = SOURCE_ROOT; };
+		D320256014F5A34700E7753C /* Bitlyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bitlyzer.m; path = ../Src/Bitlyzer.m; sourceTree = SOURCE_ROOT; };
+		D323466317BFDF7C00D7C001 /* LICENSE.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.markdown; path = ../LICENSE.markdown; sourceTree = "<group>"; };
+		D323466417BFDF7C00D7C001 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D323466717BFDF8900D7C001 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		D37AF5FA14F5898200296890 /* BitlyzerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitlyzerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37AF5FE14F5898200296890 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D37AF60014F5898200296890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D37AF60214F5898200296890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D37AF62E14F58BAE00296890 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		D37AF67D14F58F0500296890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D3AE9D7F14FA8409002E9779 /* BitlyzerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BitlyzerDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3AE9D8014FA8409002E9779 /* BitlyzerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitlyzerDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D3AF428214F5A2F500523C73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D3AF428314F5A2F500523C73 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		D3AF428414F5A2F500523C73 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = SOURCE_ROOT; };
+		D3AF428514F5A2F500523C73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D3AF428614F5A2F500523C73 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37AF5F714F5898200296890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37AF5FF14F5898200296890 /* UIKit.framework in Frameworks */,
+				D37AF60114F5898200296890 /* Foundation.framework in Frameworks */,
+				D37AF60314F5898200296890 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D320255614F5A34700E7753C /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				D320255F14F5A34700E7753C /* Bitlyzer.h */,
+				D320256014F5A34700E7753C /* Bitlyzer.m */,
+			);
+			name = Src;
+			path = ../../Src;
+			sourceTree = "<group>";
+		};
+		D37AF5EF14F5898200296890 = {
+			isa = PBXGroup;
+			children = (
+				D323466317BFDF7C00D7C001 /* LICENSE.markdown */,
+				D323466417BFDF7C00D7C001 /* README.md */,
+				D37AF60414F5898200296890 /* Bitlyzer */,
+				D37AF5FD14F5898200296890 /* Frameworks */,
+				D37AF5FB14F5898200296890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37AF5FB14F5898200296890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37AF5FA14F5898200296890 /* BitlyzerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37AF5FD14F5898200296890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37AF5FE14F5898200296890 /* UIKit.framework */,
+				D37AF60014F5898200296890 /* Foundation.framework */,
+				D37AF60214F5898200296890 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37AF60414F5898200296890 /* Bitlyzer */ = {
+			isa = PBXGroup;
+			children = (
+				D320255614F5A34700E7753C /* Src */,
+				D3AF428514F5A2F500523C73 /* AppDelegate.h */,
+				D3AF428214F5A2F500523C73 /* AppDelegate.m */,
+				D3AF428614F5A2F500523C73 /* ViewController.h */,
+				D3AF428314F5A2F500523C73 /* ViewController.m */,
+				D3AF428414F5A2F500523C73 /* ViewController.xib */,
+				D37AF60514F5898200296890 /* Supporting Files */,
+			);
+			path = Bitlyzer;
+			sourceTree = "<group>";
+		};
+		D37AF60514F5898200296890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37AF63214F58BCB00296890 /* en.lproj */,
+				D323466717BFDF8900D7C001 /* Default-568h@2x.png */,
+				D3AE9D7F14FA8409002E9779 /* BitlyzerDemo-Info.plist */,
+				D3AE9D8014FA8409002E9779 /* BitlyzerDemo-Prefix.pch */,
+				D37AF62E14F58BAE00296890 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37AF63214F58BCB00296890 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D37AF67C14F58F0500296890 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37AF5F914F5898200296890 /* BitlyzerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37AF61814F5898300296890 /* Build configuration list for PBXNativeTarget "BitlyzerDemo" */;
+			buildPhases = (
+				D37AF5F614F5898200296890 /* Sources */,
+				D37AF5F714F5898200296890 /* Frameworks */,
+				D37AF5F814F5898200296890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitlyzerDemo;
+			productName = Bitlyzer;
+			productReference = D37AF5FA14F5898200296890 /* BitlyzerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37AF5F114F5898200296890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "H-umus";
+			};
+			buildConfigurationList = D37AF5F414F5898200296890 /* Build configuration list for PBXProject "BitlyzerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D37AF5EF14F5898200296890;
+			productRefGroup = D37AF5FB14F5898200296890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37AF5F914F5898200296890 /* BitlyzerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37AF5F814F5898200296890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37AF67E14F58F0500296890 /* InfoPlist.strings in Resources */,
+				D3AF428914F5A2F500523C73 /* ViewController.xib in Resources */,
+				D323466517BFDF7C00D7C001 /* LICENSE.markdown in Resources */,
+				D323466617BFDF7C00D7C001 /* README.md in Resources */,
+				D323466817BFDF8900D7C001 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37AF5F614F5898200296890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37AF63114F58BAE00296890 /* main.m in Sources */,
+				D3AF428714F5A2F500523C73 /* AppDelegate.m in Sources */,
+				D3AF428814F5A2F500523C73 /* ViewController.m in Sources */,
+				D320256414F5A34700E7753C /* Bitlyzer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D37AF67C14F58F0500296890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37AF67D14F58F0500296890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37AF61614F5898300296890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D37AF61714F5898300296890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37AF61914F5898300296890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyzerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BitlyzerDemo-Info.plist";
+				PRODUCT_NAME = BitlyzerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D37AF61A14F5898300296890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyzerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BitlyzerDemo-Info.plist";
+				PRODUCT_NAME = BitlyzerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37AF5F414F5898200296890 /* Build configuration list for PBXProject "BitlyzerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37AF61614F5898300296890 /* Debug */,
+				D37AF61714F5898300296890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37AF61814F5898300296890 /* Build configuration list for PBXNativeTarget "BitlyzerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37AF61914F5898300296890 /* Debug */,
+				D37AF61A14F5898300296890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37AF5F114F5898200296890 /* Project object */;
+}

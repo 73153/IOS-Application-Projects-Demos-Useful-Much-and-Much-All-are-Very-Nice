@@ -1,0 +1,23 @@
+//
+//  Copyright (c) 2012 Click'nTap. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class TapNetwork;
+
+@interface TapApp : UIResponder <UIApplicationDelegate, UIAccelerometerDelegate> {
+  UINavigationController* navigationController;
+  TapNetwork* network;
+}
+
+@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *navigationController;
+
+-(void)openApp:(UIApplication *)application options:(NSDictionary*)launchOptions;
+-(void)closeApp;
+
+-(void)downloadResource:(NSString*)url sender:(NSObject*)sender;
+-(void)cancelDownloadResource:(NSObject*)sender;
+
+@end

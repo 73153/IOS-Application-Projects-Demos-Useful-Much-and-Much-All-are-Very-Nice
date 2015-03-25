@@ -1,0 +1,124 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapController.h"
+#import "TapUtils.h"
+#import "AppDelegate.h"
+
+@implementation TapController
+
+-(void)dealloc {
+  [[self app] cancelDownloadResource:self];
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (BOOL)shouldAutorotate {
+  return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations {
+  return (UIInterfaceOrientationMaskAll);
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+  return YES;
+}
+
+-(void)idle {
+
+}
+
+- (BOOL)prefersStatusBarHidden {
+  return YES;
+}
+
+-(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+  if(UIInterfaceOrientationIsLandscape(toInterfaceOrientation)) {
+    [self setupUi:self.view.frame.size];
+    [self setupUiLandscape:self.view.frame.size];
+  }
+  if(UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) {
+    [self setupUi:self.view.frame.size];
+    [self setupUiPortrait:self.view.frame.size];
+  }
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+  [self performSelector:@selector(autoSetupUi) withObject:nil afterDelay:0];
+}
+
+-(AppDelegate*)app {
+  return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  self.view.alpha = 0;
+  [self loadUi];
+  [self performSelector:@selector(autoSetupUi) withObject:nil afterDelay:0];
+}
+
+-(void)needsSetupUi {
+  [self autoSetupUi];
+}
+
+-(void)setupUiAnimated {
+  [self willSetupUiAnimated];
+  [UIView beginAnimations:nil context:nil];
+  [UIView setAnimationDuration:0.5];
+  [UIView setAnimationDelegate:self];
+  [UIView setAnimationDidStopSelector:@selector(didSetupUiAnimated)];
+  [self autoSetupUi];
+  [UIView commitAnimations];
+}
+
+-(void)willSetupUiAnimated {
+
+}
+
+-(void)didSetupUiAnimated {
+
+}
+
+-(void)autoSetupUi {
+  CGSize size = self.view.frame.size;
+  [self setupUi:size];
+  if(size.width > size.height) {
+    [self setupUiLandscape:size];
+  } else {
+    [self setupUiPortrait:size];
+  }
+  self.view.alpha = 1;
+}
+
+- (void)viewDidUnload {
+  [self unloadUi];
+  [super viewDidUnload];
+}
+
+-(void)loadUi {
+
+}
+
+-(void)unloadUi {
+
+}
+
+-(void)setupUi:(CGSize)size {
+}
+
+-(void)setupUiPortrait:(CGSize)size {
+
+}
+
+-(void)setupUiLandscape:(CGSize)size {
+  
+}
+
+-(int)y0 {
+  return IS_IOS7?22:0;
+}
+
+
+@end

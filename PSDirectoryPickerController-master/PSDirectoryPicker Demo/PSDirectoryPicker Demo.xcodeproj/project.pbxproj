@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BE129F15F20A4D005DF3E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BE129E15F20A4D005DF3E8 /* UIKit.framework */; };
+		03BE12A115F20A4D005DF3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BE12A015F20A4D005DF3E8 /* Foundation.framework */; };
+		03BE12A315F20A4D005DF3E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BE12A215F20A4D005DF3E8 /* CoreGraphics.framework */; };
+		03BE12A915F20A4D005DF3E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03BE12A715F20A4D005DF3E8 /* InfoPlist.strings */; };
+		03BE12AB15F20A4D005DF3E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12AA15F20A4D005DF3E8 /* main.m */; };
+		03BE12AF15F20A4D005DF3E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12AE15F20A4D005DF3E8 /* AppDelegate.m */; };
+		03BE12B215F20A4D005DF3E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12B115F20A4D005DF3E8 /* ViewController.m */; };
+		03BE12C615F21F6E005DF3E8 /* PSDirectoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12C015F21F6E005DF3E8 /* PSDirectoryListViewController.m */; };
+		03BE12C715F21F6E005DF3E8 /* PSDirectoryPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12C215F21F6E005DF3E8 /* PSDirectoryPickerController.m */; };
+		03BE12C815F21F6E005DF3E8 /* PSDirectoryPickerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE12C515F21F6E005DF3E8 /* PSDirectoryPickerEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BE129A15F20A4D005DF3E8 /* PSDirectoryPicker Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSDirectoryPicker Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BE129E15F20A4D005DF3E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03BE12A015F20A4D005DF3E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03BE12A215F20A4D005DF3E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03BE12A615F20A4D005DF3E8 /* PSDirectoryPicker Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSDirectoryPicker Demo-Info.plist"; sourceTree = "<group>"; };
+		03BE12A815F20A4D005DF3E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03BE12AA15F20A4D005DF3E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BE12AC15F20A4D005DF3E8 /* PSDirectoryPicker Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSDirectoryPicker Demo-Prefix.pch"; sourceTree = "<group>"; };
+		03BE12AD15F20A4D005DF3E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03BE12AE15F20A4D005DF3E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03BE12B015F20A4D005DF3E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03BE12B115F20A4D005DF3E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03BE12BF15F21F6E005DF3E8 /* PSDirectoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDirectoryListViewController.h; sourceTree = "<group>"; };
+		03BE12C015F21F6E005DF3E8 /* PSDirectoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDirectoryListViewController.m; sourceTree = "<group>"; };
+		03BE12C115F21F6E005DF3E8 /* PSDirectoryPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDirectoryPickerController.h; sourceTree = "<group>"; };
+		03BE12C215F21F6E005DF3E8 /* PSDirectoryPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDirectoryPickerController.m; sourceTree = "<group>"; };
+		03BE12C315F21F6E005DF3E8 /* PSDirectoryPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDirectoryPickerDelegate.h; sourceTree = "<group>"; };
+		03BE12C415F21F6E005DF3E8 /* PSDirectoryPickerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDirectoryPickerEntry.h; sourceTree = "<group>"; };
+		03BE12C515F21F6E005DF3E8 /* PSDirectoryPickerEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDirectoryPickerEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BE129715F20A4D005DF3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BE129F15F20A4D005DF3E8 /* UIKit.framework in Frameworks */,
+				03BE12A115F20A4D005DF3E8 /* Foundation.framework in Frameworks */,
+				03BE12A315F20A4D005DF3E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BE128F15F20A4D005DF3E8 = {
+			isa = PBXGroup;
+			children = (
+				03BE12A415F20A4D005DF3E8 /* PSDirectoryPicker Demo */,
+				03BE129D15F20A4D005DF3E8 /* Frameworks */,
+				03BE129B15F20A4D005DF3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BE129B15F20A4D005DF3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BE129A15F20A4D005DF3E8 /* PSDirectoryPicker Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BE129D15F20A4D005DF3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03BE129E15F20A4D005DF3E8 /* UIKit.framework */,
+				03BE12A015F20A4D005DF3E8 /* Foundation.framework */,
+				03BE12A215F20A4D005DF3E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03BE12A415F20A4D005DF3E8 /* PSDirectoryPicker Demo */ = {
+			isa = PBXGroup;
+			children = (
+				03BE12BE15F21F6D005DF3E8 /* PSDirectoryPickerController */,
+				03BE12AD15F20A4D005DF3E8 /* AppDelegate.h */,
+				03BE12AE15F20A4D005DF3E8 /* AppDelegate.m */,
+				03BE12B015F20A4D005DF3E8 /* ViewController.h */,
+				03BE12B115F20A4D005DF3E8 /* ViewController.m */,
+				03BE12A515F20A4D005DF3E8 /* Supporting Files */,
+			);
+			path = "PSDirectoryPicker Demo";
+			sourceTree = "<group>";
+		};
+		03BE12A515F20A4D005DF3E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BE12A615F20A4D005DF3E8 /* PSDirectoryPicker Demo-Info.plist */,
+				03BE12A715F20A4D005DF3E8 /* InfoPlist.strings */,
+				03BE12AA15F20A4D005DF3E8 /* main.m */,
+				03BE12AC15F20A4D005DF3E8 /* PSDirectoryPicker Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BE12BE15F21F6D005DF3E8 /* PSDirectoryPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				03BE12BF15F21F6E005DF3E8 /* PSDirectoryListViewController.h */,
+				03BE12C015F21F6E005DF3E8 /* PSDirectoryListViewController.m */,
+				03BE12C115F21F6E005DF3E8 /* PSDirectoryPickerController.h */,
+				03BE12C215F21F6E005DF3E8 /* PSDirectoryPickerController.m */,
+				03BE12C315F21F6E005DF3E8 /* PSDirectoryPickerDelegate.h */,
+				03BE12C415F21F6E005DF3E8 /* PSDirectoryPickerEntry.h */,
+				03BE12C515F21F6E005DF3E8 /* PSDirectoryPickerEntry.m */,
+			);
+			name = PSDirectoryPickerController;
+			path = ../../PSDirectoryPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BE129915F20A4D005DF3E8 /* PSDirectoryPicker Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BE12BB15F20A4D005DF3E8 /* Build configuration list for PBXNativeTarget "PSDirectoryPicker Demo" */;
+			buildPhases = (
+				03BE129615F20A4D005DF3E8 /* Sources */,
+				03BE129715F20A4D005DF3E8 /* Frameworks */,
+				03BE129815F20A4D005DF3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSDirectoryPicker Demo";
+			productName = "PSDirectoryPicker Demo";
+			productReference = 03BE129A15F20A4D005DF3E8 /* PSDirectoryPicker Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BE129115F20A4D005DF3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Josh Kugelmann";
+			};
+			buildConfigurationList = 03BE129415F20A4D005DF3E8 /* Build configuration list for PBXProject "PSDirectoryPicker Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03BE128F15F20A4D005DF3E8;
+			productRefGroup = 03BE129B15F20A4D005DF3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BE129915F20A4D005DF3E8 /* PSDirectoryPicker Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BE129815F20A4D005DF3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BE12A915F20A4D005DF3E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BE129615F20A4D005DF3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BE12AB15F20A4D005DF3E8 /* main.m in Sources */,
+				03BE12AF15F20A4D005DF3E8 /* AppDelegate.m in Sources */,
+				03BE12B215F20A4D005DF3E8 /* ViewController.m in Sources */,
+				03BE12C615F21F6E005DF3E8 /* PSDirectoryListViewController.m in Sources */,
+				03BE12C715F21F6E005DF3E8 /* PSDirectoryPickerController.m in Sources */,
+				03BE12C815F21F6E005DF3E8 /* PSDirectoryPickerEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03BE12A715F20A4D005DF3E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BE12A815F20A4D005DF3E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BE12B915F20A4D005DF3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BE12BA15F20A4D005DF3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BE12BC15F20A4D005DF3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSDirectoryPicker Demo/PSDirectoryPicker Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../**";
+				INFOPLIST_FILE = "PSDirectoryPicker Demo/PSDirectoryPicker Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03BE12BD15F20A4D005DF3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSDirectoryPicker Demo/PSDirectoryPicker Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../**";
+				INFOPLIST_FILE = "PSDirectoryPicker Demo/PSDirectoryPicker Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BE129415F20A4D005DF3E8 /* Build configuration list for PBXProject "PSDirectoryPicker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BE12B915F20A4D005DF3E8 /* Debug */,
+				03BE12BA15F20A4D005DF3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BE12BB15F20A4D005DF3E8 /* Build configuration list for PBXNativeTarget "PSDirectoryPicker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BE12BC15F20A4D005DF3E8 /* Debug */,
+				03BE12BD15F20A4D005DF3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BE129115F20A4D005DF3E8 /* Project object */;
+}

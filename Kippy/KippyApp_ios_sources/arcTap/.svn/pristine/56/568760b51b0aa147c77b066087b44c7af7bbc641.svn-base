@@ -1,0 +1,14 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface TapNetwork : NSObject {
+  NSMutableArray* observers;
+}
+
+-(void)downloadResource:(NSString*)url sender:(NSObject*)sender;
+-(void)cancelDownloadResource:(NSObject*)sender;
+
+@end

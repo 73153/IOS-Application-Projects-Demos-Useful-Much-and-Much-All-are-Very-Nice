@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; height:100%;">
+<head>
+    <title></title>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="highcharts.js"></script>
+    <script type="text/javascript" src="exporting.js"></script>
+    <script type="text/javascript">
+        var finalarray = new Array();
+        var temp1 = new Array();
+        var temp2 = new Array();
+        var finalarray1 =  new Array();
+        function getParameters(dates,gfrValues,yValues){
+        var myCars1=[dates[0],yValues[0]];
+        var myCars2 = [dates[dates.length-1],yValues[dates.length-1]];
+        finalarray [0] = myCars1;
+        finalarray [1] = myCars2;
+        if(yValues.length > 0){
+            for(var temp = 0;temp < dates.length;temp=temp+1){
+                var myCars=[dates[temp],10];
+                temp1 [temp] = myCars;
+            }
+            for(var temp = 0;temp < dates.length;temp=temp+1){
+                var myCars=[dates[temp],25];
+                temp2 [temp] = myCars;
+            }
+        }
+            for(var temp = 0;temp < gfrValues.length;temp=temp+1){
+                var myCars=[dates[temp],gfrValues[temp]];
+                finalarray1 [temp] = myCars;
+            }
+            $('#container').highcharts({
+                                       title: {
+                                       text: 'GFR',
+                                       x: -20, //center
+                                       color:'white'
+                                       },
+                                       subtitle: {
+                                       text: '',
+                                       x: -20
+                                       },
+                                       xAxis: {
+                                       type: 'datetime',
+                                       labels: {
+                                       rotation: 270,
+                                       style: {
+                                       fontSize:'8px'
+                                       },
+                                       },
+                                       dateTimeLabelFormats: {
+                                       day: '%m-%d-%Y',
+                                       week: '%m-%d-%Y',
+                                       month: '%m-%Y',
+                                       year: '%Y'
+                                       },
+                                       tickPositioner: function() {
+                                       var ticks = dates;
+                                       ticks.info = {
+                                       unitName: "day",
+                                       higherRanks: {}
+                                       };           
+                                       return ticks;
+                                       }
+                                       },
+                                       yAxis: {
+                                       title: {
+                                       text: 'GFR',
+                                       min: 0
+                                       },
+                                       plotLines: [{
+                                                   value: 0,
+                                                   width: 1,
+                                                   color: 'yellow'
+                                                   }]
+                                       },
+                                       tooltip: {
+                                       valueSuffix: '',
+                                       isHidden:0
+                                       },
+                                       legend: {
+                                       layout: 'vertical',
+                                       align: 'right',
+                                       verticalAlign: 'middle',
+                                       borderWidth: 0
+                                       },
+                                       series: [{
+                                                name: 'Trends',
+                                                data:finalarray,
+                                                color: 'red'
+                                                },
+                                                {
+                                                name: 'GFR',
+                                                data:finalarray1,
+                                                color: 'green'
+                                                },
+                                                {
+                                                name: '10 Points Line',
+                                                data:temp1,
+                                                color: 'red'
+                                                },
+                                                {
+                                                name: '25 Points Line',
+                                                data:temp2,
+                                                color: 'orange'
+                                                }
+                                                ]
+                                       });
+        }
+    </script>
+</head>
+<body style="width: 100%; height:100%;">
+    
+    <div id="container" style="width: 100%; height:100%; margin: 0 auto;" >
+    </div>
+</body>
+</html>

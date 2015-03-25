@@ -1,0 +1,82 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapNetwork.h"
+#import "ASIDownloadCache.h"
+
+@implementation TapNetwork
+
+- (id)init {
+  self = [super init];
+  if (self) {
+    [ASIHTTPRequest setDefaultCache:[ASIDownloadCache sharedCache]];
+    observers = [[NSMutableArray alloc] init];
+  }
+  return self;
+}
+
+-(void)downloadResource:(NSString*)url sender:(NSObject*)sender {
+  [self downloadResourceToPath:url sender:sender path:nil];
+}
+
+-(void)registerDownload:(ASIHTTPRequest*)request sender:(NSObject*)sender {
+  [observers addObject:sender];
+  [request setDownloadProgressDelegate:sender];
+  [request setShowAccurateProgress:YES];
+  [request setDelegate:self];
+  request.tag = [sender hash];
+  request.validatesSecureCertificate = NO;
+  [request startAsynchronous];
+}
+
+-(void)downloadResourceToPath:(NSString*)url sender:(NSObject*)sender path:(NSString*)path {
+  ASIHTTPRequest* request = [[ASIHTTPRequest alloc ] initWithURL:[NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+  if(path != nil) {
+    [request setDownloadDestinationPath:path];
+    [request setCacheStoragePolicy:ASICachePermanentlyCacheStoragePolicy];
+    [request setCachePolicy:ASIDoNotReadFromCacheCachePolicy|ASIDoNotWriteToCacheCachePolicy];
+  } else {
+    [request setCacheStoragePolicy:ASICachePermanentlyCacheStoragePolicy];
+    [request setCachePolicy:ASIAskServerIfModifiedCachePolicy | ASIFallbackToCacheIfLoadFailsCachePolicy];
+    [request setAllowResumeForFileDownloads:YES];
+  }
+  [self registerDownload:request sender:sender];
+}
+
+- (void)requestFinished:(ASIHTTPRequest *)request {
+  for(NSObject* sender in observers) {
+    if([sender hash] == request.tag) {
+      SEL selector = NSSelectorFromString(@"downloadResourceSuccess:");
+      [sender performSelector:selector withObject:request afterDelay:0];
+      [self cancelDownloadResource:sender];
+      break;
+    }
+  }
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request {
+  for(NSObject* sender in observers) {
+    if([sender hash] == request.tag) {
+      SEL selector = NSSelectorFromString(@"downloadResourceFailed:");
+      [sender performSelector:selector withObject:request afterDelay:0];
+      [self cancelDownloadResource:sender];
+      break;
+    }
+  }
+}
+
+-(void)cancelDownloadResource:(NSObject*)sender {
+  int hash = (int)[sender hash];
+  [observers removeObject:sender];
+  NSOperationQueue* queue = [ASIHTTPRequest sharedQueue];
+  for(ASIHTTPRequest* request in [queue operations]) {
+    if([request isKindOfClass:[ASIHTTPRequest class]]) {
+      if(request.tag == hash) {
+        [request cancel];
+      }
+    }
+  }
+}
+
+@end

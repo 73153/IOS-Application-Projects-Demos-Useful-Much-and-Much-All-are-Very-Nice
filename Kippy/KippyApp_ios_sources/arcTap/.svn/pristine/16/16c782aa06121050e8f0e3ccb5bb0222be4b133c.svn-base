@@ -1,0 +1,52 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapNetworkImageView.h"
+#import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
+#import "ASIHTTPRequest.h"
+
+@implementation TapNetworkImageView
+
+- (id)initWithFrame:(CGRect)frame url:(NSString*)url {
+    self = [super initWithFrame:frame];
+    if (self) {
+      spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+      spinner.center = CGPointMake(frame.size.width/2, frame.size.height/2);
+      [self addSubview:spinner];
+      [spinner startAnimating];
+      imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,frame.size.width,frame.size.height)];
+      [self addSubview:imageView];
+      imageView.alpha = 0;
+      [[self app] downloadResource:url sender:self];
+    }
+    return self;
+}
+
+-(void)downloadResourceSuccess:(ASIHTTPRequest*)request {
+  imageView.image = [UIImage imageWithData:[request responseData]];
+  [UIView beginAnimations:nil context:nil];
+  [UIView setAnimationDuration:0.5];
+  [UIView setAnimationDelegate:self];
+  [UIView setAnimationDidStopSelector:@selector(removeSpinner)];
+  imageView.alpha = 1;
+  spinner.alpha = 0;
+  [UIView commitAnimations];
+}
+
+-(void)downloadResourceFailed:(ASIHTTPRequest*)request {
+  [UIView beginAnimations:nil context:nil];
+  [UIView setAnimationDuration:0.5];
+  [UIView setAnimationDelegate:self];
+  [UIView setAnimationDidStopSelector:@selector(removeSpinner)];
+  spinner.alpha = 0;
+  [UIView commitAnimations];
+}
+
+-(void)removeSpinner {
+  [spinner stopAnimating];
+  [spinner removeFromSuperview];
+}
+
+@end

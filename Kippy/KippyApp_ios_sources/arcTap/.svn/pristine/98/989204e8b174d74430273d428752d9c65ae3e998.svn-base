@@ -1,0 +1,18 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class AppDelegate;
+
+@interface TapController : UIViewController
+
+-(void)idle;
+-(void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
+-(AppDelegate*)app;
+
+-(void)loadUi;
+-(void)unloadUi;
+
+@end

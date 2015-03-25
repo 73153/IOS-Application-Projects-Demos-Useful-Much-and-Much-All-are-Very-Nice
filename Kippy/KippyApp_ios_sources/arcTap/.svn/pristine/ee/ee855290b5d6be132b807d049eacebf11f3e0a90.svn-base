@@ -1,0 +1,54 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import "TapController.h"
+#import "AppDelegate.h"
+
+@implementation TapController
+
+- (BOOL)shouldAutorotate {
+  return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations {
+  return (UIInterfaceOrientationMaskAll);
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+  return YES;
+}
+
+-(void)idle {
+
+}
+
+-(void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+  
+}
+
+-(AppDelegate*)app {
+  return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  [self loadUi];
+}
+
+
+- (void)viewDidUnload {
+  [self unloadUi];
+  [super viewDidUnload];
+}
+
+-(void)loadUi {
+
+}
+
+-(void)unloadUi {
+
+}
+
+@end

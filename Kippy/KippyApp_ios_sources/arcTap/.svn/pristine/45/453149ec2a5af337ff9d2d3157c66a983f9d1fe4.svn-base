@@ -1,0 +1,11 @@
+//
+//  Copyright (c) 2013 Click'nTap SRL. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface TapUtils : NSObject
+
++(void)showAvailableFonts;
+
+@end

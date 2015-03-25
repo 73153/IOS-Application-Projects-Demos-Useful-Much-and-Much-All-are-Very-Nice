@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115054FB1336BF520067B031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115054FA1336BF520067B031 /* UIKit.framework */; };
+		115054FD1336BF520067B031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115054FC1336BF520067B031 /* Foundation.framework */; };
+		115054FF1336BF520067B031 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115054FE1336BF520067B031 /* CoreGraphics.framework */; };
+		115055051336BF520067B031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115055031336BF520067B031 /* InfoPlist.strings */; };
+		115055081336BF520067B031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115055071336BF520067B031 /* main.m */; };
+		1150550B1336BF520067B031 /* iLikeItAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1150550A1336BF520067B031 /* iLikeItAppDelegate.m */; };
+		1150550E1336BF520067B031 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1150550C1336BF520067B031 /* MainWindow.xib */; };
+		115055111336BF520067B031 /* iLikeItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115055101336BF520067B031 /* iLikeItViewController.m */; };
+		115055141336BF520067B031 /* iLikeItViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115055121336BF520067B031 /* iLikeItViewController.xib */; };
+		11EE7F811336C21A00E4AA2C /* ilike.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE7F801336C21A00E4AA2C /* ilike.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115054F61336BF520067B031 /* iLikeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLikeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115054FA1336BF520067B031 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		115054FC1336BF520067B031 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		115054FE1336BF520067B031 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		115055021336BF520067B031 /* iLikeIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLikeIt-Info.plist"; sourceTree = "<group>"; };
+		115055041336BF520067B031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		115055061336BF520067B031 /* iLikeIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLikeIt-Prefix.pch"; sourceTree = "<group>"; };
+		115055071336BF520067B031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		115055091336BF520067B031 /* iLikeItAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iLikeItAppDelegate.h; sourceTree = "<group>"; };
+		1150550A1336BF520067B031 /* iLikeItAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLikeItAppDelegate.m; sourceTree = "<group>"; };
+		1150550D1336BF520067B031 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1150550F1336BF520067B031 /* iLikeItViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iLikeItViewController.h; sourceTree = "<group>"; };
+		115055101336BF520067B031 /* iLikeItViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLikeItViewController.m; sourceTree = "<group>"; };
+		115055131336BF520067B031 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iLikeItViewController.xib; sourceTree = "<group>"; };
+		11EE7F801336C21A00E4AA2C /* ilike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ilike.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115054F31336BF520067B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115054FB1336BF520067B031 /* UIKit.framework in Frameworks */,
+				115054FD1336BF520067B031 /* Foundation.framework in Frameworks */,
+				115054FF1336BF520067B031 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115054EB1336BF520067B031 = {
+			isa = PBXGroup;
+			children = (
+				115055001336BF520067B031 /* iLikeIt */,
+				115054F91336BF520067B031 /* Frameworks */,
+				115054F71336BF520067B031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115054F71336BF520067B031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115054F61336BF520067B031 /* iLikeIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115054F91336BF520067B031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115054FA1336BF520067B031 /* UIKit.framework */,
+				115054FC1336BF520067B031 /* Foundation.framework */,
+				115054FE1336BF520067B031 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		115055001336BF520067B031 /* iLikeIt */ = {
+			isa = PBXGroup;
+			children = (
+				11EE7F801336C21A00E4AA2C /* ilike.png */,
+				115055091336BF520067B031 /* iLikeItAppDelegate.h */,
+				1150550A1336BF520067B031 /* iLikeItAppDelegate.m */,
+				1150550C1336BF520067B031 /* MainWindow.xib */,
+				1150550F1336BF520067B031 /* iLikeItViewController.h */,
+				115055101336BF520067B031 /* iLikeItViewController.m */,
+				115055121336BF520067B031 /* iLikeItViewController.xib */,
+				115055011336BF520067B031 /* Supporting Files */,
+			);
+			path = iLikeIt;
+			sourceTree = "<group>";
+		};
+		115055011336BF520067B031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				115055021336BF520067B031 /* iLikeIt-Info.plist */,
+				115055031336BF520067B031 /* InfoPlist.strings */,
+				115055061336BF520067B031 /* iLikeIt-Prefix.pch */,
+				115055071336BF520067B031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115054F51336BF520067B031 /* iLikeIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115055171336BF520067B031 /* Build configuration list for PBXNativeTarget "iLikeIt" */;
+			buildPhases = (
+				115054F21336BF520067B031 /* Sources */,
+				115054F31336BF520067B031 /* Frameworks */,
+				115054F41336BF520067B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLikeIt;
+			productName = iLikeIt;
+			productReference = 115054F61336BF520067B031 /* iLikeIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115054ED1336BF520067B031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Regular Berry Software LLC";
+			};
+			buildConfigurationList = 115054F01336BF520067B031 /* Build configuration list for PBXProject "iLikeIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 115054EB1336BF520067B031;
+			productRefGroup = 115054F71336BF520067B031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115054F51336BF520067B031 /* iLikeIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115054F41336BF520067B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115055051336BF520067B031 /* InfoPlist.strings in Resources */,
+				1150550E1336BF520067B031 /* MainWindow.xib in Resources */,
+				115055141336BF520067B031 /* iLikeItViewController.xib in Resources */,
+				11EE7F811336C21A00E4AA2C /* ilike.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115054F21336BF520067B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115055081336BF520067B031 /* main.m in Sources */,
+				1150550B1336BF520067B031 /* iLikeItAppDelegate.m in Sources */,
+				115055111336BF520067B031 /* iLikeItViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115055031336BF520067B031 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115055041336BF520067B031 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1150550C1336BF520067B031 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1150550D1336BF520067B031 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		115055121336BF520067B031 /* iLikeItViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115055131336BF520067B031 /* en */,
+			);
+			name = iLikeItViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115055151336BF520067B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		115055161336BF520067B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		115055181336BF520067B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLikeIt/iLikeIt-Prefix.pch";
+				INFOPLIST_FILE = "iLikeIt/iLikeIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		115055191336BF520067B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLikeIt/iLikeIt-Prefix.pch";
+				INFOPLIST_FILE = "iLikeIt/iLikeIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115054F01336BF520067B031 /* Build configuration list for PBXProject "iLikeIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115055151336BF520067B031 /* Debug */,
+				115055161336BF520067B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115055171336BF520067B031 /* Build configuration list for PBXNativeTarget "iLikeIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115055181336BF520067B031 /* Debug */,
+				115055191336BF520067B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115054ED1336BF520067B031 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA4CC8DE-3CD5-41F0-AEC5-9F95E4904BEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PPiFlatSegmentedControl-Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07F7E85A-EEC6-4E75-8752-09DE2780774A</key>
+		<string>ssh://github.com/pepibumur/PPiFlatSegmentedControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PPiFlatSegmentedControl-Demo/PPiFlatSegmentedControl-Demo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07F7E85A-EEC6-4E75-8752-09DE2780774A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/pepibumur/PPiFlatSegmentedControl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>07F7E85A-EEC6-4E75-8752-09DE2780774A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07F7E85A-EEC6-4E75-8752-09DE2780774A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PPiFlatSegmentedControl</string>
+		</dict>
+	</array>
+</dict>
+</plist>

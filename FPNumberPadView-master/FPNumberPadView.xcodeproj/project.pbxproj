@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491E04B7164A9912009BE29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491E04B6164A9912009BE29B /* UIKit.framework */; };
+		491E04B9164A9912009BE29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491E04B8164A9912009BE29B /* Foundation.framework */; };
+		491E04BB164A9912009BE29B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491E04BA164A9912009BE29B /* CoreGraphics.framework */; };
+		49C9AEEC164B134500D85EF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9AED6164B134500D85EF2 /* AppDelegate.m */; };
+		49C9AEED164B134500D85EF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AED7164B134500D85EF2 /* Default-568h@2x.png */; };
+		49C9AEEE164B134500D85EF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AED8164B134500D85EF2 /* Default.png */; };
+		49C9AEEF164B134500D85EF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AED9164B134500D85EF2 /* Default@2x.png */; };
+		49C9AEF0164B134500D85EF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEDB164B134500D85EF2 /* InfoPlist.strings */; };
+		49C9AEF1164B134500D85EF2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEDD164B134500D85EF2 /* ViewController.xib */; };
+		49C9AEF2164B134500D85EF2 /* FPNumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9AEE1164B134500D85EF2 /* FPNumberPadView.m */; };
+		49C9AEF3164B134500D85EF2 /* FPNumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEE2164B134500D85EF2 /* FPNumberPadView.xib */; };
+		49C9AEF4164B134500D85EF2 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEE4164B134500D85EF2 /* background@2x.png */; };
+		49C9AEF5164B134500D85EF2 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEE5164B134500D85EF2 /* button@2x.png */; };
+		49C9AEF6164B134500D85EF2 /* FPNumberPadView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEE6164B134500D85EF2 /* FPNumberPadView-Info.plist */; };
+		49C9AEF7164B134500D85EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9AEE8164B134500D85EF2 /* main.m */; };
+		49C9AEF8164B134500D85EF2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AEE9164B134500D85EF2 /* README.md */; };
+		49C9AEF9164B134500D85EF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9AEEB164B134500D85EF2 /* ViewController.m */; };
+		49C9AF01164B178500D85EF2 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C9AF00164B178500D85EF2 /* screenshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491E04B2164A9912009BE29B /* FPNumberPadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPNumberPadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491E04B6164A9912009BE29B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		491E04B8164A9912009BE29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		491E04BA164A9912009BE29B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49C9AED5164B134500D85EF2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49C9AED6164B134500D85EF2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49C9AED7164B134500D85EF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49C9AED8164B134500D85EF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49C9AED9164B134500D85EF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49C9AEDC164B134500D85EF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		49C9AEDE164B134500D85EF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController.xib; sourceTree = "<group>"; };
+		49C9AEE0164B134500D85EF2 /* FPNumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPNumberPadView.h; sourceTree = "<group>"; };
+		49C9AEE1164B134500D85EF2 /* FPNumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPNumberPadView.m; sourceTree = "<group>"; };
+		49C9AEE2164B134500D85EF2 /* FPNumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPNumberPadView.xib; sourceTree = "<group>"; };
+		49C9AEE4164B134500D85EF2 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		49C9AEE5164B134500D85EF2 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		49C9AEE6164B134500D85EF2 /* FPNumberPadView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FPNumberPadView-Info.plist"; sourceTree = "<group>"; };
+		49C9AEE7164B134500D85EF2 /* FPNumberPadView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FPNumberPadView-Prefix.pch"; sourceTree = "<group>"; };
+		49C9AEE8164B134500D85EF2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49C9AEE9164B134500D85EF2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		49C9AEEA164B134500D85EF2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49C9AEEB164B134500D85EF2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49C9AF00164B178500D85EF2 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491E04AF164A9912009BE29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491E04B7164A9912009BE29B /* UIKit.framework in Frameworks */,
+				491E04B9164A9912009BE29B /* Foundation.framework in Frameworks */,
+				491E04BB164A9912009BE29B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491E04A7164A9912009BE29B = {
+			isa = PBXGroup;
+			children = (
+				49C9AF00164B178500D85EF2 /* screenshot.png */,
+				49C9AEE9164B134500D85EF2 /* README.md */,
+				49C9AED5164B134500D85EF2 /* AppDelegate.h */,
+				49C9AED6164B134500D85EF2 /* AppDelegate.m */,
+				49C9AEEA164B134500D85EF2 /* ViewController.h */,
+				49C9AEEB164B134500D85EF2 /* ViewController.m */,
+				49C9AEDD164B134500D85EF2 /* ViewController.xib */,
+				49C9AEFB164B137D00D85EF2 /* Supporting Files */,
+				49C9AEDF164B134500D85EF2 /* FPNumberPadView */,
+				491E04B5164A9912009BE29B /* Frameworks */,
+				491E04B3164A9912009BE29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491E04B3164A9912009BE29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491E04B2164A9912009BE29B /* FPNumberPadView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491E04B5164A9912009BE29B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				491E04B6164A9912009BE29B /* UIKit.framework */,
+				491E04B8164A9912009BE29B /* Foundation.framework */,
+				491E04BA164A9912009BE29B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49C9AEDA164B134500D85EF2 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				49C9AEDB164B134500D85EF2 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		49C9AEDF164B134500D85EF2 /* FPNumberPadView */ = {
+			isa = PBXGroup;
+			children = (
+				49C9AEE0164B134500D85EF2 /* FPNumberPadView.h */,
+				49C9AEE1164B134500D85EF2 /* FPNumberPadView.m */,
+				49C9AEE2164B134500D85EF2 /* FPNumberPadView.xib */,
+				49C9AEE3164B134500D85EF2 /* images */,
+			);
+			path = FPNumberPadView;
+			sourceTree = "<group>";
+		};
+		49C9AEE3164B134500D85EF2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				49C9AEE4164B134500D85EF2 /* background@2x.png */,
+				49C9AEE5164B134500D85EF2 /* button@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		49C9AEFB164B137D00D85EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C9AEE8164B134500D85EF2 /* main.m */,
+				49C9AEDA164B134500D85EF2 /* en.lproj */,
+				49C9AEE6164B134500D85EF2 /* FPNumberPadView-Info.plist */,
+				49C9AEE7164B134500D85EF2 /* FPNumberPadView-Prefix.pch */,
+				49C9AED7164B134500D85EF2 /* Default-568h@2x.png */,
+				49C9AED8164B134500D85EF2 /* Default.png */,
+				49C9AED9164B134500D85EF2 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491E04B1164A9912009BE29B /* FPNumberPadView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491E04D6164A9912009BE29B /* Build configuration list for PBXNativeTarget "FPNumberPadView" */;
+			buildPhases = (
+				491E04AE164A9912009BE29B /* Sources */,
+				491E04AF164A9912009BE29B /* Frameworks */,
+				491E04B0164A9912009BE29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPNumberPadView;
+			productName = FPNumberPadView;
+			productReference = 491E04B2164A9912009BE29B /* FPNumberPadView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491E04A9164A9912009BE29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Fabrizio Prosperi";
+			};
+			buildConfigurationList = 491E04AC164A9912009BE29B /* Build configuration list for PBXProject "FPNumberPadView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 491E04A7164A9912009BE29B;
+			productRefGroup = 491E04B3164A9912009BE29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491E04B1164A9912009BE29B /* FPNumberPadView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491E04B0164A9912009BE29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C9AEED164B134500D85EF2 /* Default-568h@2x.png in Resources */,
+				49C9AEEE164B134500D85EF2 /* Default.png in Resources */,
+				49C9AEEF164B134500D85EF2 /* Default@2x.png in Resources */,
+				49C9AEF0164B134500D85EF2 /* InfoPlist.strings in Resources */,
+				49C9AEF1164B134500D85EF2 /* ViewController.xib in Resources */,
+				49C9AEF3164B134500D85EF2 /* FPNumberPadView.xib in Resources */,
+				49C9AEF4164B134500D85EF2 /* background@2x.png in Resources */,
+				49C9AEF5164B134500D85EF2 /* button@2x.png in Resources */,
+				49C9AEF6164B134500D85EF2 /* FPNumberPadView-Info.plist in Resources */,
+				49C9AEF8164B134500D85EF2 /* README.md in Resources */,
+				49C9AF01164B178500D85EF2 /* screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491E04AE164A9912009BE29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C9AEEC164B134500D85EF2 /* AppDelegate.m in Sources */,
+				49C9AEF2164B134500D85EF2 /* FPNumberPadView.m in Sources */,
+				49C9AEF7164B134500D85EF2 /* main.m in Sources */,
+				49C9AEF9164B134500D85EF2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49C9AEDB164B134500D85EF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C9AEDC164B134500D85EF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49C9AEDD164B134500D85EF2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C9AEDE164B134500D85EF2 /* en */,
+			);
+			name = ViewController.xib;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491E04D4164A9912009BE29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		491E04D5164A9912009BE29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491E04D7164A9912009BE29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./FPNumberPadView-Prefix.pch";
+				INFOPLIST_FILE = "./FPNumberPadView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		491E04D8164A9912009BE29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./FPNumberPadView-Prefix.pch";
+				INFOPLIST_FILE = "./FPNumberPadView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491E04AC164A9912009BE29B /* Build configuration list for PBXProject "FPNumberPadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491E04D4164A9912009BE29B /* Debug */,
+				491E04D5164A9912009BE29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491E04D6164A9912009BE29B /* Build configuration list for PBXNativeTarget "FPNumberPadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491E04D7164A9912009BE29B /* Debug */,
+				491E04D8164A9912009BE29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491E04A9164A9912009BE29B /* Project object */;
+}

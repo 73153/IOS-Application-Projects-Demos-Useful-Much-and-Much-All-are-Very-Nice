@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8F8E1217B58FC600AFC543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F8E1117B58FC600AFC543 /* UIKit.framework */; };
+		DE8F8E1417B58FC600AFC543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F8E1317B58FC600AFC543 /* Foundation.framework */; };
+		DE8F8E1617B58FC600AFC543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F8E1517B58FC600AFC543 /* CoreGraphics.framework */; };
+		DE8F8E1C17B58FC600AFC543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE8F8E1A17B58FC600AFC543 /* InfoPlist.strings */; };
+		DE8F8E1E17B58FC600AFC543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E1D17B58FC600AFC543 /* main.m */; };
+		DE8F8E2417B58FC600AFC543 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8F8E2317B58FC600AFC543 /* Default.png */; };
+		DE8F8E2617B58FC600AFC543 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8F8E2517B58FC600AFC543 /* Default@2x.png */; };
+		DE8F8E2817B58FC600AFC543 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8F8E2717B58FC600AFC543 /* Default-568h@2x.png */; };
+		DE8F8E2B17B58FC600AFC543 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8F8E2917B58FC600AFC543 /* MainStoryboard.storyboard */; };
+		DE8F8E3B17B5909900AFC543 /* EKWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E3717B5909900AFC543 /* EKWelcomeViewController.m */; };
+		DE8F8E3C17B5909900AFC543 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E3917B5909900AFC543 /* EKAppDelegate.m */; };
+		DE8F8E4717B590FD00AFC543 /* EKWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E3D17B590FD00AFC543 /* EKWelcomeView.m */; };
+		DE8F8E4817B590FD00AFC543 /* EKFourthHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E3F17B590FD00AFC543 /* EKFourthHintView.m */; };
+		DE8F8E4917B590FD00AFC543 /* EKThirdHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E4117B590FD00AFC543 /* EKThirdHintView.m */; };
+		DE8F8E4A17B590FD00AFC543 /* EKFirstHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E4317B590FD00AFC543 /* EKFirstHintView.m */; };
+		DE8F8E4B17B590FD00AFC543 /* EKSecondHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E4417B590FD00AFC543 /* EKSecondHintView.m */; };
+		DE8F8E4E17B5964000AFC543 /* EKDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8F8E4D17B5964000AFC543 /* EKDestinationViewController.m */; };
+		DEB226E917B6A70300A82B74 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB226E817B6A70300A82B74 /* screenshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE8F8E0E17B58FC600AFC543 /* EKWelcomeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKWelcomeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8F8E1117B58FC600AFC543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE8F8E1317B58FC600AFC543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE8F8E1517B58FC600AFC543 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE8F8E1917B58FC600AFC543 /* EKWelcomeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKWelcomeView-Info.plist"; sourceTree = "<group>"; };
+		DE8F8E1B17B58FC600AFC543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE8F8E1D17B58FC600AFC543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8F8E1F17B58FC600AFC543 /* EKWelcomeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKWelcomeView-Prefix.pch"; sourceTree = "<group>"; };
+		DE8F8E2317B58FC600AFC543 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE8F8E2517B58FC600AFC543 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE8F8E2717B58FC600AFC543 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE8F8E2A17B58FC600AFC543 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE8F8E3617B5909900AFC543 /* EKWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKWelcomeViewController.h; sourceTree = "<group>"; };
+		DE8F8E3717B5909900AFC543 /* EKWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKWelcomeViewController.m; sourceTree = "<group>"; };
+		DE8F8E3817B5909900AFC543 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
+		DE8F8E3917B5909900AFC543 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
+		DE8F8E3D17B590FD00AFC543 /* EKWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKWelcomeView.m; sourceTree = "<group>"; };
+		DE8F8E3E17B590FD00AFC543 /* EKWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKWelcomeView.h; sourceTree = "<group>"; };
+		DE8F8E3F17B590FD00AFC543 /* EKFourthHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKFourthHintView.m; sourceTree = "<group>"; };
+		DE8F8E4017B590FD00AFC543 /* EKFourthHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKFourthHintView.h; sourceTree = "<group>"; };
+		DE8F8E4117B590FD00AFC543 /* EKThirdHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKThirdHintView.m; sourceTree = "<group>"; };
+		DE8F8E4217B590FD00AFC543 /* EKThirdHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKThirdHintView.h; sourceTree = "<group>"; };
+		DE8F8E4317B590FD00AFC543 /* EKFirstHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKFirstHintView.m; sourceTree = "<group>"; };
+		DE8F8E4417B590FD00AFC543 /* EKSecondHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSecondHintView.m; sourceTree = "<group>"; };
+		DE8F8E4517B590FD00AFC543 /* EKSecondHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSecondHintView.h; sourceTree = "<group>"; };
+		DE8F8E4617B590FD00AFC543 /* EKFirstHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKFirstHintView.h; sourceTree = "<group>"; };
+		DE8F8E4C17B5964000AFC543 /* EKDestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDestinationViewController.h; sourceTree = "<group>"; };
+		DE8F8E4D17B5964000AFC543 /* EKDestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDestinationViewController.m; sourceTree = "<group>"; };
+		DEB226E817B6A70300A82B74 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = Classes/screenshot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8F8E0B17B58FC600AFC543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F8E1217B58FC600AFC543 /* UIKit.framework in Frameworks */,
+				DE8F8E1417B58FC600AFC543 /* Foundation.framework in Frameworks */,
+				DE8F8E1617B58FC600AFC543 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8F8E0517B58FC600AFC543 = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E1717B58FC600AFC543 /* EKWelcomeView */,
+				DE8F8E1017B58FC600AFC543 /* Frameworks */,
+				DE8F8E0F17B58FC600AFC543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8F8E0F17B58FC600AFC543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E0E17B58FC600AFC543 /* EKWelcomeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8F8E1017B58FC600AFC543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E1117B58FC600AFC543 /* UIKit.framework */,
+				DE8F8E1317B58FC600AFC543 /* Foundation.framework */,
+				DE8F8E1517B58FC600AFC543 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8F8E1717B58FC600AFC543 /* EKWelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E3417B5909900AFC543 /* Classes */,
+				DE8F8E2917B58FC600AFC543 /* MainStoryboard.storyboard */,
+				DE8F8E1817B58FC600AFC543 /* Supporting Files */,
+			);
+			path = EKWelcomeView;
+			sourceTree = "<group>";
+		};
+		DE8F8E1817B58FC600AFC543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E1917B58FC600AFC543 /* EKWelcomeView-Info.plist */,
+				DE8F8E1A17B58FC600AFC543 /* InfoPlist.strings */,
+				DE8F8E1D17B58FC600AFC543 /* main.m */,
+				DE8F8E1F17B58FC600AFC543 /* EKWelcomeView-Prefix.pch */,
+				DE8F8E2317B58FC600AFC543 /* Default.png */,
+				DE8F8E2517B58FC600AFC543 /* Default@2x.png */,
+				DE8F8E2717B58FC600AFC543 /* Default-568h@2x.png */,
+				DEB226E817B6A70300A82B74 /* screenshot.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE8F8E3417B5909900AFC543 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E3A17B5909900AFC543 /* Views */,
+				DE8F8E3517B5909900AFC543 /* Controllers */,
+				DE8F8E3817B5909900AFC543 /* EKAppDelegate.h */,
+				DE8F8E3917B5909900AFC543 /* EKAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE8F8E3517B5909900AFC543 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E3617B5909900AFC543 /* EKWelcomeViewController.h */,
+				DE8F8E3717B5909900AFC543 /* EKWelcomeViewController.m */,
+				DE8F8E4C17B5964000AFC543 /* EKDestinationViewController.h */,
+				DE8F8E4D17B5964000AFC543 /* EKDestinationViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE8F8E3A17B5909900AFC543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F8E3E17B590FD00AFC543 /* EKWelcomeView.h */,
+				DE8F8E3D17B590FD00AFC543 /* EKWelcomeView.m */,
+				DE8F8E4617B590FD00AFC543 /* EKFirstHintView.h */,
+				DE8F8E4317B590FD00AFC543 /* EKFirstHintView.m */,
+				DE8F8E4517B590FD00AFC543 /* EKSecondHintView.h */,
+				DE8F8E4417B590FD00AFC543 /* EKSecondHintView.m */,
+				DE8F8E4217B590FD00AFC543 /* EKThirdHintView.h */,
+				DE8F8E4117B590FD00AFC543 /* EKThirdHintView.m */,
+				DE8F8E4017B590FD00AFC543 /* EKFourthHintView.h */,
+				DE8F8E3F17B590FD00AFC543 /* EKFourthHintView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8F8E0D17B58FC600AFC543 /* EKWelcomeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8F8E3117B58FC600AFC543 /* Build configuration list for PBXNativeTarget "EKWelcomeView" */;
+			buildPhases = (
+				DE8F8E0A17B58FC600AFC543 /* Sources */,
+				DE8F8E0B17B58FC600AFC543 /* Frameworks */,
+				DE8F8E0C17B58FC600AFC543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKWelcomeView;
+			productName = EKWelcomeView;
+			productReference = DE8F8E0E17B58FC600AFC543 /* EKWelcomeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8F8E0617B58FC600AFC543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = EvgenyKarkan;
+			};
+			buildConfigurationList = DE8F8E0917B58FC600AFC543 /* Build configuration list for PBXProject "EKWelcomeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE8F8E0517B58FC600AFC543;
+			productRefGroup = DE8F8E0F17B58FC600AFC543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8F8E0D17B58FC600AFC543 /* EKWelcomeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8F8E0C17B58FC600AFC543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F8E1C17B58FC600AFC543 /* InfoPlist.strings in Resources */,
+				DE8F8E2417B58FC600AFC543 /* Default.png in Resources */,
+				DE8F8E2617B58FC600AFC543 /* Default@2x.png in Resources */,
+				DE8F8E2817B58FC600AFC543 /* Default-568h@2x.png in Resources */,
+				DE8F8E2B17B58FC600AFC543 /* MainStoryboard.storyboard in Resources */,
+				DEB226E917B6A70300A82B74 /* screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8F8E0A17B58FC600AFC543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F8E1E17B58FC600AFC543 /* main.m in Sources */,
+				DE8F8E3B17B5909900AFC543 /* EKWelcomeViewController.m in Sources */,
+				DE8F8E3C17B5909900AFC543 /* EKAppDelegate.m in Sources */,
+				DE8F8E4717B590FD00AFC543 /* EKWelcomeView.m in Sources */,
+				DE8F8E4817B590FD00AFC543 /* EKFourthHintView.m in Sources */,
+				DE8F8E4917B590FD00AFC543 /* EKThirdHintView.m in Sources */,
+				DE8F8E4A17B590FD00AFC543 /* EKFirstHintView.m in Sources */,
+				DE8F8E4B17B590FD00AFC543 /* EKSecondHintView.m in Sources */,
+				DE8F8E4E17B5964000AFC543 /* EKDestinationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8F8E1A17B58FC600AFC543 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8F8E1B17B58FC600AFC543 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE8F8E2917B58FC600AFC543 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8F8E2A17B58FC600AFC543 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8F8E2F17B58FC600AFC543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8F8E3017B58FC600AFC543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8F8E3217B58FC600AFC543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKWelcomeView/EKWelcomeView-Prefix.pch";
+				INFOPLIST_FILE = "EKWelcomeView/EKWelcomeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE8F8E3317B58FC600AFC543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKWelcomeView/EKWelcomeView-Prefix.pch";
+				INFOPLIST_FILE = "EKWelcomeView/EKWelcomeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8F8E0917B58FC600AFC543 /* Build configuration list for PBXProject "EKWelcomeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8F8E2F17B58FC600AFC543 /* Debug */,
+				DE8F8E3017B58FC600AFC543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8F8E3117B58FC600AFC543 /* Build configuration list for PBXNativeTarget "EKWelcomeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8F8E3217B58FC600AFC543 /* Debug */,
+				DE8F8E3317B58FC600AFC543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8F8E0617B58FC600AFC543 /* Project object */;
+}

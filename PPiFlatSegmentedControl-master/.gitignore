@@ -1,0 +1,35 @@
+# OS X files that should never be committed
+.DS_Store
+*.swp
+profile
+tmp
+
+# Xcode temporary files
+*~.nib
+
+# Xcode build files
+DerivedData
+build
+
+# Xcode header maps
+*.hmap
+
+# Xcode private settings (window sizes, bookmarks, breakpoints, custom executables, smart groups)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# Xcode depricated classes
+*.moved-aside
+
+# AppCode
+.idea
+
+# CocoaPods
+Pods

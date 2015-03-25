@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A07AF6E1630902D00BB6ADE /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A07AF6A1630902D00BB6ADE /* planet.png */; };
+		1A07AF6F1630902D00BB6ADE /* planet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A07AF6B1630902D00BB6ADE /* planet@2x.png */; };
+		1A07AF701630902D00BB6ADE /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A07AF6C1630902D00BB6ADE /* weather.png */; };
+		1A07AF711630902D00BB6ADE /* weather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A07AF6D1630902D00BB6ADE /* weather@2x.png */; };
+		1A88DAEC16288DD400CC9EDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88DAEB16288DD400CC9EDC /* UIKit.framework */; };
+		1A88DAEE16288DD400CC9EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88DAED16288DD400CC9EDC /* Foundation.framework */; };
+		1A88DAF016288DD400CC9EDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88DAEF16288DD400CC9EDC /* CoreGraphics.framework */; };
+		1A88DAF616288DD400CC9EDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A88DAF416288DD400CC9EDC /* InfoPlist.strings */; };
+		1A88DAF816288DD400CC9EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88DAF716288DD400CC9EDC /* main.m */; };
+		1A88DAFC16288DD500CC9EDC /* FTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88DAFB16288DD500CC9EDC /* FTWAppDelegate.m */; };
+		1A88DAFE16288DD500CC9EDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A88DAFD16288DD500CC9EDC /* Default.png */; };
+		1A88DB0016288DD500CC9EDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A88DAFF16288DD500CC9EDC /* Default@2x.png */; };
+		1A88DB0216288DD500CC9EDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A88DB0116288DD500CC9EDC /* Default-568h@2x.png */; };
+		1A88DB0516288DD500CC9EDC /* FTWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88DB0416288DD500CC9EDC /* FTWViewController.m */; };
+		1A88DB0816288DD500CC9EDC /* FTWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A88DB0616288DD500CC9EDC /* FTWViewController.xib */; };
+		1A88DB1016288DFC00CC9EDC /* FTWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88DB0E16288DFC00CC9EDC /* FTWButton.m */; };
+		1A88DB1316288E0400CC9EDC /* SKInnerShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88DB1216288E0400CC9EDC /* SKInnerShadowLayer.m */; };
+		1A88DB151628A63A00CC9EDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88DB141628A63A00CC9EDC /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A07AF6A1630902D00BB6ADE /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
+		1A07AF6B1630902D00BB6ADE /* planet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planet@2x.png"; sourceTree = "<group>"; };
+		1A07AF6C1630902D00BB6ADE /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		1A07AF6D1630902D00BB6ADE /* weather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather@2x.png"; sourceTree = "<group>"; };
+		1A88DAE716288DD400CC9EDC /* FTWButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A88DAEB16288DD400CC9EDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A88DAED16288DD400CC9EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A88DAEF16288DD400CC9EDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A88DAF316288DD400CC9EDC /* FTWButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWButton-Info.plist"; sourceTree = "<group>"; };
+		1A88DAF516288DD400CC9EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A88DAF716288DD400CC9EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A88DAF916288DD400CC9EDC /* FTWButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTWButton-Prefix.pch"; sourceTree = "<group>"; };
+		1A88DAFA16288DD500CC9EDC /* FTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWAppDelegate.h; sourceTree = "<group>"; };
+		1A88DAFB16288DD500CC9EDC /* FTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWAppDelegate.m; sourceTree = "<group>"; };
+		1A88DAFD16288DD500CC9EDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1A88DAFF16288DD500CC9EDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1A88DB0116288DD500CC9EDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1A88DB0316288DD500CC9EDC /* FTWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWViewController.h; sourceTree = "<group>"; };
+		1A88DB0416288DD500CC9EDC /* FTWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWViewController.m; sourceTree = "<group>"; };
+		1A88DB0716288DD500CC9EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTWViewController.xib; sourceTree = "<group>"; };
+		1A88DB0E16288DFC00CC9EDC /* FTWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWButton.m; sourceTree = "<group>"; };
+		1A88DB0F16288DFC00CC9EDC /* FTWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWButton.h; sourceTree = "<group>"; };
+		1A88DB1116288E0400CC9EDC /* SKInnerShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKInnerShadowLayer.h; sourceTree = "<group>"; };
+		1A88DB1216288E0400CC9EDC /* SKInnerShadowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKInnerShadowLayer.m; sourceTree = "<group>"; };
+		1A88DB141628A63A00CC9EDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A88DAE416288DD400CC9EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A88DB151628A63A00CC9EDC /* QuartzCore.framework in Frameworks */,
+				1A88DAEC16288DD400CC9EDC /* UIKit.framework in Frameworks */,
+				1A88DAEE16288DD400CC9EDC /* Foundation.framework in Frameworks */,
+				1A88DAF016288DD400CC9EDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A07AF731630903100BB6ADE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A07AF6A1630902D00BB6ADE /* planet.png */,
+				1A07AF6B1630902D00BB6ADE /* planet@2x.png */,
+				1A07AF6C1630902D00BB6ADE /* weather.png */,
+				1A07AF6D1630902D00BB6ADE /* weather@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A88DADC16288DD400CC9EDC = {
+			isa = PBXGroup;
+			children = (
+				1A88DAF116288DD400CC9EDC /* FTWButton */,
+				1A88DAEA16288DD400CC9EDC /* Frameworks */,
+				1A88DAE816288DD400CC9EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A88DAE816288DD400CC9EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A88DAE716288DD400CC9EDC /* FTWButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A88DAEA16288DD400CC9EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A88DB141628A63A00CC9EDC /* QuartzCore.framework */,
+				1A88DAEB16288DD400CC9EDC /* UIKit.framework */,
+				1A88DAED16288DD400CC9EDC /* Foundation.framework */,
+				1A88DAEF16288DD400CC9EDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A88DAF116288DD400CC9EDC /* FTWButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A88DAFA16288DD500CC9EDC /* FTWAppDelegate.h */,
+				1A88DAFB16288DD500CC9EDC /* FTWAppDelegate.m */,
+				1A88DB0316288DD500CC9EDC /* FTWViewController.h */,
+				1A88DB0416288DD500CC9EDC /* FTWViewController.m */,
+				1A88DB0616288DD500CC9EDC /* FTWViewController.xib */,
+				1A88DB0F16288DFC00CC9EDC /* FTWButton.h */,
+				1A88DB0E16288DFC00CC9EDC /* FTWButton.m */,
+				1A88DB1116288E0400CC9EDC /* SKInnerShadowLayer.h */,
+				1A88DB1216288E0400CC9EDC /* SKInnerShadowLayer.m */,
+				1A07AF731630903100BB6ADE /* Resources */,
+				1A88DAF216288DD400CC9EDC /* Supporting Files */,
+			);
+			path = FTWButton;
+			sourceTree = "<group>";
+		};
+		1A88DAF216288DD400CC9EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A88DAF316288DD400CC9EDC /* FTWButton-Info.plist */,
+				1A88DAF416288DD400CC9EDC /* InfoPlist.strings */,
+				1A88DAF716288DD400CC9EDC /* main.m */,
+				1A88DAF916288DD400CC9EDC /* FTWButton-Prefix.pch */,
+				1A88DAFD16288DD500CC9EDC /* Default.png */,
+				1A88DAFF16288DD500CC9EDC /* Default@2x.png */,
+				1A88DB0116288DD500CC9EDC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A88DAE616288DD400CC9EDC /* FTWButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A88DB0B16288DD500CC9EDC /* Build configuration list for PBXNativeTarget "FTWButton" */;
+			buildPhases = (
+				1A88DAE316288DD400CC9EDC /* Sources */,
+				1A88DAE416288DD400CC9EDC /* Frameworks */,
+				1A88DAE516288DD400CC9EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTWButton;
+			productName = FTWButton;
+			productReference = 1A88DAE716288DD400CC9EDC /* FTWButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A88DADE16288DD400CC9EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = FTW;
+			};
+			buildConfigurationList = 1A88DAE116288DD400CC9EDC /* Build configuration list for PBXProject "FTWButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A88DADC16288DD400CC9EDC;
+			productRefGroup = 1A88DAE816288DD400CC9EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A88DAE616288DD400CC9EDC /* FTWButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A88DAE516288DD400CC9EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A88DAF616288DD400CC9EDC /* InfoPlist.strings in Resources */,
+				1A88DAFE16288DD500CC9EDC /* Default.png in Resources */,
+				1A88DB0016288DD500CC9EDC /* Default@2x.png in Resources */,
+				1A88DB0216288DD500CC9EDC /* Default-568h@2x.png in Resources */,
+				1A88DB0816288DD500CC9EDC /* FTWViewController.xib in Resources */,
+				1A07AF6E1630902D00BB6ADE /* planet.png in Resources */,
+				1A07AF6F1630902D00BB6ADE /* planet@2x.png in Resources */,
+				1A07AF701630902D00BB6ADE /* weather.png in Resources */,
+				1A07AF711630902D00BB6ADE /* weather@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A88DAE316288DD400CC9EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A88DAF816288DD400CC9EDC /* main.m in Sources */,
+				1A88DAFC16288DD500CC9EDC /* FTWAppDelegate.m in Sources */,
+				1A88DB0516288DD500CC9EDC /* FTWViewController.m in Sources */,
+				1A88DB1016288DFC00CC9EDC /* FTWButton.m in Sources */,
+				1A88DB1316288E0400CC9EDC /* SKInnerShadowLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A88DAF416288DD400CC9EDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A88DAF516288DD400CC9EDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A88DB0616288DD500CC9EDC /* FTWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A88DB0716288DD500CC9EDC /* en */,
+			);
+			name = FTWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A88DB0916288DD500CC9EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A88DB0A16288DD500CC9EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A88DB0C16288DD500CC9EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWButton/FTWButton-Prefix.pch";
+				INFOPLIST_FILE = "FTWButton/FTWButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A88DB0D16288DD500CC9EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWButton/FTWButton-Prefix.pch";
+				INFOPLIST_FILE = "FTWButton/FTWButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A88DAE116288DD400CC9EDC /* Build configuration list for PBXProject "FTWButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A88DB0916288DD500CC9EDC /* Debug */,
+				1A88DB0A16288DD500CC9EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A88DB0B16288DD500CC9EDC /* Build configuration list for PBXNativeTarget "FTWButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A88DB0C16288DD500CC9EDC /* Debug */,
+				1A88DB0D16288DD500CC9EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A88DADE16288DD400CC9EDC /* Project object */;
+}
